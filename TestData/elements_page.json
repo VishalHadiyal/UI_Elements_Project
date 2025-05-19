@@ -1,0 +1,13 @@
+{
+  "elementsPageText": "Please select an item from left to start practice.",
+  "textbox": {
+    "fullName": "Shivaji Shahaji Bhonsale",
+    "emailID": "shivaji@yopmail.com",
+    "currentAddress": "Chhatrapati Shivaji Maharaj International Airport, Western Express Highway, Sahar, Andheri East, Mumbai - 400 099, India",
+    "permanentAddress": "Chhatrapati Shivaji Maharaj International Airport, Western Express Highway, Sahar, Andheri East, Mumbai - 400 099, India"
+  },
+  "radioButton": {
+    "selectedYesText" : "You have selected Yes",
+    "selectedImpressiveText" : "You have selected Impressive"
+  }
+}
