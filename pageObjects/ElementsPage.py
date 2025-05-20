@@ -4,6 +4,7 @@ from selenium.common import NoSuchElementException
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
+from selenium.webdriver import ActionChains
 
 
 class ElementsPage:
@@ -37,6 +38,14 @@ class ElementsPage:
     TEXT_SUCCESS_MESSAGE_XPATH = "//p[@class='mt-3']"
     RADIO_IMPRESSIVE_XPATH = "//label[@for='impressiveRadio']"
 
+    # TESTING BUTTONS ELEMENTS
+    OPTION_BUTTONS_XPATH = "//span[normalize-space()='Buttons']"
+    BUTTON_DOUBLE_CLICK_XPATH = "//button[@id='doubleClickBtn']"
+    BUTTON_RIGHT_CLICK_XPATH = "//button[@id='rightClickBtn']"
+    BUTTON_CLICK_ME_XPATH = "(//button[normalize-space()='Click Me'])"
+    BUTTON_DOUBLE_CLICK_SUCCESS_MESSAGE_XPATH = "//p[@id='doubleClickMessage']"
+    BUTTON_RIGHT_CLICK_SUCCESS_MESSAGE_XPATH = "//p[@id='rightClickMessage']"
+    BUTTON_DYNAMIC_CLICK_SUCCESS_MESSAGE_XPATH = "//p[@id='dynamicClickMessage']"
 
     def __init__(self, driver):
         self.driver = driver
@@ -250,3 +259,110 @@ class ElementsPage:
         except NoSuchElementException:
             print("No radio button not found.")
             return False
+
+    # TESTING BUTTONS ELEMENTS
+    def click_on_buttons(self):
+        """
+        Click on the 'Buttons' option.
+        """
+        try:
+            buttons_option = self.driver.find_element(By.XPATH, self.OPTION_BUTTONS_XPATH)
+            buttons_option.click()
+        except NoSuchElementException:
+            print("Buttons option not found.")
+
+    def click_on_double_click_button(self):
+        button = WebDriverWait(self.driver, 10).until(
+            EC.element_to_be_clickable((By.XPATH, self.BUTTON_DOUBLE_CLICK_XPATH))
+        )
+        action = ActionChains(self.driver)
+        action.double_click(button).perform()
+
+    def click_on_right_click_button(self):
+        """
+        Scroll to the 'Right Click' button and perform a right-click (context click)
+        using an explicit wait instead of time.sleep().
+        """
+        try:
+            wait = WebDriverWait(self.driver, 10)
+
+            # Wait until the element is present and clickable
+            right_click_button = wait.until(
+                EC.element_to_be_clickable((By.XPATH, self.BUTTON_RIGHT_CLICK_XPATH))
+            )
+
+            # Scroll the element into view (centered)
+            self.driver.execute_script("arguments[0].scrollIntoView({block: 'center'});", right_click_button)
+
+            # Wait a bit more in case of rendering delays after scrolling (optional but without sleep)
+            wait.until(lambda driver: right_click_button.is_displayed())
+
+            # Perform the right-click
+            ActionChains(self.driver).context_click(right_click_button).perform()
+
+        except (NoSuchElementException, TimeoutException):
+            print("Right Click button not found or not clickable.")
+
+    def click_on_click_me_button(self):
+        """
+        Click on the 'Click Me' button.
+        """
+        try:
+            click_me_button = self.driver.find_element(By.XPATH, self.BUTTON_CLICK_ME_XPATH)
+            self.driver.execute_script("arguments[0].scrollIntoView(true);", click_me_button)
+            click_me_button.click()
+        except NoSuchElementException:
+            print("Click Me button not found.")
+
+    def get_double_clicks_success_message_text(self, timeout=10):
+        """
+        Get the text of the success message after double clicking the button.
+        """
+        try:
+            wait = WebDriverWait(self.driver, timeout)
+            success_message = wait.until(
+                EC.visibility_of_element_located((By.XPATH, self.BUTTON_DOUBLE_CLICK_SUCCESS_MESSAGE_XPATH))
+            )
+            self.driver.execute_script("arguments[0].scrollIntoView(true);", success_message)
+            return success_message.text.strip()
+        except TimeoutException:
+            print("Timed out waiting for success message.")
+            return None
+
+    def get_right_clicks_success_message_text(self, timeout=10):
+        """
+        Get the text of the success message after right clicking the button.
+        Waits up to `timeout` seconds for the element to appear and then disappear.
+        """
+        try:
+            wait = WebDriverWait(self.driver, timeout)
+            success_message = wait.until(
+                EC.visibility_of_element_located((By.XPATH, self.BUTTON_RIGHT_CLICK_SUCCESS_MESSAGE_XPATH))
+            )
+            self.driver.execute_script("arguments[0].scrollIntoView(true);", success_message)
+            message_text = success_message.text.strip()
+            # Wait for the message to disappear
+            wait.until(EC.invisibility_of_element_located((By.XPATH, self.BUTTON_RIGHT_CLICK_SUCCESS_MESSAGE_XPATH)))
+            return message_text
+        except TimeoutException:
+            print("Timed out waiting for success message.")
+            return None
+
+    def get_dynamic_clicks_success_message_text(self, timeout=10):
+        """
+        Get the text of the success message after dynamically clicking the button.
+        Waits up to `timeout` seconds for the element to appear and then disappear.
+        """
+        try:
+            wait = WebDriverWait(self.driver, timeout)
+            success_message = wait.until(
+                EC.visibility_of_element_located((By.XPATH, self.BUTTON_DYNAMIC_CLICK_SUCCESS_MESSAGE_XPATH))
+            )
+            self.driver.execute_script("arguments[0].scrollIntoView(true);", success_message)
+            message_text = success_message.text.strip()
+            # Wait for the message to disappear
+            wait.until(EC.invisibility_of_element_located((By.XPATH, self.BUTTON_DYNAMIC_CLICK_SUCCESS_MESSAGE_XPATH)))
+            return message_text
+        except TimeoutException:
+            print("Timed out waiting for success message.")
+            return None

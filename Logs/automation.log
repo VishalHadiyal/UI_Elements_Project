@@ -2911,3 +2911,1367 @@ Stacktrace:
 05/19/2025 02:27:17 PM: WARNING: Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000022080597DF0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/6cca583b16f546179910bb431aee3a4f
 05/19/2025 02:27:21 PM: WARNING: Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000022080924160>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/6cca583b16f546179910bb431aee3a4f
 05/19/2025 02:27:25 PM: WARNING: Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000022080924490>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/6cca583b16f546179910bb431aee3a4f
+05/20/2025 09:26:55 AM: INFO: ********** Starting Test: TestElementsPage **********
+05/20/2025 09:26:55 AM: INFO: Initializing browser setup...
+05/20/2025 09:26:59 AM: INFO: Navigated to URL: https://demoqa.com/
+05/20/2025 09:26:59 AM: INFO: Test data loaded successfully from home_page.json
+05/20/2025 09:26:59 AM: INFO: Setup method completed.
+05/20/2025 09:26:59 AM: INFO: Step 2: Clicked on 'Elements' card.
+05/20/2025 09:26:59 AM: INFO: ********** Test Case: test_Double_Click_Button **********
+05/20/2025 09:26:59 AM: INFO: Step 3: Clicking on 'Double Click' button...
+05/20/2025 09:27:09 AM: INFO: Step 4: Verifying success message for double click...
+05/20/2025 09:35:50 AM: INFO: ********** Starting Test: TestElementsPage **********
+05/20/2025 09:35:50 AM: INFO: Initializing browser setup...
+05/20/2025 09:35:54 AM: INFO: Navigated to URL: https://demoqa.com/
+05/20/2025 09:35:54 AM: INFO: Test data loaded successfully from home_page.json
+05/20/2025 09:35:54 AM: INFO: Setup method completed.
+05/20/2025 09:35:54 AM: INFO: Step 2: Clicked on 'Elements' card.
+05/20/2025 09:35:54 AM: INFO: Step 2: Clicked on 'Buttons' Option.
+05/20/2025 09:35:54 AM: INFO: ********** Test Case: test_Double_Click_Button **********
+05/20/2025 09:35:54 AM: INFO: Step 3: Clicking on 'Double Click' button...
+05/20/2025 09:35:54 AM: INFO: Step 4: Verifying success message for double click...
+05/20/2025 09:37:04 AM: INFO: ********** Starting Test: TestElementsPage **********
+05/20/2025 09:37:04 AM: INFO: Initializing browser setup...
+05/20/2025 09:37:07 AM: INFO: Navigated to URL: https://demoqa.com/
+05/20/2025 09:37:07 AM: INFO: Test data loaded successfully from home_page.json
+05/20/2025 09:37:07 AM: INFO: Setup method completed.
+05/20/2025 09:37:08 AM: INFO: Step 2: Clicked on 'Elements' card.
+05/20/2025 09:37:08 AM: INFO: Step 2: Clicked on 'Buttons' Option.
+05/20/2025 09:37:08 AM: INFO: ********** Test Case: test_Double_Click_Button **********
+05/20/2025 09:37:08 AM: INFO: Step 3: Clicking on 'Double Click' button...
+05/20/2025 09:37:08 AM: INFO: Step 4: Verifying success message for double click...
+05/20/2025 09:39:12 AM: INFO: ********** Starting Test: TestElementsPage **********
+05/20/2025 09:39:12 AM: INFO: Initializing browser setup...
+05/20/2025 09:39:16 AM: INFO: Navigated to URL: https://demoqa.com/
+05/20/2025 09:39:16 AM: INFO: Test data loaded successfully from home_page.json
+05/20/2025 09:39:16 AM: INFO: Setup method completed.
+05/20/2025 09:39:16 AM: INFO: Step 2: Clicked on 'Elements' card.
+05/20/2025 09:39:16 AM: INFO: Step 2: Clicked on 'Buttons' Option.
+05/20/2025 09:39:16 AM: INFO: ********** Test Case: test_Double_Click_Button **********
+05/20/2025 09:39:16 AM: INFO: Step 3: Clicking on 'Double Click' button...
+05/20/2025 09:39:16 AM: INFO: Step 4: Verifying success message for double click...
+05/20/2025 10:29:27 AM: INFO: ********** Starting Test: TestElementsPage **********
+05/20/2025 10:29:27 AM: INFO: Initializing browser setup...
+05/20/2025 10:29:30 AM: INFO: Navigated to URL: https://demoqa.com/
+05/20/2025 10:29:30 AM: INFO: Test data loaded successfully from home_page.json
+05/20/2025 10:29:30 AM: INFO: Setup method completed.
+05/20/2025 10:29:30 AM: INFO: Step 2: Clicked on 'Elements' card.
+05/20/2025 10:29:31 AM: INFO: Step 2: Clicked on 'Buttons' Option.
+05/20/2025 10:29:31 AM: INFO: ********** Test Case: test_Double_Click_Button **********
+05/20/2025 10:29:31 AM: INFO: Step 3: Clicking on 'Double Click' button...
+05/20/2025 10:29:31 AM: INFO: Step 4: Verifying success message for double click...
+05/20/2025 10:31:08 AM: INFO: ********** Starting Test: TestElementsPage **********
+05/20/2025 10:31:08 AM: INFO: Initializing browser setup...
+05/20/2025 10:31:11 AM: INFO: Navigated to URL: https://demoqa.com/
+05/20/2025 10:31:11 AM: INFO: Test data loaded successfully from home_page.json
+05/20/2025 10:31:11 AM: INFO: Setup method completed.
+05/20/2025 10:31:11 AM: INFO: Step 2: Clicked on 'Elements' card.
+05/20/2025 10:31:12 AM: INFO: Step 2: Clicked on 'Buttons' Option.
+05/20/2025 10:31:12 AM: INFO: ********** Test Case: test_Double_Click_Button **********
+05/20/2025 10:31:12 AM: INFO: Step 3: Clicking on 'Double Click' button...
+05/20/2025 10:31:12 AM: INFO: Step 4: Verifying success message for double click...
+05/20/2025 10:33:39 AM: INFO: ********** Starting Test: TestElementsPage **********
+05/20/2025 10:33:39 AM: INFO: Initializing browser setup...
+05/20/2025 10:33:43 AM: INFO: Navigated to URL: https://demoqa.com/
+05/20/2025 10:33:43 AM: INFO: Test data loaded successfully from home_page.json
+05/20/2025 10:33:43 AM: INFO: Setup method completed.
+05/20/2025 10:33:43 AM: INFO: Step 2: Clicked on 'Elements' card.
+05/20/2025 10:33:43 AM: INFO: Step 2: Clicked on 'Buttons' Option.
+05/20/2025 10:33:43 AM: INFO: ********** Test Case: test_Double_Click_Button **********
+05/20/2025 10:33:43 AM: INFO: Step 3: Clicking on 'Double Click' button...
+05/20/2025 10:33:43 AM: INFO: Step 4: Verifying success message for double click...
+05/20/2025 10:50:02 AM: INFO: ********** Starting Test: TestElementsPage **********
+05/20/2025 10:50:02 AM: INFO: Initializing browser setup...
+05/20/2025 10:50:06 AM: INFO: Navigated to URL: https://demoqa.com/
+05/20/2025 10:50:06 AM: INFO: Test data loaded successfully from home_page.json
+05/20/2025 10:50:06 AM: INFO: Setup method completed.
+05/20/2025 10:50:06 AM: INFO: Step 2: Clicked on 'Elements' card.
+05/20/2025 10:50:06 AM: INFO: Step 2: Clicked on 'Buttons' Option.
+05/20/2025 10:50:06 AM: INFO: ********** Test Case: test_Double_Click_Button **********
+05/20/2025 10:50:06 AM: INFO: Step 3: Clicking on 'Double Click' button...
+05/20/2025 10:50:06 AM: INFO: Step 4: Verifying success message for double click...
+05/20/2025 10:52:40 AM: INFO: ********** Starting Test: TestElementsPage **********
+05/20/2025 10:52:40 AM: INFO: Initializing browser setup...
+05/20/2025 10:52:44 AM: INFO: Navigated to URL: https://demoqa.com/
+05/20/2025 10:52:44 AM: INFO: Test data loaded successfully from home_page.json
+05/20/2025 10:52:44 AM: INFO: Setup method completed.
+05/20/2025 10:52:44 AM: INFO: Step 2: Clicked on 'Elements' card.
+05/20/2025 10:52:44 AM: INFO: Step 2: Clicked on 'Buttons' Option.
+05/20/2025 10:52:44 AM: INFO: ********** Test Case: test_Double_Click_Button **********
+05/20/2025 10:52:44 AM: INFO: Step 3: Clicking on 'Double Click' button...
+05/20/2025 10:52:44 AM: INFO: Step 4: Verifying success message for double click...
+05/20/2025 11:00:51 AM: INFO: ********** Starting Test: TestElementsPage **********
+05/20/2025 11:00:51 AM: INFO: Initializing browser setup...
+05/20/2025 11:00:55 AM: INFO: Navigated to URL: https://demoqa.com/
+05/20/2025 11:00:55 AM: INFO: Test data loaded successfully from elements_page.json
+05/20/2025 11:00:55 AM: INFO: Setup method completed successfully.
+05/20/2025 11:00:55 AM: INFO: Step 1: Clicked on 'Elements' card.
+05/20/2025 11:00:55 AM: INFO: Step 2: Clicked on 'Buttons' option.
+05/20/2025 11:00:55 AM: INFO: ********** Test Case: test_Double_Click_Button **********
+05/20/2025 11:00:55 AM: INFO: Step 1: Initializing ElementsPage object...
+05/20/2025 11:00:55 AM: INFO: Step 2: Clicking on 'Double Click' button...
+05/20/2025 11:00:55 AM: INFO: Step 3: Retrieving success message after double click...
+05/20/2025 11:00:55 AM: INFO: Step 4: Verifying success message...
+Expected: 'You have done a double click'
+Actual: 'You have done a double click'
+05/20/2025 11:00:55 AM: INFO: Test Passed: Double click button displayed correct success message.
+05/20/2025 11:00:55 AM: INFO: Test case completed.
+05/20/2025 11:01:02 AM: WARNING: Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001CE309CFB10>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/34656a02b5d6e6e1c722e6b48e0b0643
+05/20/2025 11:01:06 AM: WARNING: Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001CE309CFD90>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/34656a02b5d6e6e1c722e6b48e0b0643
+05/20/2025 11:01:10 AM: WARNING: Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001CE30936D70>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/34656a02b5d6e6e1c722e6b48e0b0643
+05/20/2025 11:08:46 AM: INFO: ********** Starting Test: TestElementsPage **********
+05/20/2025 11:08:46 AM: INFO: Initializing browser setup...
+05/20/2025 11:08:50 AM: INFO: Navigated to URL: https://demoqa.com/
+05/20/2025 11:08:50 AM: INFO: Test data loaded successfully from elements_page.json
+05/20/2025 11:08:50 AM: INFO: Setup method completed successfully.
+05/20/2025 11:08:50 AM: INFO: Step 1: Clicked on 'Elements' card.
+05/20/2025 11:08:50 AM: INFO: Step 2: Clicked on 'Buttons' option.
+05/20/2025 11:08:50 AM: INFO: ********** Test Case: test_Double_Click_Button **********
+05/20/2025 11:08:50 AM: INFO: Step 1: Initializing ElementsPage object...
+05/20/2025 11:08:50 AM: INFO: Step 2: Clicking on 'Double Click' button...
+05/20/2025 11:08:51 AM: INFO: Step 3: Retrieving success message after double click...
+05/20/2025 11:09:01 AM: INFO: Step 4: Verifying success message...
+Expected: 'You have done a right click'
+Actual: 'None'
+05/20/2025 11:09:01 AM: ERROR: Test Failed: No success message found after double click.
+assert None is not None
+05/20/2025 11:09:01 AM: INFO: Screenshot saved at: ./Screenshots/test_Double_Click_Button_failure.png
+05/20/2025 11:09:01 AM: INFO: Test case completed.
+05/20/2025 11:09:07 AM: WARNING: Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001DF4AEA8410>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/238d26d8a8c008b93a89a6ac03c0dc49
+05/20/2025 11:09:12 AM: WARNING: Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001DF4AEA8690>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/238d26d8a8c008b93a89a6ac03c0dc49
+05/20/2025 11:09:16 AM: WARNING: Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001DF4AD6B950>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/238d26d8a8c008b93a89a6ac03c0dc49
+05/20/2025 11:15:09 AM: INFO: ********** Starting Test: TestElementsPage **********
+05/20/2025 11:15:09 AM: INFO: Initializing browser setup...
+05/20/2025 11:15:12 AM: INFO: Navigated to URL: https://demoqa.com/
+05/20/2025 11:15:12 AM: INFO: Test data loaded successfully from elements_page.json
+05/20/2025 11:15:12 AM: INFO: Setup method completed successfully.
+05/20/2025 11:15:12 AM: INFO: Step 1: Clicked on 'Elements' card.
+05/20/2025 11:15:12 AM: INFO: Step 2: Clicked on 'Buttons' option.
+05/20/2025 11:15:13 AM: INFO: ********** Test Case: test_Double_Click_Button **********
+05/20/2025 11:15:13 AM: INFO: Step 1: Initializing ElementsPage object...
+05/20/2025 11:15:13 AM: INFO: Step 2: Clicking on 'Double Click' button...
+05/20/2025 11:15:13 AM: INFO: Step 3: Retrieving success message after double click...
+05/20/2025 11:15:15 AM: INFO: Step 4: Verifying success message...
+Expected: 'You have done a right click'
+Actual: 'You have done a right click'
+05/20/2025 11:15:15 AM: INFO: Test Passed: Double click button displayed correct success message.
+05/20/2025 11:15:15 AM: INFO: Test case completed.
+05/20/2025 11:15:22 AM: WARNING: Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002B034EAD1D0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/4b4cdcffddaf2725bef1998fb90a1310
+05/20/2025 11:15:26 AM: WARNING: Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002B034F54050>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/4b4cdcffddaf2725bef1998fb90a1310
+05/20/2025 11:15:30 AM: WARNING: Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002B034E1AC40>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/4b4cdcffddaf2725bef1998fb90a1310
+05/20/2025 11:21:14 AM: INFO: ********** Starting Test: TestElementsPage **********
+05/20/2025 11:21:14 AM: INFO: Initializing browser setup...
+05/20/2025 11:21:17 AM: INFO: Navigated to URL: https://demoqa.com/
+05/20/2025 11:21:17 AM: INFO: Test data loaded successfully from elements_page.json
+05/20/2025 11:21:17 AM: INFO: Setup method completed successfully.
+05/20/2025 11:21:18 AM: INFO: Step 1: Clicked on 'Elements' card.
+05/20/2025 11:21:18 AM: INFO: Step 2: Clicked on 'Buttons' option.
+05/20/2025 11:21:18 AM: INFO: ********** Test Case: test_Right_Click_Button **********
+05/20/2025 11:21:18 AM: INFO: Step 1: Initializing ElementsPage object...
+05/20/2025 11:21:18 AM: INFO: Step 2: Performing right click on the 'Right Click' button...
+05/20/2025 11:21:18 AM: INFO: Step 3: Retrieving success message after right click...
+05/20/2025 11:21:18 AM: INFO: Step 4: Verifying success message...
+Expected: 'You have done a right click'
+Actual: 'You have done a right click'
+05/20/2025 11:21:18 AM: INFO: Test Passed: Right click button displayed the correct success message.
+05/20/2025 11:21:18 AM: INFO: test_Right_Click_Button completed.
+05/20/2025 11:21:25 AM: WARNING: Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001838DE3FC50>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/7f59af972ba105a1fdc855ed5ff224cb
+05/20/2025 11:21:29 AM: WARNING: Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001838DE3EE90>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/7f59af972ba105a1fdc855ed5ff224cb
+05/20/2025 11:21:33 AM: WARNING: Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001838DDAA780>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/7f59af972ba105a1fdc855ed5ff224cb
+05/20/2025 11:28:12 AM: INFO: ********** Starting Test: TestElementsPage **********
+05/20/2025 11:28:12 AM: INFO: Initializing browser setup...
+05/20/2025 11:28:16 AM: INFO: Navigated to URL: https://demoqa.com/
+05/20/2025 11:28:16 AM: INFO: Test data loaded successfully from elements_page.json
+05/20/2025 11:28:16 AM: INFO: Setup method completed successfully.
+05/20/2025 11:28:16 AM: INFO: Step 1: Clicked on 'Elements' card.
+05/20/2025 11:28:16 AM: INFO: Step 2: Clicked on 'Buttons' option.
+05/20/2025 11:28:16 AM: INFO: ********** Test Case: test_Right_Click_Button **********
+05/20/2025 11:28:16 AM: INFO: Step 1: Initializing ElementsPage object...
+05/20/2025 11:28:16 AM: INFO: Step 2: Performing right click on the 'Right Click' button...
+05/20/2025 11:28:26 AM: INFO: Step 3: Retrieving success message after right click...
+05/20/2025 11:28:36 AM: INFO: Step 4: Verifying success message...
+Expected: 'You have done a right click'
+Actual: 'None'
+05/20/2025 11:28:36 AM: ERROR: Test Failed (Assertion Error): No success message found after right click.
+assert None is not None
+05/20/2025 11:28:37 AM: INFO: Screenshot saved at: ./Screenshots/test_Right_Click_Button_failure.png
+05/20/2025 11:28:37 AM: INFO: test_Right_Click_Button completed.
+05/20/2025 11:28:43 AM: WARNING: Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002056F7BC550>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/253577c236fe905aa85ea496e6cbf690
+05/20/2025 11:28:47 AM: WARNING: Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002056F7BC2D0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/253577c236fe905aa85ea496e6cbf690
+05/20/2025 11:28:51 AM: WARNING: Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002056F669940>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/253577c236fe905aa85ea496e6cbf690
+05/20/2025 11:30:22 AM: INFO: ********** Starting Test: TestElementsPage **********
+05/20/2025 11:30:22 AM: INFO: Initializing browser setup...
+05/20/2025 11:30:27 AM: INFO: Navigated to URL: https://demoqa.com/
+05/20/2025 11:30:27 AM: INFO: Test data loaded successfully from elements_page.json
+05/20/2025 11:30:27 AM: INFO: Setup method completed successfully.
+05/20/2025 11:30:27 AM: INFO: Step 1: Clicked on 'Elements' card.
+05/20/2025 11:30:27 AM: INFO: Step 2: Clicked on 'Buttons' option.
+05/20/2025 11:30:27 AM: INFO: ********** Test Case: test_Right_Click_Button **********
+05/20/2025 11:30:27 AM: INFO: Step 1: Initializing ElementsPage object...
+05/20/2025 11:30:27 AM: INFO: Step 2: Performing right click on the 'Right Click' button...
+05/20/2025 11:30:27 AM: INFO: Step 3: Retrieving success message after right click...
+05/20/2025 11:30:27 AM: INFO: Step 4: Verifying success message...
+Expected: 'You have done a right click'
+Actual: 'You have done a dynamic click'
+05/20/2025 11:30:27 AM: ERROR: Test Failed (Assertion Error): Expected: 'You have done a right click', Got: 'You have done a dynamic click'
+assert 'You have don...dynamic click' == 'You have done a right click'
+  
+  - You have done a right click
+  ?                 ^ ^^^
+  + You have done a dynamic click
+  ?                 ^^^^^ ^
+05/20/2025 11:30:28 AM: INFO: Screenshot saved at: ./Screenshots/test_Right_Click_Button_failure.png
+05/20/2025 11:30:28 AM: INFO: test_Right_Click_Button completed.
+05/20/2025 11:30:34 AM: WARNING: Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001B444A5C7D0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/75118ff7c7f37f5f5e46517a218c2f71
+05/20/2025 11:30:38 AM: WARNING: Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001B444A5CA50>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/75118ff7c7f37f5f5e46517a218c2f71
+05/20/2025 11:30:42 AM: WARNING: Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001B4448469E0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/75118ff7c7f37f5f5e46517a218c2f71
+05/20/2025 11:31:25 AM: INFO: ********** Starting Test: TestElementsPage **********
+05/20/2025 11:31:25 AM: INFO: Initializing browser setup...
+05/20/2025 11:31:29 AM: INFO: Navigated to URL: https://demoqa.com/
+05/20/2025 11:31:29 AM: INFO: Test data loaded successfully from elements_page.json
+05/20/2025 11:31:29 AM: INFO: Setup method completed successfully.
+05/20/2025 11:31:29 AM: INFO: Step 1: Clicked on 'Elements' card.
+05/20/2025 11:31:29 AM: INFO: Step 2: Clicked on 'Buttons' option.
+05/20/2025 11:31:29 AM: INFO: ********** Test Case: test_Right_Click_Button **********
+05/20/2025 11:31:29 AM: INFO: Step 1: Initializing ElementsPage object...
+05/20/2025 11:31:29 AM: INFO: Step 2: Performing right click on the 'Right Click' button...
+05/20/2025 11:31:29 AM: INFO: Step 3: Retrieving success message after right click...
+05/20/2025 11:31:29 AM: INFO: Step 4: Verifying success message...
+Expected: 'You have done a dynamic click'
+Actual: 'You have done a dynamic click'
+05/20/2025 11:31:29 AM: INFO: Test Passed: Right click button displayed the correct success message.
+05/20/2025 11:31:29 AM: INFO: test_Right_Click_Button completed.
+05/20/2025 11:31:36 AM: WARNING: Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000017A5975F250>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/67d6153f211421256313d7c8462e9aa0
+05/20/2025 11:31:40 AM: WARNING: Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000017A5975ED50>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/67d6153f211421256313d7c8462e9aa0
+05/20/2025 11:31:44 AM: WARNING: Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000017A596C7100>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/67d6153f211421256313d7c8462e9aa0
+05/20/2025 11:34:31 AM: INFO: ********** Starting Test: TestElementsPage **********
+05/20/2025 11:34:31 AM: INFO: Initializing browser setup...
+05/20/2025 11:34:34 AM: INFO: Navigated to URL: https://demoqa.com/
+05/20/2025 11:34:34 AM: INFO: Test data loaded successfully from elements_page.json
+05/20/2025 11:34:34 AM: INFO: Setup method completed successfully.
+05/20/2025 11:34:35 AM: INFO: Step 1: Clicked on 'Elements' card.
+05/20/2025 11:34:35 AM: INFO: Step 2: Clicked on 'Buttons' option.
+05/20/2025 11:34:35 AM: INFO: ********** Test Case: test_Double_Click_Button **********
+05/20/2025 11:34:35 AM: INFO: Step 1: Initializing ElementsPage object...
+05/20/2025 11:34:35 AM: INFO: Step 2: Clicking on 'Double Click' button...
+05/20/2025 11:34:35 AM: INFO: Step 3: Retrieving success message after double click...
+05/20/2025 11:34:35 AM: INFO: Step 4: Verifying success message...
+Expected: 'You have done a double click'
+Actual: 'You have done a double click'
+05/20/2025 11:34:35 AM: INFO: Test Passed: Double click button displayed correct success message.
+05/20/2025 11:34:35 AM: INFO: Test case completed.
+05/20/2025 11:34:41 AM: WARNING: Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000012BBAC4FD90>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/5564fb73f54c40aa1fa05349cd127fb8
+05/20/2025 11:34:45 AM: WARNING: Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000012BBAC4FED0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/5564fb73f54c40aa1fa05349cd127fb8
+05/20/2025 11:34:49 AM: WARNING: Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000012BBABB6190>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/5564fb73f54c40aa1fa05349cd127fb8
+05/20/2025 11:34:59 AM: INFO: ********** Starting Test: TestElementsPage **********
+05/20/2025 11:34:59 AM: INFO: Initializing browser setup...
+05/20/2025 11:35:03 AM: INFO: Navigated to URL: https://demoqa.com/
+05/20/2025 11:35:03 AM: INFO: Test data loaded successfully from elements_page.json
+05/20/2025 11:35:03 AM: INFO: Setup method completed successfully.
+05/20/2025 11:35:03 AM: INFO: Step 1: Clicked on 'Elements' card.
+05/20/2025 11:35:03 AM: INFO: Step 2: Clicked on 'Buttons' option.
+05/20/2025 11:35:03 AM: INFO: ********** Test Case: test_Right_Click_Button **********
+05/20/2025 11:35:03 AM: INFO: Step 1: Initializing ElementsPage object...
+05/20/2025 11:35:03 AM: INFO: Step 2: Performing right click on the 'Right Click' button...
+05/20/2025 11:35:03 AM: INFO: Step 3: Retrieving success message after right click...
+05/20/2025 11:35:04 AM: INFO: Step 4: Verifying success message...
+Expected: 'You have done a right click'
+Actual: 'You have done a right click'
+05/20/2025 11:35:04 AM: INFO: Test Passed: Right click button displayed the correct success message.
+05/20/2025 11:35:04 AM: INFO: test_Right_Click_Button completed.
+05/20/2025 11:35:10 AM: WARNING: Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000012BBAD096A0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/846c72f0b156f8fdf5a89b2a0eb051f3
+05/20/2025 11:35:14 AM: WARNING: Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000012BBAD099D0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/846c72f0b156f8fdf5a89b2a0eb051f3
+05/20/2025 11:35:18 AM: WARNING: Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000012BBAD09E10>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/846c72f0b156f8fdf5a89b2a0eb051f3
+05/20/2025 11:35:28 AM: INFO: ********** Starting Test: TestElementsPage **********
+05/20/2025 11:35:28 AM: INFO: Initializing browser setup...
+05/20/2025 11:35:31 AM: INFO: Navigated to URL: https://demoqa.com/
+05/20/2025 11:35:31 AM: INFO: Test data loaded successfully from elements_page.json
+05/20/2025 11:35:31 AM: INFO: Setup method completed successfully.
+05/20/2025 11:35:31 AM: INFO: Step 1: Clicked on 'Elements' card.
+05/20/2025 11:35:31 AM: INFO: Step 2: Clicked on 'Buttons' option.
+05/20/2025 11:35:31 AM: INFO: 
+********** Test Case: test_Dynamic_Click_Button **********
+05/20/2025 11:35:31 AM: INFO: Step 1: Initializing ElementsPage object...
+05/20/2025 11:35:31 AM: INFO: Step 2: Performing dynamic (left) click on the 'Click Me' button...
+05/20/2025 11:35:31 AM: INFO: Step 3: Retrieving success message after the dynamic click...
+05/20/2025 11:35:31 AM: INFO: Step 4: Validating success message...
+Expected: 'You have done a dynamic click'
+Actual: 'You have done a dynamic click'
+05/20/2025 11:35:31 AM: INFO: Test Passed: Dynamic click button displayed the correct success message.
+05/20/2025 11:35:31 AM: INFO: test_Dynamic_Click_Button completed. Closing the browser.
+05/20/2025 11:35:38 AM: WARNING: Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000012BBAD09590>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/871ca328f29fee812f5cbce9b8f43205
+05/20/2025 11:35:42 AM: WARNING: Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000012BBAD0A8B0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/871ca328f29fee812f5cbce9b8f43205
+05/20/2025 11:35:46 AM: WARNING: Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000012BBAD0ABE0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/871ca328f29fee812f5cbce9b8f43205
+05/20/2025 11:48:27 AM: INFO: ********** Starting Test: TestElementsPage **********
+05/20/2025 11:48:27 AM: INFO: Initializing browser setup...
+05/20/2025 11:48:30 AM: INFO: Navigated to URL: https://demoqa.com/
+05/20/2025 11:48:30 AM: INFO: Test data loaded successfully from elements_page.json
+05/20/2025 11:48:30 AM: INFO: Setup method completed successfully.
+05/20/2025 11:48:31 AM: INFO: Step 1: Clicked on 'Elements' card.
+05/20/2025 11:48:31 AM: INFO: Step 2: Clicked on 'Buttons' option.
+05/20/2025 11:48:31 AM: INFO: ********** Test Case: test_All_Click_Buttons **********
+05/20/2025 11:48:31 AM: INFO: Step 1: Initializing ElementsPage object...
+05/20/2025 11:48:31 AM: INFO: Step 2: Clicking on 'Double Click' button...
+05/20/2025 11:48:32 AM: INFO: Retrieving success message for 'Double Click'...
+05/20/2025 11:48:33 AM: INFO: Verifying message...
+Expected: 'You have done a double click'
+Actual: 'You have done a double click'
+05/20/2025 11:48:33 AM: INFO: Step 3: Clicking on 'Right Click' button...
+05/20/2025 11:48:33 AM: INFO: Retrieving success message for 'Right Click'...
+05/20/2025 11:48:33 AM: INFO: Verifying message...
+Expected: 'You have done a right click'
+Actual: 'You have done a right click'
+05/20/2025 11:48:33 AM: INFO: Step 4: Clicking on 'Click Me' button...
+05/20/2025 11:48:34 AM: INFO: Retrieving success message for 'Click Me'...
+05/20/2025 11:48:34 AM: INFO: Verifying message...
+Expected: 'You have done a dynamic click'
+Actual: 'You have done a dynamic click'
+05/20/2025 11:48:34 AM: INFO: Test Passed: All click buttons displayed correct success messages.
+05/20/2025 11:48:34 AM: INFO: test_All_Click_Buttons completed. Closing the browser.
+05/20/2025 11:48:40 AM: WARNING: Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001B8F702F750>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/34671703c147b66d1aec4339ff149952
+05/20/2025 11:48:45 AM: WARNING: Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001B8F702EAD0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/34671703c147b66d1aec4339ff149952
+05/20/2025 11:48:49 AM: WARNING: Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001B8F6F36780>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/34671703c147b66d1aec4339ff149952
+05/20/2025 11:51:52 AM: INFO: ********** Starting Test: TestElementsPage **********
+05/20/2025 11:51:52 AM: INFO: Initializing browser setup...
+05/20/2025 11:51:55 AM: INFO: Navigated to URL: https://demoqa.com/
+05/20/2025 11:51:55 AM: INFO: Test data loaded successfully from elements_page.json
+05/20/2025 11:51:55 AM: INFO: Setup method completed successfully.
+05/20/2025 11:51:56 AM: INFO: Step 1: Clicked on 'Elements' card.
+05/20/2025 11:51:56 AM: INFO: Step 2: Clicked on 'Buttons' option.
+05/20/2025 11:51:56 AM: INFO: ********** Test Case: test_Click_Buttons_doubleClickMessage **********
+05/20/2025 11:51:56 AM: INFO: Step 1: Initializing ElementsPage object...
+05/20/2025 11:51:56 AM: INFO: Step 2: Performing click action using method: click_on_double_click_button...
+05/20/2025 11:51:58 AM: INFO: Step 3: Retrieving success message...
+05/20/2025 11:52:08 AM: INFO: Step 4: Verifying message...
+Expected: 'You have done a double click'
+Actual: 'None'
+05/20/2025 11:52:08 AM: ERROR: Test Failed (Assertion Error): No success message found for doubleClickMessage.
+assert None is not None
+05/20/2025 11:52:08 AM: INFO: Screenshot saved at: ./Screenshots/test_Click_Buttons_doubleClickMessage_failure.png
+05/20/2025 11:52:08 AM: INFO: test_Click_Buttons_doubleClickMessage completed. Closing the browser.
+05/20/2025 11:52:15 AM: WARNING: Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001C844660190>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/17cb0998eeca65b3c60207d529ecd1a1
+05/20/2025 11:52:19 AM: WARNING: Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001C844660410>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/17cb0998eeca65b3c60207d529ecd1a1
+05/20/2025 11:52:23 AM: WARNING: Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001C84441B490>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/17cb0998eeca65b3c60207d529ecd1a1
+05/20/2025 11:52:33 AM: INFO: ********** Starting Test: TestElementsPage **********
+05/20/2025 11:52:33 AM: INFO: Initializing browser setup...
+05/20/2025 11:52:37 AM: INFO: Navigated to URL: https://demoqa.com/
+05/20/2025 11:52:37 AM: INFO: Test data loaded successfully from elements_page.json
+05/20/2025 11:52:37 AM: INFO: Setup method completed successfully.
+05/20/2025 11:52:37 AM: INFO: Step 1: Clicked on 'Elements' card.
+05/20/2025 11:52:37 AM: INFO: Step 2: Clicked on 'Buttons' option.
+05/20/2025 11:52:37 AM: INFO: ********** Test Case: test_Click_Buttons_rightClickMessage **********
+05/20/2025 11:52:37 AM: INFO: Step 1: Initializing ElementsPage object...
+05/20/2025 11:52:37 AM: INFO: Step 2: Performing click action using method: click_on_right_click_button...
+05/20/2025 11:52:37 AM: INFO: Step 3: Retrieving success message...
+05/20/2025 11:52:37 AM: INFO: Step 4: Verifying message...
+Expected: 'You have done a right click'
+Actual: 'You have done a right click'
+05/20/2025 11:52:37 AM: INFO: Test Passed: rightClickMessage button displayed correct success message.
+05/20/2025 11:52:37 AM: INFO: test_Click_Buttons_rightClickMessage completed. Closing the browser.
+05/20/2025 11:52:44 AM: WARNING: Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001C844579F20>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/af0e3c9c8f1cc49fbb75f9314a559d8b
+05/20/2025 11:52:48 AM: WARNING: Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001C84457A250>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/af0e3c9c8f1cc49fbb75f9314a559d8b
+05/20/2025 11:52:52 AM: WARNING: Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001C84457A690>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/af0e3c9c8f1cc49fbb75f9314a559d8b
+05/20/2025 11:53:01 AM: INFO: ********** Starting Test: TestElementsPage **********
+05/20/2025 11:53:01 AM: INFO: Initializing browser setup...
+05/20/2025 11:53:05 AM: INFO: Navigated to URL: https://demoqa.com/
+05/20/2025 11:53:05 AM: INFO: Test data loaded successfully from elements_page.json
+05/20/2025 11:53:05 AM: INFO: Setup method completed successfully.
+05/20/2025 11:53:05 AM: INFO: Step 1: Clicked on 'Elements' card.
+05/20/2025 11:53:05 AM: INFO: Step 2: Clicked on 'Buttons' option.
+05/20/2025 11:53:05 AM: INFO: ********** Test Case: test_Click_Buttons_dynamicClickMessage **********
+05/20/2025 11:53:05 AM: INFO: Step 1: Initializing ElementsPage object...
+05/20/2025 11:53:05 AM: INFO: Step 2: Performing click action using method: click_on_click_me_button...
+05/20/2025 11:53:05 AM: INFO: Step 3: Retrieving success message...
+05/20/2025 11:53:05 AM: INFO: Step 4: Verifying message...
+Expected: 'You have done a dynamic click'
+Actual: 'You have done a dynamic click'
+05/20/2025 11:53:05 AM: INFO: Test Passed: dynamicClickMessage button displayed correct success message.
+05/20/2025 11:53:05 AM: INFO: test_Click_Buttons_dynamicClickMessage completed. Closing the browser.
+05/20/2025 11:53:12 AM: WARNING: Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001C84457A580>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/1110bf72fe3c967c44f381d490d7b259
+05/20/2025 11:53:16 AM: WARNING: Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001C84457B130>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/1110bf72fe3c967c44f381d490d7b259
+05/20/2025 11:53:20 AM: WARNING: Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001C84457B460>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/1110bf72fe3c967c44f381d490d7b259
+05/20/2025 11:54:26 AM: INFO: ********** Starting Test: TestElementsPage **********
+05/20/2025 11:54:26 AM: INFO: Initializing browser setup...
+05/20/2025 11:54:33 AM: INFO: Navigated to URL: https://demoqa.com/
+05/20/2025 11:54:33 AM: INFO: Test data loaded successfully from elements_page.json
+05/20/2025 11:54:33 AM: INFO: Setup method completed successfully.
+05/20/2025 11:54:33 AM: INFO: Step 1: Clicked on 'Elements' card.
+05/20/2025 11:54:33 AM: INFO: Step 2: Clicked on 'Buttons' option.
+05/20/2025 11:54:33 AM: INFO: ********** Test Case: test_Click_Buttons_doubleClickMessage **********
+05/20/2025 11:54:33 AM: INFO: Step 1: Initializing ElementsPage object...
+05/20/2025 11:54:33 AM: INFO: Step 2: Performing click action using method: click_on_double_click_button...
+05/20/2025 11:54:33 AM: INFO: Step 3: Retrieving success message...
+05/20/2025 11:54:43 AM: INFO: Step 4: Verifying message...
+Expected: 'You have done a double click'
+Actual: 'None'
+05/20/2025 11:54:43 AM: ERROR: Test Failed (Assertion Error): No success message found for doubleClickMessage.
+assert None is not None
+05/20/2025 11:54:43 AM: INFO: Screenshot saved at: ./Screenshots/test_Click_Buttons_doubleClickMessage_failure.png
+05/20/2025 11:54:43 AM: INFO: test_Click_Buttons_doubleClickMessage completed. Closing the browser.
+05/20/2025 11:54:50 AM: WARNING: Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000014FAD93F890>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/c0f6280cafbca256c4f63cdcb2024776
+05/20/2025 11:54:54 AM: WARNING: Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000014FAD93EFD0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/c0f6280cafbca256c4f63cdcb2024776
+05/20/2025 11:54:58 AM: WARNING: Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000014FAD85B950>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/c0f6280cafbca256c4f63cdcb2024776
+05/20/2025 11:55:08 AM: INFO: ********** Starting Test: TestElementsPage **********
+05/20/2025 11:55:08 AM: INFO: Initializing browser setup...
+05/20/2025 11:55:13 AM: INFO: Navigated to URL: https://demoqa.com/
+05/20/2025 11:55:13 AM: INFO: Test data loaded successfully from elements_page.json
+05/20/2025 11:55:13 AM: INFO: Setup method completed successfully.
+05/20/2025 11:55:13 AM: INFO: Step 1: Clicked on 'Elements' card.
+05/20/2025 11:55:13 AM: INFO: Step 2: Clicked on 'Buttons' option.
+05/20/2025 11:55:13 AM: INFO: ********** Test Case: test_Click_Buttons_rightClickMessage **********
+05/20/2025 11:55:13 AM: INFO: Step 1: Initializing ElementsPage object...
+05/20/2025 11:55:13 AM: INFO: Step 2: Performing click action using method: click_on_right_click_button...
+05/20/2025 11:55:14 AM: INFO: Step 3: Retrieving success message...
+05/20/2025 11:55:14 AM: INFO: Step 4: Verifying message...
+Expected: 'You have done a right click'
+Actual: 'You have done a right click'
+05/20/2025 11:55:14 AM: INFO: Test Passed: rightClickMessage button displayed correct success message.
+05/20/2025 11:55:14 AM: INFO: test_Click_Buttons_rightClickMessage completed. Closing the browser.
+05/20/2025 11:55:20 AM: WARNING: Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000014FAD9C0380>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/69356840586fd0c4a25d0501f0997839
+05/20/2025 11:55:24 AM: WARNING: Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000014FAD9C2250>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/69356840586fd0c4a25d0501f0997839
+05/20/2025 11:55:28 AM: WARNING: Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000014FAD9C2690>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/69356840586fd0c4a25d0501f0997839
+05/20/2025 11:55:38 AM: INFO: ********** Starting Test: TestElementsPage **********
+05/20/2025 11:55:38 AM: INFO: Initializing browser setup...
+05/20/2025 11:55:42 AM: INFO: Navigated to URL: https://demoqa.com/
+05/20/2025 11:55:42 AM: INFO: Test data loaded successfully from elements_page.json
+05/20/2025 11:55:42 AM: INFO: Setup method completed successfully.
+05/20/2025 11:55:42 AM: INFO: Step 1: Clicked on 'Elements' card.
+05/20/2025 11:55:42 AM: INFO: Step 2: Clicked on 'Buttons' option.
+05/20/2025 11:55:42 AM: INFO: ********** Test Case: test_Click_Buttons_dynamicClickMessage **********
+05/20/2025 11:55:42 AM: INFO: Step 1: Initializing ElementsPage object...
+05/20/2025 11:55:42 AM: INFO: Step 2: Performing click action using method: click_on_click_me_button...
+05/20/2025 11:55:42 AM: INFO: Step 3: Retrieving success message...
+05/20/2025 11:55:42 AM: INFO: Step 4: Verifying message...
+Expected: 'You have done a dynamic click'
+Actual: 'You have done a dynamic click'
+05/20/2025 11:55:42 AM: INFO: Test Passed: dynamicClickMessage button displayed correct success message.
+05/20/2025 11:55:42 AM: INFO: test_Click_Buttons_dynamicClickMessage completed. Closing the browser.
+05/20/2025 11:55:49 AM: WARNING: Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000014FAD9C2580>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/098f9348e97bcac83333ffd3eeaa1da2
+05/20/2025 11:55:53 AM: WARNING: Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000014FAD9C3130>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/098f9348e97bcac83333ffd3eeaa1da2
+05/20/2025 11:55:57 AM: WARNING: Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000014FAD9C3460>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/098f9348e97bcac83333ffd3eeaa1da2
+05/20/2025 12:00:29 PM: INFO: ********** Starting Test: TestElementsPage **********
+05/20/2025 12:00:29 PM: INFO: Initializing browser setup...
+05/20/2025 12:00:53 PM: INFO: Navigated to URL: https://demoqa.com/
+05/20/2025 12:00:53 PM: INFO: Test data loaded successfully from elements_page.json
+05/20/2025 12:00:53 PM: INFO: Setup method completed successfully.
+05/20/2025 12:00:53 PM: INFO: Step 1: Clicked on 'Elements' card.
+05/20/2025 12:00:53 PM: INFO: Step 2: Clicked on 'Buttons' option.
+05/20/2025 12:00:53 PM: INFO: ********** Test Case: test_Click_Buttons_doubleClickMessage **********
+05/20/2025 12:00:53 PM: INFO: Step 1: Initializing ElementsPage object...
+05/20/2025 12:00:53 PM: INFO: Step 2: Performing click action using method: click_on_double_click_button...
+05/20/2025 12:00:54 PM: INFO: Step 3: Retrieving success message...
+05/20/2025 12:01:04 PM: INFO: Step 4: Verifying message...
+Expected: 'You have done a double click'
+Actual: 'None'
+05/20/2025 12:01:04 PM: ERROR: Test Failed (Assertion Error): No success message found for doubleClickMessage.
+assert None is not None
+05/20/2025 12:01:04 PM: INFO: Screenshot saved at: ./Screenshots/test_Click_Buttons_doubleClickMessage_failure.png
+05/20/2025 12:01:04 PM: INFO: test_Click_Buttons_doubleClickMessage completed. Closing the browser.
+05/20/2025 12:01:11 PM: WARNING: Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000123A0894190>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/c32ef0f4da258bcd658926e192e58696
+05/20/2025 12:01:15 PM: WARNING: Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000123A0894410>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/c32ef0f4da258bcd658926e192e58696
+05/20/2025 12:01:19 PM: WARNING: Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000123A06AB490>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/c32ef0f4da258bcd658926e192e58696
+05/20/2025 12:01:29 PM: INFO: ********** Starting Test: TestElementsPage **********
+05/20/2025 12:01:29 PM: INFO: Initializing browser setup...
+05/20/2025 12:01:33 PM: INFO: Navigated to URL: https://demoqa.com/
+05/20/2025 12:01:33 PM: INFO: Test data loaded successfully from elements_page.json
+05/20/2025 12:01:33 PM: INFO: Setup method completed successfully.
+05/20/2025 12:01:33 PM: INFO: Step 1: Clicked on 'Elements' card.
+05/20/2025 12:01:33 PM: INFO: Step 2: Clicked on 'Buttons' option.
+05/20/2025 12:01:33 PM: INFO: ********** Test Case: test_Click_Buttons_rightClickMessage **********
+05/20/2025 12:01:33 PM: INFO: Step 1: Initializing ElementsPage object...
+05/20/2025 12:01:33 PM: INFO: Step 2: Performing click action using method: click_on_right_click_button...
+05/20/2025 12:01:34 PM: INFO: Step 3: Retrieving success message...
+05/20/2025 12:01:36 PM: INFO: Step 4: Verifying message...
+Expected: 'You have done a right click'
+Actual: 'You have done a right click'
+05/20/2025 12:01:36 PM: INFO: Test Passed: rightClickMessage button displayed correct success message.
+05/20/2025 12:01:36 PM: INFO: test_Click_Buttons_rightClickMessage completed. Closing the browser.
+05/20/2025 12:01:42 PM: WARNING: Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000123A07B9F20>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/2438def40bfa40730c3eb6b89cdf397d
+05/20/2025 12:01:46 PM: WARNING: Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000123A07BA250>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/2438def40bfa40730c3eb6b89cdf397d
+05/20/2025 12:01:50 PM: WARNING: Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000123A07BA690>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/2438def40bfa40730c3eb6b89cdf397d
+05/20/2025 12:02:00 PM: INFO: ********** Starting Test: TestElementsPage **********
+05/20/2025 12:02:00 PM: INFO: Initializing browser setup...
+05/20/2025 12:02:03 PM: INFO: Navigated to URL: https://demoqa.com/
+05/20/2025 12:02:03 PM: INFO: Test data loaded successfully from elements_page.json
+05/20/2025 12:02:03 PM: INFO: Setup method completed successfully.
+05/20/2025 12:02:03 PM: INFO: Step 1: Clicked on 'Elements' card.
+05/20/2025 12:02:03 PM: INFO: Step 2: Clicked on 'Buttons' option.
+05/20/2025 12:02:03 PM: INFO: ********** Test Case: test_Click_Buttons_dynamicClickMessage **********
+05/20/2025 12:02:03 PM: INFO: Step 1: Initializing ElementsPage object...
+05/20/2025 12:02:03 PM: INFO: Step 2: Performing click action using method: click_on_click_me_button...
+05/20/2025 12:02:04 PM: INFO: Step 3: Retrieving success message...
+05/20/2025 12:02:04 PM: INFO: Step 4: Verifying message...
+Expected: 'You have done a dynamic click'
+Actual: 'You have done a dynamic click'
+05/20/2025 12:02:04 PM: INFO: Test Passed: dynamicClickMessage button displayed correct success message.
+05/20/2025 12:02:04 PM: INFO: test_Click_Buttons_dynamicClickMessage completed. Closing the browser.
+05/20/2025 12:02:10 PM: WARNING: Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000123A07BA580>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/390634fe7e44d8764070d7b1f1ceccd4
+05/20/2025 12:02:14 PM: WARNING: Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000123A07BB130>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/390634fe7e44d8764070d7b1f1ceccd4
+05/20/2025 12:02:18 PM: WARNING: Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000123A07BB460>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/390634fe7e44d8764070d7b1f1ceccd4
+05/20/2025 12:05:46 PM: INFO: ********** Starting Test: TestElementsPage **********
+05/20/2025 12:05:46 PM: INFO: Initializing browser setup...
+05/20/2025 12:05:50 PM: INFO: Navigated to URL: https://demoqa.com/
+05/20/2025 12:05:50 PM: INFO: Test data loaded successfully from elements_page.json
+05/20/2025 12:05:50 PM: INFO: Setup method completed successfully.
+05/20/2025 12:05:50 PM: INFO: Step 1: Clicked on 'Elements' card.
+05/20/2025 12:05:50 PM: INFO: Step 2: Clicked on 'Buttons' option.
+05/20/2025 12:05:50 PM: INFO: ********** Test Case: test_Click_Buttons_doubleClickMessage **********
+05/20/2025 12:05:50 PM: INFO: Step 1: Initializing ElementsPage object...
+05/20/2025 12:05:50 PM: INFO: Step 2: Performing click action using method: click_on_double_click_button...
+05/20/2025 12:05:50 PM: INFO: Step 3: Retrieving success message...
+05/20/2025 12:05:50 PM: INFO: Step 4: Verifying message...
+Expected: 'You have done a double click'
+Actual: 'You have done a double click'
+05/20/2025 12:05:50 PM: INFO: Test Passed: doubleClickMessage button displayed correct success message.
+05/20/2025 12:05:50 PM: INFO: test_Click_Buttons_doubleClickMessage completed. Closing the browser.
+05/20/2025 12:05:57 PM: WARNING: Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000026D4FE3C690>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/057a7997233821ddb70ea1092e5cff9c
+05/20/2025 12:06:01 PM: WARNING: Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000026D4FE3CCD0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/057a7997233821ddb70ea1092e5cff9c
+05/20/2025 12:06:05 PM: WARNING: Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000026D4FD0B950>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/057a7997233821ddb70ea1092e5cff9c
+05/20/2025 12:06:14 PM: INFO: ********** Starting Test: TestElementsPage **********
+05/20/2025 12:06:14 PM: INFO: Initializing browser setup...
+05/20/2025 12:06:18 PM: INFO: Navigated to URL: https://demoqa.com/
+05/20/2025 12:06:18 PM: INFO: Test data loaded successfully from elements_page.json
+05/20/2025 12:06:18 PM: INFO: Setup method completed successfully.
+05/20/2025 12:06:18 PM: INFO: Step 1: Clicked on 'Elements' card.
+05/20/2025 12:06:18 PM: INFO: Step 2: Clicked on 'Buttons' option.
+05/20/2025 12:06:18 PM: INFO: ********** Test Case: test_Click_Buttons_rightClickMessage **********
+05/20/2025 12:06:18 PM: INFO: Step 1: Initializing ElementsPage object...
+05/20/2025 12:06:18 PM: INFO: Step 2: Performing click action using method: click_on_right_click_button...
+05/20/2025 12:06:18 PM: INFO: Step 3: Retrieving success message...
+05/20/2025 12:06:18 PM: INFO: Step 4: Verifying message...
+Expected: 'You have done a right click'
+Actual: 'You have done a right click'
+05/20/2025 12:06:18 PM: INFO: Test Passed: rightClickMessage button displayed correct success message.
+05/20/2025 12:06:18 PM: INFO: test_Click_Buttons_rightClickMessage completed. Closing the browser.
+05/20/2025 12:06:25 PM: WARNING: Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000026D4FE22CF0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/95897c67d84675906f50919326da13ca
+05/20/2025 12:06:29 PM: WARNING: Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000026D4FE23020>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/95897c67d84675906f50919326da13ca
+05/20/2025 12:06:33 PM: WARNING: Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000026D4FE23460>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/95897c67d84675906f50919326da13ca
+05/20/2025 12:06:42 PM: INFO: ********** Starting Test: TestElementsPage **********
+05/20/2025 12:06:42 PM: INFO: Initializing browser setup...
+05/20/2025 12:06:46 PM: INFO: Navigated to URL: https://demoqa.com/
+05/20/2025 12:06:46 PM: INFO: Test data loaded successfully from elements_page.json
+05/20/2025 12:06:46 PM: INFO: Setup method completed successfully.
+05/20/2025 12:06:46 PM: INFO: Step 1: Clicked on 'Elements' card.
+05/20/2025 12:06:46 PM: INFO: Step 2: Clicked on 'Buttons' option.
+05/20/2025 12:06:46 PM: INFO: ********** Test Case: test_Click_Buttons_dynamicClickMessage **********
+05/20/2025 12:06:46 PM: INFO: Step 1: Initializing ElementsPage object...
+05/20/2025 12:06:46 PM: INFO: Step 2: Performing click action using method: click_on_click_me_button...
+05/20/2025 12:06:46 PM: INFO: Step 3: Retrieving success message...
+05/20/2025 12:06:46 PM: INFO: Step 4: Verifying message...
+Expected: 'You have done a dynamic click'
+Actual: 'You have done a dynamic click'
+05/20/2025 12:06:46 PM: INFO: Test Passed: dynamicClickMessage button displayed correct success message.
+05/20/2025 12:06:46 PM: INFO: test_Click_Buttons_dynamicClickMessage completed. Closing the browser.
+05/20/2025 12:06:53 PM: WARNING: Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000026D4FE23350>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/957abb9114c5c69d57aed6ae2099f3c4
+05/20/2025 12:06:57 PM: WARNING: Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000026D4FE23F00>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/957abb9114c5c69d57aed6ae2099f3c4
+05/20/2025 12:07:01 PM: WARNING: Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000026D501C0270>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/957abb9114c5c69d57aed6ae2099f3c4
+05/20/2025 12:10:08 PM: INFO: ********** Starting Test: TestElementsPage **********
+05/20/2025 12:10:08 PM: INFO: Initializing browser setup...
+05/20/2025 12:10:12 PM: INFO: Navigated to URL: https://demoqa.com/
+05/20/2025 12:10:12 PM: INFO: Test data loaded successfully from elements_page.json
+05/20/2025 12:10:12 PM: INFO: Setup method completed successfully.
+05/20/2025 12:10:12 PM: INFO: Step 1: Clicked on 'Elements' card.
+05/20/2025 12:10:13 PM: INFO: Step 2: Clicked on 'Buttons' option.
+05/20/2025 12:10:13 PM: INFO: ********** Test Case: test_Double_Click_Button **********
+05/20/2025 12:10:13 PM: INFO: Step 1: Initializing ElementsPage object...
+05/20/2025 12:10:13 PM: INFO: Step 2: Clicking on 'Double Click' button...
+05/20/2025 12:10:14 PM: INFO: Step 3: Retrieving success message after double click...
+05/20/2025 12:10:24 PM: INFO: Step 4: Verifying success message...
+Expected: 'You have done a double click'
+Actual: 'None'
+05/20/2025 12:10:24 PM: ERROR: Test Failed: No success message found after double click.
+assert None is not None
+05/20/2025 12:10:24 PM: INFO: Screenshot saved at: ./Screenshots/test_Double_Click_Button_failure.png
+05/20/2025 12:10:24 PM: INFO: Test case completed.
+05/20/2025 12:10:31 PM: WARNING: Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000027970B18910>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/2fb0a767749f5314e40a1df6355dce64
+05/20/2025 12:10:35 PM: WARNING: Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000027970B18B90>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/2fb0a767749f5314e40a1df6355dce64
+05/20/2025 12:10:39 PM: WARNING: Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002797097AD70>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/2fb0a767749f5314e40a1df6355dce64
+05/20/2025 12:10:48 PM: INFO: ********** Starting Test: TestElementsPage **********
+05/20/2025 12:10:48 PM: INFO: Initializing browser setup...
+05/20/2025 12:10:52 PM: INFO: Navigated to URL: https://demoqa.com/
+05/20/2025 12:10:52 PM: INFO: Test data loaded successfully from elements_page.json
+05/20/2025 12:10:52 PM: INFO: Setup method completed successfully.
+05/20/2025 12:10:52 PM: INFO: Step 1: Clicked on 'Elements' card.
+05/20/2025 12:10:52 PM: INFO: Step 2: Clicked on 'Buttons' option.
+05/20/2025 12:10:52 PM: INFO: ********** Test Case: test_Right_Click_Button **********
+05/20/2025 12:10:52 PM: INFO: Step 1: Initializing ElementsPage object...
+05/20/2025 12:10:52 PM: INFO: Step 2: Performing right click on the 'Right Click' button...
+05/20/2025 12:10:53 PM: INFO: Step 3: Retrieving success message after right click...
+05/20/2025 12:10:53 PM: INFO: Step 4: Verifying success message...
+Expected: 'You have done a right click'
+Actual: 'You have done a right click'
+05/20/2025 12:10:53 PM: INFO: Test Passed: Right click button displayed the correct success message.
+05/20/2025 12:10:53 PM: INFO: test_Right_Click_Button completed.
+05/20/2025 12:10:59 PM: WARNING: Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000027970AEE140>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/38fed439723aa7b53f7629e238bb18b8
+05/20/2025 12:11:03 PM: WARNING: Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000027970AEE470>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/38fed439723aa7b53f7629e238bb18b8
+05/20/2025 12:11:07 PM: WARNING: Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000027970AEE8B0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/38fed439723aa7b53f7629e238bb18b8
+05/20/2025 12:11:17 PM: INFO: ********** Starting Test: TestElementsPage **********
+05/20/2025 12:11:17 PM: INFO: Initializing browser setup...
+05/20/2025 12:11:20 PM: INFO: Navigated to URL: https://demoqa.com/
+05/20/2025 12:11:20 PM: INFO: Test data loaded successfully from elements_page.json
+05/20/2025 12:11:20 PM: INFO: Setup method completed successfully.
+05/20/2025 12:11:20 PM: INFO: Step 1: Clicked on 'Elements' card.
+05/20/2025 12:11:20 PM: INFO: Step 2: Clicked on 'Buttons' option.
+05/20/2025 12:11:20 PM: INFO: 
+********** Test Case: test_Dynamic_Click_Button **********
+05/20/2025 12:11:20 PM: INFO: Step 1: Initializing ElementsPage object...
+05/20/2025 12:11:20 PM: INFO: Step 2: Performing dynamic (left) click on the 'Click Me' button...
+05/20/2025 12:11:21 PM: INFO: Step 3: Retrieving success message after the dynamic click...
+05/20/2025 12:11:21 PM: INFO: Step 4: Validating success message...
+Expected: 'You have done a dynamic click'
+Actual: 'You have done a dynamic click'
+05/20/2025 12:11:21 PM: INFO: Test Passed: Dynamic click button displayed the correct success message.
+05/20/2025 12:11:21 PM: INFO: test_Dynamic_Click_Button completed. Closing the browser.
+05/20/2025 12:11:27 PM: WARNING: Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000027970AEC270>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/1a8a62ab4fb68ab64b7be7a9893dc71e
+05/20/2025 12:11:31 PM: WARNING: Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000027970AEF350>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/1a8a62ab4fb68ab64b7be7a9893dc71e
+05/20/2025 12:11:35 PM: WARNING: Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000027970AEF680>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/1a8a62ab4fb68ab64b7be7a9893dc71e
+05/20/2025 12:11:45 PM: INFO: ********** Starting Test: TestElementsPage **********
+05/20/2025 12:11:45 PM: INFO: Initializing browser setup...
+05/20/2025 12:11:49 PM: INFO: Navigated to URL: https://demoqa.com/
+05/20/2025 12:11:49 PM: INFO: Test data loaded successfully from elements_page.json
+05/20/2025 12:11:49 PM: INFO: Setup method completed successfully.
+05/20/2025 12:11:49 PM: INFO: Step 1: Clicked on 'Elements' card.
+05/20/2025 12:11:49 PM: INFO: Step 2: Clicked on 'Buttons' option.
+05/20/2025 12:11:49 PM: INFO: ********** Test Case: test_All_Click_Buttons **********
+05/20/2025 12:11:49 PM: INFO: Step 1: Initializing ElementsPage object...
+05/20/2025 12:11:49 PM: INFO: Step 2: Clicking on 'Double Click' button...
+05/20/2025 12:11:49 PM: INFO: Retrieving success message for 'Double Click'...
+05/20/2025 12:11:50 PM: INFO: Verifying message...
+Expected: 'You have done a double click'
+Actual: 'You have done a double click'
+05/20/2025 12:11:50 PM: INFO: Step 3: Clicking on 'Right Click' button...
+05/20/2025 12:11:51 PM: INFO: Retrieving success message for 'Right Click'...
+05/20/2025 12:12:01 PM: INFO: Verifying message...
+Expected: 'You have done a right click'
+Actual: 'None'
+05/20/2025 12:12:01 PM: ERROR: Test Failed (Assertion Error): No success message for Right Click.
+assert None is not None
+05/20/2025 12:12:01 PM: INFO: Screenshot saved at: ./Screenshots/test_All_Click_Buttons_failure.png
+05/20/2025 12:12:01 PM: INFO: test_All_Click_Buttons completed. Closing the browser.
+05/20/2025 12:12:07 PM: WARNING: Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000027970AEE7A0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/cce43da353538448135572eb873b8bc9
+05/20/2025 12:12:11 PM: WARNING: Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000027970AEF680>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/cce43da353538448135572eb873b8bc9
+05/20/2025 12:12:15 PM: WARNING: Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000027970AEF460>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/cce43da353538448135572eb873b8bc9
+05/20/2025 12:12:25 PM: INFO: ********** Starting Test: TestElementsPage **********
+05/20/2025 12:12:25 PM: INFO: Initializing browser setup...
+05/20/2025 12:12:31 PM: INFO: Navigated to URL: https://demoqa.com/
+05/20/2025 12:12:31 PM: INFO: Test data loaded successfully from elements_page.json
+05/20/2025 12:12:31 PM: INFO: Setup method completed successfully.
+05/20/2025 12:12:31 PM: INFO: Step 1: Clicked on 'Elements' card.
+05/20/2025 12:12:31 PM: INFO: Step 2: Clicked on 'Buttons' option.
+05/20/2025 12:12:31 PM: INFO: ********** Test Case: test_Click_Buttons_doubleClickMessage **********
+05/20/2025 12:12:31 PM: INFO: Step 1: Initializing ElementsPage object...
+05/20/2025 12:12:31 PM: INFO: Step 2: Performing click action using method: click_on_double_click_button...
+05/20/2025 12:12:31 PM: INFO: Step 3: Retrieving success message...
+05/20/2025 12:12:32 PM: INFO: Step 4: Verifying message...
+Expected: 'You have done a double click'
+Actual: 'You have done a double click'
+05/20/2025 12:12:32 PM: INFO: Test Passed: doubleClickMessage button displayed correct success message.
+05/20/2025 12:12:32 PM: INFO: test_Click_Buttons_doubleClickMessage completed. Closing the browser.
+05/20/2025 12:12:38 PM: WARNING: Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000027970AEEBE0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/68ee279562e4f426014315c265649724
+05/20/2025 12:12:42 PM: WARNING: Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000027970AEEE00>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/68ee279562e4f426014315c265649724
+05/20/2025 12:12:46 PM: WARNING: Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000027970AEE470>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/68ee279562e4f426014315c265649724
+05/20/2025 12:12:56 PM: INFO: ********** Starting Test: TestElementsPage **********
+05/20/2025 12:12:56 PM: INFO: Initializing browser setup...
+05/20/2025 12:13:03 PM: INFO: Navigated to URL: https://demoqa.com/
+05/20/2025 12:13:03 PM: INFO: Test data loaded successfully from elements_page.json
+05/20/2025 12:13:03 PM: INFO: Setup method completed successfully.
+05/20/2025 12:13:03 PM: INFO: Step 1: Clicked on 'Elements' card.
+05/20/2025 12:13:03 PM: INFO: Step 2: Clicked on 'Buttons' option.
+05/20/2025 12:13:03 PM: INFO: ********** Test Case: test_Click_Buttons_rightClickMessage **********
+05/20/2025 12:13:03 PM: INFO: Step 1: Initializing ElementsPage object...
+05/20/2025 12:13:03 PM: INFO: Step 2: Performing click action using method: click_on_right_click_button...
+05/20/2025 12:13:03 PM: INFO: Step 3: Retrieving success message...
+05/20/2025 12:13:03 PM: INFO: Step 4: Verifying message...
+Expected: 'You have done a right click'
+Actual: 'You have done a right click'
+05/20/2025 12:13:03 PM: INFO: Test Passed: rightClickMessage button displayed correct success message.
+05/20/2025 12:13:03 PM: INFO: test_Click_Buttons_rightClickMessage completed. Closing the browser.
+05/20/2025 12:13:10 PM: WARNING: Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000027970AED590>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/25271997d417b20bf6aa889d734f075f
+05/20/2025 12:13:14 PM: WARNING: Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000027970B68050>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/25271997d417b20bf6aa889d734f075f
+05/20/2025 12:13:18 PM: WARNING: Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000027970B68380>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/25271997d417b20bf6aa889d734f075f
+05/20/2025 12:13:28 PM: INFO: ********** Starting Test: TestElementsPage **********
+05/20/2025 12:13:28 PM: INFO: Initializing browser setup...
+05/20/2025 12:13:31 PM: INFO: Navigated to URL: https://demoqa.com/
+05/20/2025 12:13:31 PM: INFO: Test data loaded successfully from elements_page.json
+05/20/2025 12:13:31 PM: INFO: Setup method completed successfully.
+05/20/2025 12:13:31 PM: INFO: Step 1: Clicked on 'Elements' card.
+05/20/2025 12:13:31 PM: INFO: Step 2: Clicked on 'Buttons' option.
+05/20/2025 12:13:31 PM: INFO: ********** Test Case: test_Click_Buttons_dynamicClickMessage **********
+05/20/2025 12:13:31 PM: INFO: Step 1: Initializing ElementsPage object...
+05/20/2025 12:13:31 PM: INFO: Step 2: Performing click action using method: click_on_click_me_button...
+05/20/2025 12:13:31 PM: INFO: Step 3: Retrieving success message...
+05/20/2025 12:13:32 PM: INFO: Step 4: Verifying message...
+Expected: 'You have done a dynamic click'
+Actual: 'You have done a dynamic click'
+05/20/2025 12:13:32 PM: INFO: Test Passed: dynamicClickMessage button displayed correct success message.
+05/20/2025 12:13:32 PM: INFO: test_Click_Buttons_dynamicClickMessage completed. Closing the browser.
+05/20/2025 12:13:38 PM: WARNING: Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000027970B685A0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/41ff61c575f3e23b8388cc33046b84e8
+05/20/2025 12:13:42 PM: WARNING: Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000027970B69BF0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/41ff61c575f3e23b8388cc33046b84e8
+05/20/2025 12:13:46 PM: WARNING: Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000027970B69F20>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/41ff61c575f3e23b8388cc33046b84e8
+05/20/2025 12:18:36 PM: INFO: ********** Starting Test: TestElementsPage **********
+05/20/2025 12:18:36 PM: INFO: Initializing browser setup...
+05/20/2025 12:18:40 PM: INFO: Navigated to URL: https://demoqa.com/
+05/20/2025 12:18:40 PM: INFO: Test data loaded successfully from elements_page.json
+05/20/2025 12:18:40 PM: INFO: Setup method completed successfully.
+05/20/2025 12:18:40 PM: INFO: Step 1: Clicked on 'Elements' card.
+05/20/2025 12:18:41 PM: INFO: Step 2: Clicked on 'Buttons' option.
+05/20/2025 12:18:41 PM: INFO: ********** Test Case: test_Double_Click_Button **********
+05/20/2025 12:18:41 PM: INFO: Step 1: Initializing ElementsPage object...
+05/20/2025 12:18:41 PM: INFO: Step 2: Clicking on 'Double Click' button...
+05/20/2025 12:18:41 PM: INFO: Step 3: Retrieving success message after double click...
+05/20/2025 12:18:51 PM: INFO: Step 4: Verifying success message...
+Expected: 'You have done a double click'
+Actual: 'None'
+05/20/2025 12:18:51 PM: ERROR: Test Failed: No success message found after Double Click.
+assert None is not None
+05/20/2025 12:18:51 PM: INFO: Screenshot saved at: ./Screenshots/test_Double_Click_Button_failure.png
+05/20/2025 12:18:51 PM: INFO: Test case completed.
+05/20/2025 12:18:58 PM: WARNING: Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000023150404910>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/d4d420fefedb4e541c32a6b72123eb30
+05/20/2025 12:19:02 PM: WARNING: Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000023150404B90>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/d4d420fefedb4e541c32a6b72123eb30
+05/20/2025 12:19:06 PM: WARNING: Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000023150266D70>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/d4d420fefedb4e541c32a6b72123eb30
+05/20/2025 12:19:16 PM: INFO: ********** Starting Test: TestElementsPage **********
+05/20/2025 12:19:16 PM: INFO: Initializing browser setup...
+05/20/2025 12:19:20 PM: INFO: Navigated to URL: https://demoqa.com/
+05/20/2025 12:19:20 PM: INFO: Test data loaded successfully from elements_page.json
+05/20/2025 12:19:20 PM: INFO: Setup method completed successfully.
+05/20/2025 12:19:20 PM: INFO: Step 1: Clicked on 'Elements' card.
+05/20/2025 12:19:20 PM: INFO: Step 2: Clicked on 'Buttons' option.
+05/20/2025 12:19:20 PM: INFO: ********** Test Case: test_Right_Click_Button **********
+05/20/2025 12:19:20 PM: INFO: Step 1: Initializing ElementsPage object...
+05/20/2025 12:19:20 PM: INFO: Step 2: Performing right click on the 'Right Click' button...
+05/20/2025 12:19:21 PM: INFO: Step 3: Retrieving success message after right click...
+05/20/2025 12:19:21 PM: INFO: Step 4: Verifying success message...
+Expected: 'You have done a right click'
+Actual: 'You have done a right click'
+05/20/2025 12:19:21 PM: INFO: Test Passed: Right click button displayed the correct success message.
+05/20/2025 12:19:21 PM: INFO: test_Right_Click_Button completed.
+05/20/2025 12:19:27 PM: WARNING: Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000231503B6140>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/d87b98f3f7c6382a8554984ede7f6c36
+05/20/2025 12:19:31 PM: WARNING: Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000231503B6470>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/d87b98f3f7c6382a8554984ede7f6c36
+05/20/2025 12:19:35 PM: WARNING: Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000231503B68B0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/d87b98f3f7c6382a8554984ede7f6c36
+05/20/2025 12:19:45 PM: INFO: ********** Starting Test: TestElementsPage **********
+05/20/2025 12:19:45 PM: INFO: Initializing browser setup...
+05/20/2025 12:19:49 PM: INFO: Navigated to URL: https://demoqa.com/
+05/20/2025 12:19:49 PM: INFO: Test data loaded successfully from elements_page.json
+05/20/2025 12:19:49 PM: INFO: Setup method completed successfully.
+05/20/2025 12:19:49 PM: INFO: Step 1: Clicked on 'Elements' card.
+05/20/2025 12:19:49 PM: INFO: Step 2: Clicked on 'Buttons' option.
+05/20/2025 12:19:49 PM: INFO: 
+********** Test Case: test_Dynamic_Click_Button **********
+05/20/2025 12:19:49 PM: INFO: Step 1: Initializing ElementsPage object...
+05/20/2025 12:19:49 PM: INFO: Step 2: Performing dynamic (left) click on the 'Click Me' button...
+05/20/2025 12:19:49 PM: INFO: Step 3: Retrieving success message after the dynamic click...
+05/20/2025 12:19:49 PM: INFO: Step 4: Validating success message...
+Expected: 'You have done a dynamic click'
+Actual: 'You have done a dynamic click'
+05/20/2025 12:19:49 PM: INFO: Test Passed: Dynamic click button displayed the correct success message.
+05/20/2025 12:19:49 PM: INFO: test_Dynamic_Click_Button completed. Closing the browser.
+05/20/2025 12:19:56 PM: WARNING: Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000231503B4270>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/4873594b12a3c01d863afc92e1127829
+05/20/2025 12:20:00 PM: WARNING: Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000231503B7350>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/4873594b12a3c01d863afc92e1127829
+05/20/2025 12:20:04 PM: WARNING: Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000231503B7680>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/4873594b12a3c01d863afc92e1127829
+05/20/2025 12:20:14 PM: INFO: ********** Starting Test: TestElementsPage **********
+05/20/2025 12:20:14 PM: INFO: Initializing browser setup...
+05/20/2025 12:20:18 PM: INFO: Navigated to URL: https://demoqa.com/
+05/20/2025 12:20:18 PM: INFO: Test data loaded successfully from elements_page.json
+05/20/2025 12:20:18 PM: INFO: Setup method completed successfully.
+05/20/2025 12:20:18 PM: INFO: Step 1: Clicked on 'Elements' card.
+05/20/2025 12:20:18 PM: INFO: Step 2: Clicked on 'Buttons' option.
+05/20/2025 12:20:18 PM: INFO: ********** Test Case: test_All_Click_Buttons **********
+05/20/2025 12:20:18 PM: INFO: Step 1: Initializing ElementsPage object...
+05/20/2025 12:20:18 PM: INFO: Step 2: Clicking on 'Double Click' button...
+05/20/2025 12:20:18 PM: INFO: Retrieving success message for 'Double Click'...
+05/20/2025 12:20:18 PM: INFO: Verifying message...
+Expected: 'You have done a double click'
+Actual: 'You have done a double click'
+05/20/2025 12:20:18 PM: INFO: Step 3: Clicking on 'Right Click' button...
+05/20/2025 12:20:20 PM: INFO: Retrieving success message for 'Right Click'...
+05/20/2025 12:20:30 PM: INFO: Verifying message...
+Expected: 'You have done a right click'
+Actual: 'None'
+05/20/2025 12:20:30 PM: ERROR: Test Failed (Assertion Error): No success message for Right Click.
+assert None is not None
+05/20/2025 12:20:30 PM: INFO: Screenshot saved at: ./Screenshots/test_All_Click_Buttons_failure.png
+05/20/2025 12:20:30 PM: INFO: test_All_Click_Buttons completed. Closing the browser.
+05/20/2025 12:20:37 PM: WARNING: Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000231503B67A0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/303c3bb3bbcb7aa1c3f9f2f39aaff57b
+05/20/2025 12:20:41 PM: WARNING: Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000231503B7680>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/303c3bb3bbcb7aa1c3f9f2f39aaff57b
+05/20/2025 12:20:45 PM: WARNING: Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000231503B7460>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/303c3bb3bbcb7aa1c3f9f2f39aaff57b
+05/20/2025 12:20:55 PM: INFO: ********** Starting Test: TestElementsPage **********
+05/20/2025 12:20:55 PM: INFO: Initializing browser setup...
+05/20/2025 12:20:59 PM: INFO: Navigated to URL: https://demoqa.com/
+05/20/2025 12:20:59 PM: INFO: Test data loaded successfully from elements_page.json
+05/20/2025 12:20:59 PM: INFO: Setup method completed successfully.
+05/20/2025 12:20:59 PM: INFO: Step 1: Clicked on 'Elements' card.
+05/20/2025 12:20:59 PM: INFO: Step 2: Clicked on 'Buttons' option.
+05/20/2025 12:20:59 PM: INFO: ********** Test Case: test_Click_Buttons_doubleClickMessage **********
+05/20/2025 12:20:59 PM: INFO: Step 1: Initializing ElementsPage object...
+05/20/2025 12:20:59 PM: INFO: Step 2: Performing click action using method: click_on_double_click_button...
+05/20/2025 12:20:59 PM: INFO: Step 3: Retrieving success message...
+05/20/2025 12:21:09 PM: INFO: Step 4: Verifying message...
+Expected: 'You have done a double click'
+Actual: 'None'
+05/20/2025 12:21:09 PM: ERROR: Test Failed (Assertion Error): No success message found for doubleClickMessage.
+assert None is not None
+05/20/2025 12:21:10 PM: INFO: Screenshot saved at: ./Screenshots/test_Click_Buttons_doubleClickMessage_failure.png
+05/20/2025 12:21:10 PM: INFO: test_Click_Buttons_doubleClickMessage completed. Closing the browser.
+05/20/2025 12:21:16 PM: WARNING: Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000231503B6CF0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/386652e59de8f502de04f2feff3daa87
+05/20/2025 12:21:20 PM: WARNING: Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000231503B7130>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/386652e59de8f502de04f2feff3daa87
+05/20/2025 12:21:24 PM: WARNING: Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000231503B7680>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/386652e59de8f502de04f2feff3daa87
+05/20/2025 12:21:34 PM: INFO: ********** Starting Test: TestElementsPage **********
+05/20/2025 12:21:34 PM: INFO: Initializing browser setup...
+05/20/2025 12:21:38 PM: INFO: Navigated to URL: https://demoqa.com/
+05/20/2025 12:21:38 PM: INFO: Test data loaded successfully from elements_page.json
+05/20/2025 12:21:38 PM: INFO: Setup method completed successfully.
+05/20/2025 12:21:38 PM: INFO: Step 1: Clicked on 'Elements' card.
+05/20/2025 12:21:38 PM: INFO: Step 2: Clicked on 'Buttons' option.
+05/20/2025 12:21:38 PM: INFO: ********** Test Case: test_Click_Buttons_rightClickMessage **********
+05/20/2025 12:21:38 PM: INFO: Step 1: Initializing ElementsPage object...
+05/20/2025 12:21:38 PM: INFO: Step 2: Performing click action using method: click_on_right_click_button...
+05/20/2025 12:21:39 PM: INFO: Step 3: Retrieving success message...
+05/20/2025 12:21:39 PM: INFO: Step 4: Verifying message...
+Expected: 'You have done a right click'
+Actual: 'You have done a right click'
+05/20/2025 12:21:39 PM: INFO: Test Passed: rightClickMessage button displayed correct success message.
+05/20/2025 12:21:39 PM: INFO: test_Click_Buttons_rightClickMessage completed. Closing the browser.
+05/20/2025 12:21:45 PM: WARNING: Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000231503B5370>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/18b47c185af40088fff15ff1b3dcb03e
+05/20/2025 12:21:49 PM: WARNING: Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000231503B57B0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/18b47c185af40088fff15ff1b3dcb03e
+05/20/2025 12:21:53 PM: WARNING: Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000231503B5480>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/18b47c185af40088fff15ff1b3dcb03e
+05/20/2025 12:22:03 PM: INFO: ********** Starting Test: TestElementsPage **********
+05/20/2025 12:22:03 PM: INFO: Initializing browser setup...
+05/20/2025 12:22:07 PM: INFO: Navigated to URL: https://demoqa.com/
+05/20/2025 12:22:07 PM: INFO: Test data loaded successfully from elements_page.json
+05/20/2025 12:22:07 PM: INFO: Setup method completed successfully.
+05/20/2025 12:22:07 PM: INFO: Step 1: Clicked on 'Elements' card.
+05/20/2025 12:22:07 PM: INFO: Step 2: Clicked on 'Buttons' option.
+05/20/2025 12:22:07 PM: INFO: ********** Test Case: test_Click_Buttons_dynamicClickMessage **********
+05/20/2025 12:22:07 PM: INFO: Step 1: Initializing ElementsPage object...
+05/20/2025 12:22:07 PM: INFO: Step 2: Performing click action using method: click_on_click_me_button...
+05/20/2025 12:22:08 PM: INFO: Step 3: Retrieving success message...
+05/20/2025 12:22:08 PM: INFO: Step 4: Verifying message...
+Expected: 'You have done a dynamic click'
+Actual: 'You have done a dynamic click'
+05/20/2025 12:22:08 PM: INFO: Test Passed: dynamicClickMessage button displayed correct success message.
+05/20/2025 12:22:08 PM: INFO: test_Click_Buttons_dynamicClickMessage completed. Closing the browser.
+05/20/2025 12:22:14 PM: WARNING: Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000231503B5F20>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/88996920110fe9c96450317576457d92
+05/20/2025 12:22:18 PM: WARNING: Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000023150445370>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/88996920110fe9c96450317576457d92
+05/20/2025 12:22:22 PM: WARNING: Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000231504456A0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/88996920110fe9c96450317576457d92
+05/20/2025 12:26:07 PM: INFO: ********** Starting Test: TestElementsPage **********
+05/20/2025 12:26:07 PM: INFO: Initializing browser setup...
+05/20/2025 12:26:11 PM: INFO: Navigated to URL: https://demoqa.com/
+05/20/2025 12:26:11 PM: INFO: Test data loaded successfully from elements_page.json
+05/20/2025 12:26:11 PM: INFO: Setup method completed successfully.
+05/20/2025 12:26:11 PM: INFO: Step 1: Clicked on 'Elements' card.
+05/20/2025 12:26:11 PM: INFO: Step 2: Clicked on 'Buttons' option.
+05/20/2025 12:26:11 PM: INFO: ********** Test Case: test_Double_Click_Button **********
+05/20/2025 12:26:11 PM: INFO: Step 1: Initializing ElementsPage object...
+05/20/2025 12:26:11 PM: INFO: Step 2: Clicking on 'Double Click' button...
+05/20/2025 12:26:12 PM: INFO: Step 3: Retrieving success message after double click...
+05/20/2025 12:26:13 PM: INFO: Step 4: Verifying success message...
+Expected: 'You have done a double click'
+Actual: 'You have done a double click'
+05/20/2025 12:26:13 PM: INFO: Test Passed: Double click button displayed correct success message.
+05/20/2025 12:26:13 PM: INFO: Test case completed.
+05/20/2025 12:26:20 PM: WARNING: Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000028D3A894050>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/54cd0971d4a5eef435df4e4a954376a6
+05/20/2025 12:26:24 PM: WARNING: Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000028D3A894410>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/54cd0971d4a5eef435df4e4a954376a6
+05/20/2025 12:26:28 PM: WARNING: Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000028D3A75F490>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/54cd0971d4a5eef435df4e4a954376a6
+05/20/2025 12:26:38 PM: INFO: ********** Starting Test: TestElementsPage **********
+05/20/2025 12:26:38 PM: INFO: Initializing browser setup...
+05/20/2025 12:26:42 PM: INFO: Navigated to URL: https://demoqa.com/
+05/20/2025 12:26:42 PM: INFO: Test data loaded successfully from elements_page.json
+05/20/2025 12:26:42 PM: INFO: Setup method completed successfully.
+05/20/2025 12:26:42 PM: INFO: Step 1: Clicked on 'Elements' card.
+05/20/2025 12:26:42 PM: INFO: Step 2: Clicked on 'Buttons' option.
+05/20/2025 12:26:42 PM: INFO: ********** Test Case: test_Right_Click_Button **********
+05/20/2025 12:26:42 PM: INFO: Step 1: Initializing ElementsPage object...
+05/20/2025 12:26:42 PM: INFO: Step 2: Performing right click on the 'Right Click' button...
+05/20/2025 12:26:42 PM: INFO: Step 3: Retrieving success message after right click...
+05/20/2025 12:26:43 PM: INFO: Step 4: Verifying success message...
+Expected: 'You have done a right click'
+Actual: 'You have done a right click'
+05/20/2025 12:26:43 PM: INFO: Test Passed: Right click button displayed the correct success message.
+05/20/2025 12:26:43 PM: INFO: test_Right_Click_Button completed.
+05/20/2025 12:26:50 PM: WARNING: Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000028D3A891AE0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/affc594d06f848fa650612f662f0b307
+05/20/2025 12:26:54 PM: WARNING: Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000028D3A891E10>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/affc594d06f848fa650612f662f0b307
+05/20/2025 12:26:58 PM: WARNING: Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000028D3A892250>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/affc594d06f848fa650612f662f0b307
+05/20/2025 12:27:08 PM: INFO: ********** Starting Test: TestElementsPage **********
+05/20/2025 12:27:08 PM: INFO: Initializing browser setup...
+05/20/2025 12:27:12 PM: INFO: Navigated to URL: https://demoqa.com/
+05/20/2025 12:27:12 PM: INFO: Test data loaded successfully from elements_page.json
+05/20/2025 12:27:12 PM: INFO: Setup method completed successfully.
+05/20/2025 12:27:12 PM: INFO: Step 1: Clicked on 'Elements' card.
+05/20/2025 12:27:12 PM: INFO: Step 2: Clicked on 'Buttons' option.
+05/20/2025 12:27:12 PM: INFO: 
+********** Test Case: test_Dynamic_Click_Button **********
+05/20/2025 12:27:12 PM: INFO: Step 1: Initializing ElementsPage object...
+05/20/2025 12:27:12 PM: INFO: Step 2: Performing dynamic (left) click on the 'Click Me' button...
+05/20/2025 12:27:12 PM: INFO: Step 3: Retrieving success message after the dynamic click...
+05/20/2025 12:27:13 PM: INFO: Step 4: Validating success message...
+Expected: 'You have done a dynamic click'
+Actual: 'You have done a dynamic click'
+05/20/2025 12:27:13 PM: INFO: Test Passed: Dynamic click button displayed the correct success message.
+05/20/2025 12:27:13 PM: INFO: test_Dynamic_Click_Button completed. Closing the browser.
+05/20/2025 12:27:19 PM: WARNING: Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000028D3A890270>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/5f293c08cd19c7edb53f9f0157d27f36
+05/20/2025 12:27:23 PM: WARNING: Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000028D3A892CF0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/5f293c08cd19c7edb53f9f0157d27f36
+05/20/2025 12:27:27 PM: WARNING: Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000028D3A893020>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/5f293c08cd19c7edb53f9f0157d27f36
+05/20/2025 12:27:37 PM: INFO: ********** Starting Test: TestElementsPage **********
+05/20/2025 12:27:37 PM: INFO: Initializing browser setup...
+05/20/2025 12:28:01 PM: INFO: Navigated to URL: https://demoqa.com/
+05/20/2025 12:28:01 PM: INFO: Test data loaded successfully from elements_page.json
+05/20/2025 12:28:01 PM: INFO: Setup method completed successfully.
+05/20/2025 12:28:01 PM: INFO: Step 1: Clicked on 'Elements' card.
+05/20/2025 12:28:02 PM: INFO: Step 2: Clicked on 'Buttons' option.
+05/20/2025 12:28:02 PM: INFO: ********** Test Case: test_All_Click_Buttons **********
+05/20/2025 12:28:02 PM: INFO: Step 1: Initializing ElementsPage object...
+05/20/2025 12:28:02 PM: INFO: Step 2: Clicking on 'Double Click' button...
+05/20/2025 12:28:03 PM: INFO: Retrieving success message for 'Double Click'...
+05/20/2025 12:28:13 PM: INFO: Verifying message...
+Expected: 'You have done a double click'
+Actual: 'None'
+05/20/2025 12:28:13 PM: ERROR: Test Failed (Assertion Error): No success message for Double Click.
+assert None is not None
+05/20/2025 12:28:13 PM: INFO: Screenshot saved at: ./Screenshots/test_All_Click_Buttons_failure.png
+05/20/2025 12:28:13 PM: INFO: test_All_Click_Buttons completed. Closing the browser.
+05/20/2025 12:28:20 PM: WARNING: Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000028D3A893570>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/9c49efa53129162775216c6fa3a24cfb
+05/20/2025 12:28:24 PM: WARNING: Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000028D3A892140>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/9c49efa53129162775216c6fa3a24cfb
+05/20/2025 12:28:28 PM: WARNING: Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000028D3A893020>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/9c49efa53129162775216c6fa3a24cfb
+05/20/2025 12:28:38 PM: INFO: ********** Starting Test: TestElementsPage **********
+05/20/2025 12:28:38 PM: INFO: Initializing browser setup...
+05/20/2025 12:28:48 PM: INFO: Navigated to URL: https://demoqa.com/
+05/20/2025 12:28:48 PM: INFO: Test data loaded successfully from elements_page.json
+05/20/2025 12:28:48 PM: INFO: Setup method completed successfully.
+05/20/2025 12:28:48 PM: INFO: Step 1: Clicked on 'Elements' card.
+05/20/2025 12:28:48 PM: INFO: Step 2: Clicked on 'Buttons' option.
+05/20/2025 12:28:48 PM: INFO: ********** Test Case: test_Click_Buttons_doubleClickMessage **********
+05/20/2025 12:28:48 PM: INFO: Step 1: Initializing ElementsPage object...
+05/20/2025 12:28:48 PM: INFO: Step 2: Performing click action using method: click_on_double_click_button...
+05/20/2025 12:28:49 PM: INFO: Step 3: Retrieving success message...
+05/20/2025 12:28:50 PM: INFO: Step 4: Verifying message...
+Expected: 'You have done a double click'
+Actual: 'You have done a double click'
+05/20/2025 12:28:50 PM: INFO: Test Passed: doubleClickMessage button displayed correct success message.
+05/20/2025 12:28:50 PM: INFO: test_Click_Buttons_doubleClickMessage completed. Closing the browser.
+05/20/2025 12:28:56 PM: WARNING: Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000028D3A892CF0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/4693b6e0d1205d263cf5bff77ed3962a
+05/20/2025 12:29:00 PM: WARNING: Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000028D3A8928B0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/4693b6e0d1205d263cf5bff77ed3962a
+05/20/2025 12:29:04 PM: WARNING: Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000028D3A892470>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/4693b6e0d1205d263cf5bff77ed3962a
+05/20/2025 12:29:14 PM: INFO: ********** Starting Test: TestElementsPage **********
+05/20/2025 12:29:14 PM: INFO: Initializing browser setup...
+05/20/2025 12:29:24 PM: INFO: Navigated to URL: https://demoqa.com/
+05/20/2025 12:29:24 PM: INFO: Test data loaded successfully from elements_page.json
+05/20/2025 12:29:24 PM: INFO: Setup method completed successfully.
+05/20/2025 12:29:24 PM: INFO: Step 1: Clicked on 'Elements' card.
+05/20/2025 12:29:24 PM: INFO: Step 2: Clicked on 'Buttons' option.
+05/20/2025 12:29:24 PM: INFO: ********** Test Case: test_Click_Buttons_rightClickMessage **********
+05/20/2025 12:29:24 PM: INFO: Step 1: Initializing ElementsPage object...
+05/20/2025 12:29:24 PM: INFO: Step 2: Performing click action using method: click_on_right_click_button...
+05/20/2025 12:29:25 PM: INFO: Step 3: Retrieving success message...
+05/20/2025 12:29:35 PM: INFO: Step 4: Verifying message...
+Expected: 'You have done a right click'
+Actual: 'None'
+05/20/2025 12:29:35 PM: ERROR: Test Failed (Assertion Error): No success message found for rightClickMessage.
+assert None is not None
+05/20/2025 12:29:36 PM: INFO: Screenshot saved at: ./Screenshots/test_Click_Buttons_rightClickMessage_failure.png
+05/20/2025 12:29:36 PM: INFO: test_Click_Buttons_rightClickMessage completed. Closing the browser.
+05/20/2025 12:29:42 PM: WARNING: Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000028D3A891E10>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/cd4dd07cfd832e786c3c6f911339af3d
+05/20/2025 12:29:46 PM: WARNING: Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000028D3A892250>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/cd4dd07cfd832e786c3c6f911339af3d
+05/20/2025 12:29:51 PM: WARNING: Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000028D3A892690>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/cd4dd07cfd832e786c3c6f911339af3d
+05/20/2025 12:30:01 PM: INFO: ********** Starting Test: TestElementsPage **********
+05/20/2025 12:30:01 PM: INFO: Initializing browser setup...
+05/20/2025 12:30:10 PM: INFO: Navigated to URL: https://demoqa.com/
+05/20/2025 12:30:10 PM: INFO: Test data loaded successfully from elements_page.json
+05/20/2025 12:30:10 PM: INFO: Setup method completed successfully.
+05/20/2025 12:30:11 PM: INFO: Step 1: Clicked on 'Elements' card.
+05/20/2025 12:30:11 PM: INFO: Step 2: Clicked on 'Buttons' option.
+05/20/2025 12:30:11 PM: INFO: ********** Test Case: test_Click_Buttons_dynamicClickMessage **********
+05/20/2025 12:30:11 PM: INFO: Step 1: Initializing ElementsPage object...
+05/20/2025 12:30:11 PM: INFO: Step 2: Performing click action using method: click_on_click_me_button...
+05/20/2025 12:30:11 PM: INFO: Step 3: Retrieving success message...
+05/20/2025 12:30:11 PM: INFO: Step 4: Verifying message...
+Expected: 'You have done a dynamic click'
+Actual: 'You have done a dynamic click'
+05/20/2025 12:30:11 PM: INFO: Test Passed: dynamicClickMessage button displayed correct success message.
+05/20/2025 12:30:11 PM: INFO: test_Click_Buttons_dynamicClickMessage completed. Closing the browser.
+05/20/2025 12:30:17 PM: WARNING: Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000028D3A8917B0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/fc67597b54e6c9c04647c82f0185aad7
+05/20/2025 12:30:21 PM: WARNING: Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000028D3AC34050>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/fc67597b54e6c9c04647c82f0185aad7
+05/20/2025 12:30:26 PM: WARNING: Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000028D3AC34380>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/fc67597b54e6c9c04647c82f0185aad7
+05/20/2025 12:41:13 PM: INFO: ********** Starting Test: TestElementsPage **********
+05/20/2025 12:41:13 PM: INFO: Initializing browser setup...
+05/20/2025 12:41:21 PM: INFO: Navigated to URL: https://demoqa.com/
+05/20/2025 12:41:21 PM: INFO: Test data loaded successfully from elements_page.json
+05/20/2025 12:41:21 PM: INFO: Setup method completed successfully.
+05/20/2025 12:41:21 PM: INFO: Step 1: Clicked on 'Elements' card.
+05/20/2025 12:41:21 PM: INFO: Step 2: Clicked on 'Buttons' option.
+05/20/2025 12:41:21 PM: INFO: ********** Test Case: test_Double_Click_Button **********
+05/20/2025 12:41:21 PM: INFO: Step 1: Initializing ElementsPage object...
+05/20/2025 12:41:21 PM: INFO: Step 2: Clicking on 'Double Click' button...
+05/20/2025 12:41:22 PM: INFO: Step 3: Retrieving success message after double click...
+05/20/2025 12:41:32 PM: INFO: Step 4: Verifying success message...
+Expected: 'You have done a double click'
+Actual: 'None'
+05/20/2025 12:41:32 PM: ERROR: Test Failed: No success message found after Double Click.
+assert None is not None
+05/20/2025 12:41:32 PM: INFO: Screenshot saved at: ./Screenshots/test_Double_Click_Button_failure.png
+05/20/2025 12:41:32 PM: INFO: Test case completed.
+05/20/2025 12:41:39 PM: WARNING: Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001DB0AAC4910>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/a6c36ec32c7fa583a62379311209094f
+05/20/2025 12:47:16 PM: INFO: ********** Starting Test: TestElementsPage **********
+05/20/2025 12:47:16 PM: INFO: Initializing browser setup...
+05/20/2025 12:47:40 PM: INFO: Navigated to URL: https://demoqa.com/
+05/20/2025 12:47:40 PM: INFO: Test data loaded successfully from elements_page.json
+05/20/2025 12:47:40 PM: INFO: Setup method completed successfully.
+05/20/2025 12:47:40 PM: INFO: Step 1: Clicked on 'Elements' card.
+05/20/2025 12:47:41 PM: INFO: Step 2: Clicked on 'Buttons' option.
+05/20/2025 12:47:41 PM: INFO: ********** Test Case: test_Double_Click_Button **********
+05/20/2025 12:47:41 PM: INFO: Step 1: Initializing ElementsPage object...
+05/20/2025 12:47:41 PM: INFO: Step 2: Clicking on 'Double Click' button...
+05/20/2025 12:47:42 PM: INFO: Step 3: Retrieving success message after double click...
+05/20/2025 12:47:52 PM: INFO: Step 4: Verifying success message...
+Expected: 'You have done a double click'
+Actual: 'None'
+05/20/2025 12:47:52 PM: ERROR: Test Failed: No success message found after Double Click.
+assert None is not None
+05/20/2025 12:47:52 PM: INFO: Screenshot saved at: ./Screenshots/test_Double_Click_Button_failure.png
+05/20/2025 12:47:52 PM: INFO: Test case completed.
+05/20/2025 12:47:59 PM: WARNING: Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002208A3D4910>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/d08024c984f26d0c8ba054f6717ea7b7
+05/20/2025 12:48:03 PM: WARNING: Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002208A3D4B90>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/d08024c984f26d0c8ba054f6717ea7b7
+05/20/2025 12:53:51 PM: INFO: ********** Starting Test: TestElementsPage **********
+05/20/2025 12:53:51 PM: INFO: Initializing browser setup...
+05/20/2025 12:53:56 PM: INFO: Navigated to URL: https://demoqa.com/
+05/20/2025 12:53:56 PM: INFO: Test data loaded successfully from elements_page.json
+05/20/2025 12:53:56 PM: INFO: Setup method completed successfully.
+05/20/2025 12:53:56 PM: INFO: Step 1: Clicked on 'Elements' card.
+05/20/2025 12:53:56 PM: INFO: Step 2: Clicked on 'Buttons' option.
+05/20/2025 12:53:56 PM: INFO: ********** Test Case: test_Double_Click_Button **********
+05/20/2025 12:53:56 PM: INFO: Step 1: Initializing ElementsPage object...
+05/20/2025 12:53:56 PM: INFO: Step 2: Clicking on 'Double Click' button...
+05/20/2025 12:53:57 PM: INFO: Step 3: Retrieving success message after double click...
+05/20/2025 12:54:07 PM: INFO: Step 4: Verifying success message...
+Expected: 'You have done a double click'
+Actual: 'None'
+05/20/2025 12:54:07 PM: ERROR: Test Failed: No success message found after Double Click.
+assert None is not None
+05/20/2025 12:54:07 PM: INFO: Screenshot saved at: ./Screenshots/test_Double_Click_Button_failure.png
+05/20/2025 12:54:07 PM: INFO: Test case completed.
+05/20/2025 12:54:14 PM: WARNING: Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002DDC1E7C910>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/940663b90d201288cfe3c872fdd69b2a
+05/20/2025 12:54:18 PM: WARNING: Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002DDC1E7CB90>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/940663b90d201288cfe3c872fdd69b2a
+05/20/2025 12:54:22 PM: WARNING: Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002DDC1D06EA0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/940663b90d201288cfe3c872fdd69b2a
+05/20/2025 12:56:23 PM: INFO: ********** Starting Test: TestElementsPage **********
+05/20/2025 12:56:23 PM: INFO: Initializing browser setup...
+05/20/2025 12:56:27 PM: INFO: Navigated to URL: https://demoqa.com/
+05/20/2025 12:56:27 PM: INFO: Test data loaded successfully from elements_page.json
+05/20/2025 12:56:27 PM: INFO: Setup method completed successfully.
+05/20/2025 12:56:27 PM: INFO: Step 1: Clicked on 'Elements' card.
+05/20/2025 12:56:28 PM: INFO: Step 2: Clicked on 'Buttons' option.
+05/20/2025 12:56:28 PM: INFO: ********** Test Case: test_Double_Click_Button **********
+05/20/2025 12:56:28 PM: INFO: Step 1: Initializing ElementsPage object...
+05/20/2025 12:56:28 PM: INFO: Step 2: Clicking on 'Double Click' button...
+05/20/2025 12:56:28 PM: INFO: Step 3: Retrieving success message after double click...
+05/20/2025 12:56:39 PM: INFO: Step 4: Verifying success message...
+Expected: 'You have done a double click'
+Actual: 'None'
+05/20/2025 12:56:39 PM: ERROR: Test Failed: No success message found after Double Click.
+assert None is not None
+05/20/2025 12:56:39 PM: INFO: Screenshot saved at: ./Screenshots/test_Double_Click_Button_failure.png
+05/20/2025 12:56:39 PM: INFO: Test case completed.
+05/20/2025 12:56:46 PM: WARNING: Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001DE4D184910>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/f915699712a00ff692a725d7faa5c262
+05/20/2025 12:56:50 PM: WARNING: Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001DE4D184B90>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/f915699712a00ff692a725d7faa5c262
+05/20/2025 12:56:54 PM: WARNING: Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001DE4D04AD70>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/f915699712a00ff692a725d7faa5c262
+05/20/2025 01:04:02 PM: INFO: ********** Starting Test: TestElementsPage **********
+05/20/2025 01:04:02 PM: INFO: Initializing browser setup...
+05/20/2025 01:04:06 PM: INFO: Navigated to URL: https://demoqa.com/
+05/20/2025 01:04:06 PM: INFO: Test data loaded successfully from elements_page.json
+05/20/2025 01:04:06 PM: INFO: Setup method completed successfully.
+05/20/2025 01:04:06 PM: INFO: Step 1: Clicked on 'Elements' card.
+05/20/2025 01:04:06 PM: INFO: Step 2: Clicked on 'Buttons' option.
+05/20/2025 01:04:06 PM: INFO: ********** Test Case: test_Double_Click_Button **********
+05/20/2025 01:04:06 PM: INFO: Step 1: Initializing ElementsPage object...
+05/20/2025 01:04:06 PM: INFO: Step 2: Clicking on 'Double Click' button...
+05/20/2025 01:04:07 PM: INFO: Step 3: Retrieving success message after double click...
+05/20/2025 01:04:07 PM: INFO: Step 4: Verifying success message...
+Expected: 'You have done a double click'
+Actual: 'You have done a double click'
+05/20/2025 01:04:07 PM: INFO: Test Passed: Double click button displayed correct success message.
+05/20/2025 01:04:07 PM: INFO: Test case completed.
+05/20/2025 01:04:14 PM: WARNING: Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000118E3F082D0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/cdd9112d0c14bccc6631178ed366447b
+05/20/2025 01:04:18 PM: WARNING: Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000118E3F08550>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/cdd9112d0c14bccc6631178ed366447b
+05/20/2025 01:04:22 PM: WARNING: Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000118E3DC7490>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/cdd9112d0c14bccc6631178ed366447b
+05/20/2025 02:01:44 PM: INFO: ********** Starting Test: TestElementsPage **********
+05/20/2025 02:01:44 PM: INFO: Initializing browser setup...
+05/20/2025 02:01:48 PM: INFO: Navigated to URL: https://demoqa.com/
+05/20/2025 02:01:48 PM: INFO: Test data loaded successfully from elements_page.json
+05/20/2025 02:01:48 PM: INFO: Setup method completed successfully.
+05/20/2025 02:01:48 PM: INFO: Step 1: Clicked on 'Elements' card.
+05/20/2025 02:01:49 PM: INFO: Step 2: Clicked on 'Buttons' option.
+05/20/2025 02:01:49 PM: INFO: ********** Test Case: test_Double_Click_Button **********
+05/20/2025 02:01:49 PM: INFO: Step 1: Initializing ElementsPage object...
+05/20/2025 02:01:49 PM: INFO: Step 2: Clicking on 'Double Click' button...
+05/20/2025 02:01:49 PM: INFO: Step 3: Retrieving success message after double click...
+05/20/2025 02:01:59 PM: INFO: Step 4: Verifying success message...
+Expected: 'You have done a double click'
+Actual: 'None'
+05/20/2025 02:01:59 PM: ERROR: Test Failed: No success message found after Double Click.
+assert None is not None
+05/20/2025 02:02:01 PM: INFO: Screenshot saved at: ./Screenshots/test_Double_Click_Button_failure.png
+05/20/2025 02:02:01 PM: INFO: Test case completed.
+05/20/2025 02:02:07 PM: WARNING: Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000181F11E4910>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/6b9b27a1370aa6faccbea4ee11728f4a
+05/20/2025 02:02:11 PM: WARNING: Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000181F11E4B90>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/6b9b27a1370aa6faccbea4ee11728f4a
+05/20/2025 02:02:15 PM: WARNING: Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000181F10AAD70>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/6b9b27a1370aa6faccbea4ee11728f4a
+05/20/2025 02:02:41 PM: INFO: ********** Starting Test: TestElementsPage **********
+05/20/2025 02:02:41 PM: INFO: Initializing browser setup...
+05/20/2025 02:02:45 PM: INFO: Navigated to URL: https://demoqa.com/
+05/20/2025 02:02:45 PM: INFO: Test data loaded successfully from elements_page.json
+05/20/2025 02:02:45 PM: INFO: Setup method completed successfully.
+05/20/2025 02:02:45 PM: INFO: Step 1: Clicked on 'Elements' card.
+05/20/2025 02:02:45 PM: INFO: Step 2: Clicked on 'Buttons' option.
+05/20/2025 02:02:45 PM: INFO: ********** Test Case: test_Double_Click_Button **********
+05/20/2025 02:02:45 PM: INFO: Step 1: Initializing ElementsPage object...
+05/20/2025 02:02:45 PM: INFO: Step 2: Clicking on 'Double Click' button...
+05/20/2025 02:02:47 PM: INFO: Step 3: Retrieving success message after double click...
+05/20/2025 02:02:47 PM: INFO: Step 4: Verifying success message...
+Expected: 'You have done a double click'
+Actual: 'You have done a double click'
+05/20/2025 02:02:47 PM: INFO: Test Passed: Double click button displayed correct success message.
+05/20/2025 02:02:47 PM: INFO: Test case completed.
+05/20/2025 02:02:54 PM: WARNING: Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002B8318F4050>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/8c88af5badd805721961357b1d7b5c8c
+05/20/2025 02:02:58 PM: WARNING: Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002B8318F4410>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/8c88af5badd805721961357b1d7b5c8c
+05/20/2025 02:03:02 PM: WARNING: Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002B8317B7360>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/8c88af5badd805721961357b1d7b5c8c
+05/20/2025 02:04:11 PM: INFO: ********** Starting Test: TestElementsPage **********
+05/20/2025 02:04:11 PM: INFO: Initializing browser setup...
+05/20/2025 02:04:14 PM: INFO: Navigated to URL: https://demoqa.com/
+05/20/2025 02:04:14 PM: INFO: Test data loaded successfully from elements_page.json
+05/20/2025 02:04:14 PM: INFO: Setup method completed successfully.
+05/20/2025 02:04:15 PM: INFO: Step 1: Clicked on 'Elements' card.
+05/20/2025 02:04:15 PM: INFO: Step 2: Clicked on 'Buttons' option.
+05/20/2025 02:04:15 PM: INFO: ********** Test Case: test_Double_Click_Button **********
+05/20/2025 02:04:15 PM: INFO: Step 1: Initializing ElementsPage object...
+05/20/2025 02:04:15 PM: INFO: Step 2: Clicking on 'Double Click' button...
+05/20/2025 02:04:15 PM: INFO: Step 3: Retrieving success message after double click...
+05/20/2025 02:04:16 PM: INFO: Step 4: Verifying success message...
+Expected: 'You have done a double click'
+Actual: 'You have done a double click'
+05/20/2025 02:04:16 PM: INFO: Test Passed: Double click button displayed correct success message.
+05/20/2025 02:04:16 PM: INFO: Test case completed.
+05/20/2025 02:04:23 PM: WARNING: Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001866EE84050>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/e427df65c4361f7b0a17e7561e37cbf0
+05/20/2025 02:04:27 PM: WARNING: Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001866EE84410>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/e427df65c4361f7b0a17e7561e37cbf0
+05/20/2025 02:04:31 PM: WARNING: Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001866ED17490>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/e427df65c4361f7b0a17e7561e37cbf0
+05/20/2025 02:04:41 PM: INFO: ********** Starting Test: TestElementsPage **********
+05/20/2025 02:04:41 PM: INFO: Initializing browser setup...
+05/20/2025 02:04:45 PM: INFO: Navigated to URL: https://demoqa.com/
+05/20/2025 02:04:45 PM: INFO: Test data loaded successfully from elements_page.json
+05/20/2025 02:04:45 PM: INFO: Setup method completed successfully.
+05/20/2025 02:04:45 PM: INFO: Step 1: Clicked on 'Elements' card.
+05/20/2025 02:04:45 PM: INFO: Step 2: Clicked on 'Buttons' option.
+05/20/2025 02:04:45 PM: INFO: ********** Test Case: test_Right_Click_Button **********
+05/20/2025 02:04:45 PM: INFO: Step 1: Initializing ElementsPage object...
+05/20/2025 02:04:45 PM: INFO: Step 2: Performing right click on the 'Right Click' button...
+05/20/2025 02:04:45 PM: INFO: Step 3: Retrieving success message after right click...
+05/20/2025 02:04:56 PM: INFO: Step 4: Verifying success message...
+Expected: 'You have done a right click'
+Actual: 'None'
+05/20/2025 02:04:56 PM: ERROR: Test Failed (Assertion Error): No success message found after right click.
+assert None is not None
+05/20/2025 02:04:56 PM: INFO: Screenshot saved at: ./Screenshots/test_Right_Click_Button_failure.png
+05/20/2025 02:04:56 PM: INFO: test_Right_Click_Button completed.
+05/20/2025 02:05:03 PM: WARNING: Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001866EE6D040>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/3950a8e89b67fc52477b78cbfb848d21
+05/20/2025 02:06:42 PM: INFO: ********** Starting Test: TestElementsPage **********
+05/20/2025 02:06:42 PM: INFO: Initializing browser setup...
+05/20/2025 02:06:43 PM: INFO: Navigated to URL: https://demoqa.com/
+05/20/2025 02:06:43 PM: INFO: Test data loaded successfully from elements_page.json
+05/20/2025 02:06:43 PM: INFO: Setup method completed successfully.
+05/20/2025 02:06:46 PM: INFO: Step 1: Clicked on 'Elements' card.
+05/20/2025 02:06:46 PM: INFO: Step 2: Clicked on 'Buttons' option.
+05/20/2025 02:06:46 PM: INFO: ********** Test Case: test_Right_Click_Button **********
+05/20/2025 02:06:46 PM: INFO: Step 1: Initializing ElementsPage object...
+05/20/2025 02:06:46 PM: INFO: Step 2: Performing right click on the 'Right Click' button...
+05/20/2025 02:06:47 PM: INFO: Step 3: Retrieving success message after right click...
+05/20/2025 02:06:59 PM: ERROR: An unexpected error occurred: Message: invalid session id: session deleted as the browser has closed the connection
+from disconnected: not connected to DevTools
+  (Session info: chrome=136.0.7103.114)
+Stacktrace:
+	GetHandleVerifier [0x00007FF60A85CF65+75717]
+	GetHandleVerifier [0x00007FF60A85CFC0+75808]
+	(No symbol) [0x00007FF60A628F9A]
+	(No symbol) [0x00007FF60A614E35]
+	(No symbol) [0x00007FF60A639DB4]
+	(No symbol) [0x00007FF60A6AEE75]
+	(No symbol) [0x00007FF60A6CECC2]
+	(No symbol) [0x00007FF60A6A7153]
+	(No symbol) [0x00007FF60A670421]
+	(No symbol) [0x00007FF60A6711B3]
+	GetHandleVerifier [0x00007FF60AB5D74D+3223469]
+	GetHandleVerifier [0x00007FF60AB57CF2+3200338]
+	GetHandleVerifier [0x00007FF60AB75B23+3322755]
+	GetHandleVerifier [0x00007FF60A876A3A+180890]
+	GetHandleVerifier [0x00007FF60A87E13F+211359]
+	GetHandleVerifier [0x00007FF60A8652B4+109332]
+	GetHandleVerifier [0x00007FF60A865462+109762]
+	GetHandleVerifier [0x00007FF60A84BA79+4825]
+	BaseThreadInitThunk [0x00007FFA8C56E8D7+23]
+	RtlUserThreadStart [0x00007FFA8E75C5DC+44]
+
+05/20/2025 02:06:59 PM: INFO: test_Right_Click_Button completed.
+05/20/2025 02:07:06 PM: WARNING: Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001C8B5FF9090>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/be04491c7dd3118167d8a358c4c1c416
+05/20/2025 02:07:10 PM: WARNING: Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001C8B5FF9450>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/be04491c7dd3118167d8a358c4c1c416
+05/20/2025 02:07:14 PM: WARNING: Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001C8B6030180>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/be04491c7dd3118167d8a358c4c1c416
+05/20/2025 02:07:33 PM: INFO: ********** Starting Test: TestElementsPage **********
+05/20/2025 02:07:33 PM: INFO: Initializing browser setup...
+05/20/2025 02:07:36 PM: INFO: Navigated to URL: https://demoqa.com/
+05/20/2025 02:07:36 PM: INFO: Test data loaded successfully from elements_page.json
+05/20/2025 02:07:36 PM: INFO: Setup method completed successfully.
+05/20/2025 02:07:37 PM: INFO: Step 1: Clicked on 'Elements' card.
+05/20/2025 02:07:37 PM: INFO: Step 2: Clicked on 'Buttons' option.
+05/20/2025 02:07:37 PM: INFO: ********** Test Case: test_Right_Click_Button **********
+05/20/2025 02:07:37 PM: INFO: Step 1: Initializing ElementsPage object...
+05/20/2025 02:07:37 PM: INFO: Step 2: Performing right click on the 'Right Click' button...
+05/20/2025 02:07:37 PM: INFO: Step 3: Retrieving success message after right click...
+05/20/2025 02:07:48 PM: INFO: Step 4: Verifying success message...
+Expected: 'You have done a right click'
+Actual: 'None'
+05/20/2025 02:07:48 PM: ERROR: Test Failed (Assertion Error): No success message found after right click.
+assert None is not None
+05/20/2025 02:07:48 PM: INFO: Screenshot saved at: ./Screenshots/test_Right_Click_Button_failure.png
+05/20/2025 02:07:48 PM: INFO: test_Right_Click_Button completed.
+05/20/2025 02:07:55 PM: WARNING: Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000022E05D48690>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/348ce6612ac4da82d17292c35f8651fb
+05/20/2025 02:07:59 PM: WARNING: Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000022E05D48910>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/348ce6612ac4da82d17292c35f8651fb
+05/20/2025 02:08:03 PM: WARNING: Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000022E05C1F950>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/348ce6612ac4da82d17292c35f8651fb
+05/20/2025 02:08:48 PM: INFO: ********** Starting Test: TestElementsPage **********
+05/20/2025 02:08:48 PM: INFO: Initializing browser setup...
+05/20/2025 02:08:51 PM: INFO: Navigated to URL: https://demoqa.com/
+05/20/2025 02:08:51 PM: INFO: Test data loaded successfully from elements_page.json
+05/20/2025 02:08:51 PM: INFO: Setup method completed successfully.
+05/20/2025 02:08:52 PM: INFO: Step 1: Clicked on 'Elements' card.
+05/20/2025 02:08:52 PM: INFO: Step 2: Clicked on 'Buttons' option.
+05/20/2025 02:08:52 PM: INFO: ********** Test Case: test_Right_Click_Button **********
+05/20/2025 02:08:52 PM: INFO: Step 1: Initializing ElementsPage object...
+05/20/2025 02:08:52 PM: INFO: Step 2: Performing right click on the 'Right Click' button...
+05/20/2025 02:08:53 PM: INFO: Step 3: Retrieving success message after right click...
+05/20/2025 02:09:03 PM: INFO: Step 4: Verifying success message...
+Expected: 'You have done a right click'
+Actual: 'None'
+05/20/2025 02:09:03 PM: ERROR: Test Failed (Assertion Error): No success message found after right click.
+assert None is not None
+05/20/2025 02:09:03 PM: INFO: Screenshot saved at: ./Screenshots/test_Right_Click_Button_failure.png
+05/20/2025 02:09:03 PM: INFO: test_Right_Click_Button completed.
+05/20/2025 02:09:10 PM: WARNING: Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000020636718690>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/9ce23232f5f5adc906659e12edea92fc
+05/20/2025 02:09:14 PM: WARNING: Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000020636718910>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/9ce23232f5f5adc906659e12edea92fc
+05/20/2025 02:09:18 PM: WARNING: Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000206365EB950>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/9ce23232f5f5adc906659e12edea92fc
+05/20/2025 02:12:38 PM: INFO: ********** Starting Test: TestElementsPage **********
+05/20/2025 02:12:38 PM: INFO: Initializing browser setup...
+05/20/2025 02:12:42 PM: INFO: Navigated to URL: https://demoqa.com/
+05/20/2025 02:12:42 PM: INFO: Test data loaded successfully from elements_page.json
+05/20/2025 02:12:42 PM: INFO: Setup method completed successfully.
+05/20/2025 02:12:42 PM: INFO: Step 1: Clicked on 'Elements' card.
+05/20/2025 02:12:43 PM: INFO: Step 2: Clicked on 'Buttons' option.
+05/20/2025 02:12:43 PM: INFO: ********** Test Case: test_Right_Click_Button **********
+05/20/2025 02:12:43 PM: INFO: Step 1: Initializing ElementsPage object...
+05/20/2025 02:12:43 PM: INFO: Step 2: Performing right click on the 'Right Click' button...
+05/20/2025 02:12:44 PM: INFO: Step 3: Retrieving success message after right click...
+05/20/2025 02:13:03 PM: INFO: Step 4: Verifying success message...
+Expected: 'You have done a right click'
+Actual: 'None'
+05/20/2025 02:13:03 PM: ERROR: Test Failed (Assertion Error): No success message found after right click.
+assert None is not None
+05/20/2025 02:13:03 PM: INFO: Screenshot saved at: ./Screenshots/test_Right_Click_Button_failure.png
+05/20/2025 02:13:03 PM: INFO: test_Right_Click_Button completed.
+05/20/2025 02:13:10 PM: WARNING: Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000020BDC3E4910>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/28b5cc6c62738fa1b9e3a644378e47c2
+05/20/2025 02:13:14 PM: WARNING: Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000020BDC3E4B90>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/28b5cc6c62738fa1b9e3a644378e47c2
+05/20/2025 02:13:18 PM: WARNING: Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000020BDC2ABBB0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/28b5cc6c62738fa1b9e3a644378e47c2
+05/20/2025 02:14:25 PM: INFO: ********** Starting Test: TestElementsPage **********
+05/20/2025 02:14:25 PM: INFO: Initializing browser setup...
+05/20/2025 02:14:29 PM: INFO: Navigated to URL: https://demoqa.com/
+05/20/2025 02:14:29 PM: INFO: Test data loaded successfully from elements_page.json
+05/20/2025 02:14:29 PM: INFO: Setup method completed successfully.
+05/20/2025 02:14:29 PM: INFO: Step 1: Clicked on 'Elements' card.
+05/20/2025 02:14:29 PM: INFO: Step 2: Clicked on 'Buttons' option.
+05/20/2025 02:14:29 PM: INFO: ********** Test Case: test_Right_Click_Button **********
+05/20/2025 02:14:29 PM: INFO: Step 1: Initializing ElementsPage object...
+05/20/2025 02:14:29 PM: INFO: Step 2: Performing right click on the 'Right Click' button...
+05/20/2025 02:14:30 PM: INFO: Step 3: Retrieving success message after right click...
+05/20/2025 02:14:40 PM: INFO: Step 4: Verifying success message...
+Expected: 'You have done a right click'
+Actual: 'None'
+05/20/2025 02:14:40 PM: ERROR: Test Failed (Assertion Error): No success message found after right click.
+assert None is not None
+05/20/2025 02:14:41 PM: INFO: Screenshot saved at: ./Screenshots/test_Right_Click_Button_failure.png
+05/20/2025 02:14:41 PM: INFO: test_Right_Click_Button completed.
+05/20/2025 02:14:47 PM: WARNING: Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000014C88158690>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/6e13900256b95c764cfc413fb29741fb
+05/20/2025 02:14:51 PM: WARNING: Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000014C88158910>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/6e13900256b95c764cfc413fb29741fb
+05/20/2025 02:14:55 PM: WARNING: Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000014C87FCB950>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/6e13900256b95c764cfc413fb29741fb
+05/20/2025 02:17:30 PM: INFO: ********** Starting Test: TestElementsPage **********
+05/20/2025 02:17:30 PM: INFO: Initializing browser setup...
+05/20/2025 02:17:34 PM: INFO: Navigated to URL: https://demoqa.com/
+05/20/2025 02:17:34 PM: INFO: Test data loaded successfully from elements_page.json
+05/20/2025 02:17:34 PM: INFO: Setup method completed successfully.
+05/20/2025 02:17:34 PM: INFO: Step 1: Clicked on 'Elements' card.
+05/20/2025 02:17:35 PM: INFO: Step 2: Clicked on 'Buttons' option.
+05/20/2025 02:17:35 PM: INFO: ********** Test Case: test_Right_Click_Button **********
+05/20/2025 02:17:35 PM: INFO: Step 1: Initializing ElementsPage object...
+05/20/2025 02:17:35 PM: INFO: Step 2: Performing right click on the 'Right Click' button...
+05/20/2025 02:17:35 PM: INFO: Step 3: Retrieving success message after right click...
+05/20/2025 02:17:47 PM: INFO: Step 4: Verifying success message...
+Expected: 'You have done a right click'
+Actual: 'None'
+05/20/2025 02:17:47 PM: ERROR: Test Failed (Assertion Error): Expected: 'You have done a right click', Got: 'None'
+assert None == 'You have done a right click'
+05/20/2025 02:17:47 PM: INFO: Screenshot saved at: ./Screenshots/test_Right_Click_Button_failure.png
+05/20/2025 02:17:47 PM: INFO: test_Right_Click_Button completed.
+05/20/2025 02:17:54 PM: WARNING: Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000017F2E3E4550>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/17586a1d04d556e0829fdfa14bd18bd8
+05/20/2025 02:17:58 PM: WARNING: Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000017F2E3E47D0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/17586a1d04d556e0829fdfa14bd18bd8
+05/20/2025 02:18:02 PM: WARNING: Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000017F2E1D7A80>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/17586a1d04d556e0829fdfa14bd18bd8
+05/20/2025 02:20:40 PM: INFO: ********** Starting Test: TestElementsPage **********
+05/20/2025 02:20:40 PM: INFO: Initializing browser setup...
+05/20/2025 02:20:44 PM: INFO: Navigated to URL: https://demoqa.com/
+05/20/2025 02:20:44 PM: INFO: Test data loaded successfully from elements_page.json
+05/20/2025 02:20:44 PM: INFO: Setup method completed successfully.
+05/20/2025 02:20:44 PM: INFO: Step 1: Clicked on 'Elements' card.
+05/20/2025 02:20:45 PM: INFO: Step 2: Clicked on 'Buttons' option.
+05/20/2025 02:20:45 PM: INFO: ********** Test Case: test_Right_Click_Button **********
+05/20/2025 02:20:45 PM: INFO: Step 1: Initializing ElementsPage object...
+05/20/2025 02:20:45 PM: INFO: Step 2: Performing right click on the 'Right Click' button...
+05/20/2025 02:20:46 PM: INFO: Step 3: Retrieving success message after right click...
+05/20/2025 02:20:56 PM: ERROR: An unexpected error occurred: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF60A85CF65+75717]
+	GetHandleVerifier [0x00007FF60A85CFC0+75808]
+	(No symbol) [0x00007FF60A628F9A]
+	(No symbol) [0x00007FF60A67F4C6]
+	(No symbol) [0x00007FF60A67F77C]
+	(No symbol) [0x00007FF60A6D2577]
+	(No symbol) [0x00007FF60A6A73BF]
+	(No symbol) [0x00007FF60A6CF39C]
+	(No symbol) [0x00007FF60A6A7153]
+	(No symbol) [0x00007FF60A670421]
+	(No symbol) [0x00007FF60A6711B3]
+	GetHandleVerifier [0x00007FF60AB5D74D+3223469]
+	GetHandleVerifier [0x00007FF60AB57CF2+3200338]
+	GetHandleVerifier [0x00007FF60AB75B23+3322755]
+	GetHandleVerifier [0x00007FF60A876A3A+180890]
+	GetHandleVerifier [0x00007FF60A87E13F+211359]
+	GetHandleVerifier [0x00007FF60A8652B4+109332]
+	GetHandleVerifier [0x00007FF60A865462+109762]
+	GetHandleVerifier [0x00007FF60A84BA79+4825]
+	BaseThreadInitThunk [0x00007FFA8C56E8D7+23]
+	RtlUserThreadStart [0x00007FFA8E75C5DC+44]
+
+05/20/2025 02:20:57 PM: INFO: Screenshot saved at: ./Screenshots/test_Right_Click_Button_unexpected_error.png
+05/20/2025 02:20:57 PM: INFO: test_Right_Click_Button completed.
+05/20/2025 02:21:03 PM: WARNING: Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000010E4B9B4B90>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/b86a45a73bdf3a172915e53f8d5c67ac
+05/20/2025 02:21:07 PM: WARNING: Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000010E4B9B4E10>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/b86a45a73bdf3a172915e53f8d5c67ac
+05/20/2025 02:21:11 PM: WARNING: Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000010E4B73BE10>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/b86a45a73bdf3a172915e53f8d5c67ac
+05/20/2025 02:21:33 PM: INFO: ********** Starting Test: TestElementsPage **********
+05/20/2025 02:21:33 PM: INFO: Initializing browser setup...
+05/20/2025 02:21:39 PM: INFO: Navigated to URL: https://demoqa.com/
+05/20/2025 02:21:39 PM: INFO: Test data loaded successfully from elements_page.json
+05/20/2025 02:21:39 PM: INFO: Setup method completed successfully.
+05/20/2025 02:21:39 PM: INFO: Step 1: Clicked on 'Elements' card.
+05/20/2025 02:21:39 PM: INFO: Step 2: Clicked on 'Buttons' option.
+05/20/2025 02:21:39 PM: INFO: ********** Test Case: test_Right_Click_Button **********
+05/20/2025 02:21:39 PM: INFO: Step 1: Initializing ElementsPage object...
+05/20/2025 02:21:39 PM: INFO: Step 2: Performing right click on the 'Right Click' button...
+05/20/2025 02:21:40 PM: INFO: Step 3: Retrieving success message after right click...
+05/20/2025 02:21:50 PM: INFO: Step 4: Verifying success message...
+Expected: 'You have done a right click'
+Actual: 'None'
+05/20/2025 02:21:50 PM: ERROR: Test Failed (Assertion Error): Expected: 'You have done a right click', Got: 'None'
+assert None == 'You have done a right click'
+05/20/2025 02:21:50 PM: INFO: Screenshot saved at: ./Screenshots/test_Right_Click_Button_failure.png
+05/20/2025 02:21:50 PM: INFO: test_Right_Click_Button completed.
+05/20/2025 02:21:57 PM: WARNING: Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001C5741907D0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/a5eb1054dd5c42f4181d53eb2c256049
+05/20/2025 02:22:01 PM: WARNING: Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001C574190A50>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/a5eb1054dd5c42f4181d53eb2c256049
+05/20/2025 02:22:05 PM: WARNING: Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001C57405BCE0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/a5eb1054dd5c42f4181d53eb2c256049

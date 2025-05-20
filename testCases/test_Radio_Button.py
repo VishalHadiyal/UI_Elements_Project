@@ -38,7 +38,7 @@ class TestRadioButtonElements:
             raise
         self.logger.info("Setup method completed.")
 
-    # @pytest.mark.skip(reason="Skipping this test case for now.")
+    @pytest.mark.functional
     def test_verify_yes_radio_button(self):
         """
         Test case to verify the functionality of the 'Yes' radio button on the Radio Button page.
@@ -97,7 +97,7 @@ class TestRadioButtonElements:
             self.logger.info("Test case execution completed.")
             self.logger.info("========== Test Case: test_verify_yes_radio_button completed ==========")
 
-    # @pytest.mark.skip(reason="Skipping this test case for now.")
+    @pytest.mark.functional
     def test_verify_impressive_radio_button(self):
         """
         Test case to verify the functionality of the 'Impressive' radio button
@@ -157,7 +157,7 @@ class TestRadioButtonElements:
             self.logger.info("Step 7: Browser closed successfully.")
             self.logger.info(f"========== Test Case: {test_name} COMPLETED ==========")
 
-    # @pytest.mark.skip(reason="Skipping this test case for now.")
+    @pytest.mark.functional
     def test_verify_no_radio_button(self):
         """
         Test case to verify if the 'No' radio button on the Radio Button page is enabled.
@@ -213,6 +213,7 @@ class TestRadioButtonElements:
             self.logger.info("Step 6: Browser closed successfully.")
             self.logger.info(f"========== Test Case: {test_name} COMPLETED ==========")
 
+    @pytest.mark.functional
     def test_verify_radio_buttons_flow(self):
         """
         Test case to verify the functionality of all radio buttons ('Yes', 'Impressive', and 'No')

@@ -9,5 +9,10 @@
   "radioButton": {
     "selectedYesText" : "You have selected Yes",
     "selectedImpressiveText" : "You have selected Impressive"
+  },
+  "buttonClicked" : {
+    "doubleClickMessage" : "You have done a double click",
+    "rightClickMessage" : "You have done a right click",
+    "dynamicClickMessage" : "You have done a dynamic click"
   }
 }
