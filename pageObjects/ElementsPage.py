@@ -47,6 +47,9 @@ class ElementsPage:
     BUTTON_RIGHT_CLICK_SUCCESS_MESSAGE_XPATH = "//p[@id='rightClickMessage']"
     BUTTON_DYNAMIC_CLICK_SUCCESS_MESSAGE_XPATH = "//p[@id='dynamicClickMessage']"
 
+    # TESTING WEB TABLE ELEMENTS
+    OPTION_WEB_TABLE_XPATH = "//span[normalize-space()='Web Tables']"
+
     def __init__(self, driver):
         self.driver = driver
 
@@ -366,3 +369,14 @@ class ElementsPage:
         except TimeoutException:
             print("Timed out waiting for success message.")
             return None
+
+    # TESTING WEB TABLE ELEMENTS
+    def click_on_web_table(self):
+        """
+        Click on the 'Web Table' option.
+        """
+        try:
+            web_table_option = self.driver.find_element(By.XPATH, self.OPTION_WEB_TABLE_XPATH)
+            web_table_option.click()
+        except NoSuchElementException:
+            print("Web Table option not found.")

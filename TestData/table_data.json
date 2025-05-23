@@ -1,0 +1,44 @@
+{
+  "Users": [
+    {
+      "First Name": "Cierra",
+      "Last Name": "Vega",
+      "Age": 39,
+      "Email": "cierra@example.com",
+      "Salary": 10000,
+      "Department": "Insurance"
+    },
+    {
+      "First Name": "Alden",
+      "Last Name": "Cantrell",
+      "Age": 45,
+      "Email": "alden@example.com",
+      "Salary": 12000,
+      "Department": "Compliance"
+    },
+    {
+      "First Name": "Kierra",
+      "Last Name": "Gentry",
+      "Age": 29,
+      "Email": "kierra@example.com",
+      "Salary": 2000,
+      "Department": "Legal"
+    },
+    {
+      "First Name": "Donald",
+      "Last Name": "Trump",
+      "Age": 77,
+      "Email": "donaldtrump@yopmail.com",
+      "Salary": 2000000,
+      "Department": "Legal"
+    }
+  ],
+  "EditUser": {
+    "First Name": "Edit Cierra",
+      "Last Name": "Edit Vega",
+      "Age": 50,
+      "Email": "cierra@example.com",
+      "Salary": 100,
+      "Department": "Edit Insurance"
+  }
+}
