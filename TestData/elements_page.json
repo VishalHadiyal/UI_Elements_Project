@@ -14,5 +14,19 @@
     "doubleClickMessage" : "You have done a double click",
     "rightClickMessage" : "You have done a right click",
     "dynamicClickMessage" : "You have done a dynamic click"
+  },
+  "linksTest" : {
+    "totalCountOfLinks" : 12,
+    "simpleLinkURL" : "https://demoqa.com/",
+    "dynamicLinkURL" : "https://demoqa.com/",
+    "Created" : "Link has responded with staus 201 and status text Created",
+    "NoContent" : "Link has responded with staus 204 and status text No Content",
+    "Moved" : "Link has responded with staus 301 and status text Moved Permanently",
+    "BadRequest" : "Link has responded with staus 400 and status text Bad Request",
+    "Unauthorized" : "Link has responded with staus 401 and status text Unauthorized",
+    "Forbidden" : "Link has responded with staus 403 and status text Forbidden",
+    "NotFound" : "Link has responded with staus 404 and status text Not Found",
+    "ValidURL" : "https://demoqa.com/",
+    "BrokenLink" : "https://the-internet.herokuapp.com/status_codes/500"
   }
 }

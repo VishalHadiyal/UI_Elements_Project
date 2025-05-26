@@ -12,67 +12,81 @@ from unititlies.readProperties import ReadConfig
 
 
 class TestTableHandling:
-    # Get base URL from a configuration file
+    # Retrieve the base application URL from the configuration file
     baseURL = ReadConfig.get_application_url()
 
-    # Initialize logger for the test class
+    # Set up logger for the test class
     logger = LogGen.loggen()
 
     @pytest.fixture(autouse=True)
     def setup_method(self, setup):
         """
-        Automatically executed before each test method.
-        Purpose:
+        Fixture executed automatically before each test method.
+        It performs the following setup tasks:
         - Initializes WebDriver
-        - Sets implicit wait
-        - Maximizes browser window
-        - Opens the application URL
-        - Loads test data from JSON
-        - Navigates to 'Elements' > 'Web Tables' on the UI
+        - Maximizes the window
+        - Applies implicit wait
+        - Opens the application
+        - Closes unwanted tabs
+        - Loads test data
+        - Navigates to 'Web Tables' via 'Elements'
         """
 
-        self.logger.info("********** Starting Test: TestTableHandling **********")
-        self.logger.info("Initializing browser setup...")
+        self.logger.info("========== Starting Test: TestTableHandling ==========")
 
-        # Assign WebDriver instance from setup fixture
+        # Assign WebDriver from setup fixture
         self.driver = setup
+        self.logger.info("WebDriver instance initialized.")
 
-        # Set implicit wait time
+        # Configure browser
         self.driver.implicitly_wait(10)
         self.logger.info("Implicit wait set to 10 seconds.")
 
-        # Maximize browser window
         self.driver.maximize_window()
         self.logger.info("Browser window maximized.")
 
-        # Navigate to the application base URL
         self.driver.get(self.baseURL)
         self.logger.info(f"Navigated to application URL: {self.baseURL}")
+
+        # Handle multiple tabs (e.g., close Bing, stay on the main app)
+        windows = self.driver.window_handles
+        self.logger.info(f"Window handles retrieved: {windows}")
+
+        if len(windows) > 1:
+            self.driver.switch_to.window(windows[1])
+            self.logger.info("Switched to second tab (index 1).")
+            self.driver.close()
+            self.logger.info("Closed second tab.")
+            self.driver.switch_to.window(windows[0])
+            self.logger.info("Switched back to first tab (index 0).")
 
         # Load test data from JSON file
         try:
             with open("./TestData/table_data.json", "r") as file:
                 self.data = json.load(file)
-                self.logger.info("Test data successfully loaded from 'table_data.json'.")
+            self.logger.info("Test data successfully loaded from 'table_data.json'.")
         except Exception as e:
-            self.logger.error(f"Error loading test data: {str(e)}")
+            self.logger.error(f"Failed to load test data: {str(e)}")
             raise
 
-        self.logger.info("Test setup completed successfully.")
-
-        # Initialize Page Object Models
+        # Initialize Page Objects
         home_page = HomePage(self.driver)
         elements_page = ElementsPage(self.driver)
 
-        # Step 1: Navigate to 'Elements' section from the home page
+        # Navigate through UI to reach Web Tables section
         home_page.click_on_elements_card()
-        self.logger.info("Clicked on 'Elements' card on the Home page.")
+        self.logger.info("Clicked on 'Elements' card on Home Page.")
 
-        # Step 2: Click on 'Web Tables' in the Elements section
         elements_page.click_on_web_table()
-        self.logger.info("Clicked on 'Web Tables' option under the Elements section.")
+        self.logger.info("Clicked on 'Web Tables' under the Elements section.")
 
-    # @pytest.mark.skip(reason="Skipping this test case for now.")
+        yield  # Yield control to the test method
+
+        # ---------- TEAR DOWN ----------
+        self.logger.info("Closing browser after test execution.")
+        self.driver.quit()
+
+    @pytest.mark.smoke
     def test_find_user_and_delete(self):
         """
         Test case to find a user by email and delete them from the web table.
@@ -119,9 +133,8 @@ class TestTableHandling:
 
         finally:
             self.logger.info("********** Ending Test: test_find_user_and_delete **********")
-            self.driver.quit()
 
-    # @pytest.mark.skip(reason="Skipping this test case for now.")
+    @pytest.mark.smoke
     def test_add_new_user_find_user_and_delete(self):
         """
         Test case to add a new user to the web table, verify the user is added,
@@ -182,8 +195,8 @@ class TestTableHandling:
 
         finally:
             self.logger.info(f"********** Ending Test: {test_name} **********")
-            self.driver.quit()
 
+    @pytest.mark.smoke
     def test_search_and_edit(self):
         """
         Test case to search for a user by email, edit their details, and verify the changes.
@@ -285,4 +298,3 @@ class TestTableHandling:
 
         finally:
             self.logger.info(f"********** Ending Test: {test_name} **********")
-            self.driver.quit()

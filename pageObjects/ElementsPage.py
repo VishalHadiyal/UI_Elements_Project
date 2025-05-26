@@ -50,6 +50,26 @@ class ElementsPage:
     # TESTING WEB TABLE ELEMENTS
     OPTION_WEB_TABLE_XPATH = "//span[normalize-space()='Web Tables']"
 
+    # TESTING LINKS ELEMENTS
+    OPTION_LINKS_XPATH = "//span[normalize-space()='Links']"
+    LINKS_COUNT_XPATH = "//a"
+    LINK_SIMPLE_XPATH = "//a[@id='simpleLink']"
+    LINK_DYNAMIC_XPATH = "//a[@id='dynamicLink']"
+    # API LINKS
+    LINK_CREATE_XPATH = "//a[@id='created']"
+    LINK_NO_CONTENT_XPATH = "//a[@id='no-content']"
+    LINK_MOVED_XPATH = "//a[@id='moved']"
+    LINK_BAD_REQUEST_XPATH = "//a[@id='bad-request']"
+    LINK_UNAUTHORIZED_XPATH = "//a[@id='unauthorized']"
+    LINK_FORBIDDEN_XPATH = "//a[@id='forbidden']"
+    LINK_NOT_FOUND_XPATH = "//a[@id='invalid-url']"
+    RESPONSE_STATUS_CODE_XPATH = "//p[@id='linkResponse']"
+    OPTION_BROKEN_LINKS_XPATH = "//span[normalize-space()='Broken Links - Images']"
+    IMG_IS_DISPLAYED_XPATH = "//div /img[@src='/images/Toolsqa.jpg']"
+    IMG_BROKEN_LINKS_XPATH = "//img[@src='/images/Toolsqa_1.jpg']"
+    LINK_VALID_LINK_XPATH = "//a[normalize-space()='Click Here for Valid Link']"
+    LINK_BROKEN_LINK_XPATH = "//a[normalize-space()='Click Here for Broken Link']"
+
     def __init__(self, driver):
         self.driver = driver
 
@@ -380,3 +400,181 @@ class ElementsPage:
             web_table_option.click()
         except NoSuchElementException:
             print("Web Table option not found.")
+
+    # TESTING LINKS ELEMENTS
+    def click_on_links(self):
+        """
+        Click on the 'Links' option.
+        """
+        try:
+            links_option = self.driver.find_element(By.XPATH, self.OPTION_LINKS_XPATH)
+            links_option.click()
+        except NoSuchElementException:
+            print("Links option not found.")
+
+    def get_links_count(self):
+        """
+        Get the count of all links on the page.
+        """
+        try:
+            links = self.driver.find_elements(By.XPATH, self.LINKS_COUNT_XPATH)
+            return len(links)
+        except NoSuchElementException:
+            print("Links not found.")
+            return 0
+
+    def click_on_simple_link(self):
+        """
+        Click on the 'Simple Link'.
+        """
+        try:
+            simple_link = self.driver.find_element(By.XPATH, self.LINK_SIMPLE_XPATH)
+            simple_link.click()
+        except NoSuchElementException:
+            print("Simple Link not found.")
+
+    def click_on_dynamic_link(self):
+        """
+        Click on the 'Dynamic Link'.
+        """
+        try:
+            dynamic_link = self.driver.find_element(By.XPATH, self.LINK_DYNAMIC_XPATH)
+            dynamic_link.click()
+        except NoSuchElementException:
+            print("Dynamic Link not found.")
+
+    def click_on_create_link(self):
+        """
+        Click on the 'Create' link.
+        """
+        try:
+            create_link = self.driver.find_element(By.XPATH, self.LINK_CREATE_XPATH)
+            create_link.click()
+        except NoSuchElementException:
+            print("Create Link not found.")
+
+    def click_on_no_content_link(self):
+        """
+        Click on the 'No Content' link.
+        """
+        try:
+            no_content_link = self.driver.find_element(By.XPATH, self.LINK_NO_CONTENT_XPATH)
+            no_content_link.click()
+        except NoSuchElementException:
+            print("No Content Link not found.")
+
+    def click_on_moved_link(self):
+        """
+        Click on the 'Moved' link.
+        """
+        try:
+            moved_link = self.driver.find_element(By.XPATH, self.LINK_MOVED_XPATH)
+            moved_link.click()
+        except NoSuchElementException:
+            print("Moved Link not found.")
+
+    def click_on_bad_request_link(self):
+        """
+        Click on the 'Bad Request' link.
+        """
+        try:
+            bad_request_link = self.driver.find_element(By.XPATH, self.LINK_BAD_REQUEST_XPATH)
+            bad_request_link.click()
+        except NoSuchElementException:
+            print("Bad Request Link not found.")
+
+    def click_on_unauthorized_link(self):
+        """
+        Click on the 'Unauthorized' link.
+        """
+        try:
+            unauthorized_link = self.driver.find_element(By.XPATH, self.LINK_UNAUTHORIZED_XPATH)
+            unauthorized_link.click()
+        except NoSuchElementException:
+            print("Unauthorized Link not found.")
+
+    def click_on_forbidden_link(self):
+        """
+        Click on the 'Forbidden' link.
+        """
+        try:
+            forbidden_link = self.driver.find_element(By.XPATH, self.LINK_FORBIDDEN_XPATH)
+            forbidden_link.click()
+        except NoSuchElementException:
+            print("Forbidden Link not found.")
+
+    def click_on_not_found_link(self):
+        """
+        Click on the 'Not Found' link.
+        """
+        try:
+            not_found_link = self.driver.find_element(By.XPATH, self.LINK_NOT_FOUND_XPATH)
+            not_found_link.click()
+        except NoSuchElementException:
+            print("Not Found Link not found.")
+
+    def get_response_status_code(self):
+        """
+        Get the response status code after clicking on a link.
+        """
+        try:
+            response_status = self.driver.find_element(By.XPATH, self.RESPONSE_STATUS_CODE_XPATH)
+            return response_status.text.strip()
+        except NoSuchElementException:
+            print("Response status code not found.")
+            return None
+
+    def click_on_broken_links_images(self):
+        """
+        Click on the 'Broken Links - Images' option.
+        """
+        try:
+            broken_links_images_option = self.driver.find_element(By.XPATH, self.OPTION_BROKEN_LINKS_XPATH)
+            broken_links_images_option.click()
+        except NoSuchElementException:
+            print("Broken Links - Images option not found.")
+
+    def is_image_displayed(self):
+        """
+        Check if the image is displayed on the page.
+        """
+        try:
+            image = self.driver.find_element(By.XPATH, self.IMG_IS_DISPLAYED_XPATH)
+            return image.is_displayed()
+        except NoSuchElementException:
+            print("Image not found.")
+            return False
+
+    def is_broken_image_displayed(self):
+        """
+        Check if the image is broken (failed to load) using naturalWidth property.
+        """
+        try:
+            image_element = self.driver.find_element(By.XPATH, self.IMG_BROKEN_LINKS_XPATH)
+            # Execute JavaScript to check if the image is broken
+            is_broken = self.driver.execute_script(
+                "return arguments[0].naturalWidth === 0", image_element)
+            return is_broken
+        except NoSuchElementException:
+            print("Image element not found.")
+            return False
+
+    def click_on_valid_link(self):
+        """
+        Click on the 'Click Here for Valid Link'.
+        """
+        try:
+            valid_link = self.driver.find_element(By.XPATH, self.LINK_VALID_LINK_XPATH)
+            valid_link.click()
+        except NoSuchElementException:
+            print("Valid Link not found.")
+
+    def click_on_broken_link(self):
+        """
+        Click on the 'Click Here for Broken Link'.
+        """
+        try:
+            broken_link = self.driver.find_element(By.XPATH, self.LINK_BROKEN_LINK_XPATH)
+            broken_link.click()
+        except NoSuchElementException:
+            print("Broken Link not found.")

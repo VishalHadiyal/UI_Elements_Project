@@ -4,6 +4,7 @@ import pytest
 from selenium.webdriver.chrome.options import Options as ChromeOptions
 from selenium.webdriver.firefox.options import Options as FirefoxOptions
 from selenium.webdriver.edge.options import Options as EdgeOptions
+import os
 
 
 ####################### Browser SetUp Code Start #######################
@@ -39,12 +40,21 @@ def setup(browser, headless):
 
     if browser == "chrome":
         options = ChromeOptions()
+        extension_path = os.path.abspath("C:/Users/DELL/PycharmProjects/UI_Elements_Project/Extensions/AdBlocker.crx")
+        # These options should be added regardless of headless mode
+        options.add_experimental_option("excludeSwitches", ["enable-automation"])
+        options.add_experimental_option('useAutomationExtension', False)
+        options.add_argument("--disable-blink-features=AutomationControlled")
+        options.add_extension(extension_path)
+
         if headless:
             options.add_argument("--headless")
             options.add_argument("--disable-gpu")
             options.add_argument("--window-size=1920,1080")
+
         driver = webdriver.Chrome(options=options)
         print("Launching Chrome" + (" in headless mode" if headless else ""))
+
 
     elif browser == "firefox":
         options = FirefoxOptions()
