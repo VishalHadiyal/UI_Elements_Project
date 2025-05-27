@@ -1,5 +1,5 @@
 from selenium.common.exceptions import ElementNotInteractableException
-from selenium.common.exceptions import TimeoutException, NoSuchElementException
+from selenium.common.exceptions import TimeoutException, NoSuchElementException, ElementClickInterceptedException
 from selenium.common import NoSuchElementException
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.wait import WebDriverWait
@@ -69,6 +69,16 @@ class ElementsPage:
     IMG_BROKEN_LINKS_XPATH = "//img[@src='/images/Toolsqa_1.jpg']"
     LINK_VALID_LINK_XPATH = "//a[normalize-space()='Click Here for Valid Link']"
     LINK_BROKEN_LINK_XPATH = "//a[normalize-space()='Click Here for Broken Link']"
+
+    # TESTING FILE UPLOAD AND DOWNLOAD ELEMENTS
+    OPTION_FILE_UPLOAD_AND_DOWNLOAD_XPATH = "//span[normalize-space()='Upload and Download']"
+    INPUT_UPLOAD_FILE_XPATH = "//input[@id='uploadFile']"
+    TEXT_SUCCESS_MESSAGE_PATH_XPATH = "//p[@id='uploadedFilePath']"
+    BTN_DOWNLOAD_FILE_XPATH = "//a[@id='downloadButton']"
+
+    # TESTING DYNAMIC PROPERTIES ELEMENTS
+    OPTION_DYNAMIC_PROPERTIES_XPATH = "//span[normalize-space()='Dynamic Properties']"
+    BTN_AFTER_5_SECONDS_XPATH = "//button[@id='visibleAfter']"
 
     def __init__(self, driver):
         self.driver = driver
@@ -578,3 +588,103 @@ class ElementsPage:
             broken_link.click()
         except NoSuchElementException:
             print("Broken Link not found.")
+
+    # TESTING FILE UPLOAD AND DOWNLOAD ELEMENTS
+    def click_on_file_upload_and_download(self):
+        """
+        Click on the 'Upload and Download' option.
+        Scrolls into view, waits until clickable, then clicks.
+        """
+        try:
+            file_upload_and_download_option = WebDriverWait(self.driver, 10).until(
+                EC.presence_of_element_located((By.XPATH, self.OPTION_FILE_UPLOAD_AND_DOWNLOAD_XPATH))
+            )
+
+            self.driver.execute_script("arguments[0].scrollIntoView({block: 'center'});",
+                                       file_upload_and_download_option)
+
+            # Wait until clickable
+            WebDriverWait(self.driver, 10).until(
+                EC.element_to_be_clickable((By.XPATH, self.OPTION_FILE_UPLOAD_AND_DOWNLOAD_XPATH))
+            )
+
+            try:
+                file_upload_and_download_option.click()
+            except ElementClickInterceptedException:
+                # Use JavaScript as a fallback
+                self.driver.execute_script("arguments[0].click();", file_upload_and_download_option)
+
+        except (NoSuchElementException, TimeoutException) as e:
+            print("File Upload and Download option not found or not clickable:", e)
+
+    def upload_file(self, file_path, timeout=10):
+        """
+        Upload a file using the file input element, with an explicit wait.
+        """
+        try:
+            upload_input = WebDriverWait(self.driver, timeout).until(
+                EC.presence_of_element_located((By.XPATH, self.INPUT_UPLOAD_FILE_XPATH))
+            )
+            upload_input.send_keys(file_path)
+        except TimeoutException:
+            print("Timeout: File upload input not found.")
+        except Exception as e:
+            print(f"Error uploading file: {str(e)}")
+
+    def get_upload_success_message(self, timeout=10):
+        """
+        Get the success message after uploading a file, with an explicit wait.
+        """
+        try:
+            success_message = WebDriverWait(self.driver, timeout).until(
+                EC.visibility_of_element_located((By.XPATH, self.TEXT_SUCCESS_MESSAGE_PATH_XPATH))
+            )
+            return success_message.text.strip()
+        except TimeoutException:
+            print("Timeout: Upload success message not found.")
+            return None
+        except Exception as e:
+            print(f"Error getting success message: {str(e)}")
+            return None
+
+    def download_file(self, file_path, timeout=10):
+        """
+        Click on the download button to download a file.
+        Waits until the button is clickable and then clicks it.
+        """
+        try:
+            download_button = WebDriverWait(self.driver, timeout).until(
+                EC.element_to_be_clickable((By.XPATH, self.BTN_DOWNLOAD_FILE_XPATH))
+            )
+            self.driver.execute_script("arguments[0].scrollIntoView({block: 'center'});", download_button)
+            download_button.click()
+        except TimeoutException:
+            print("Timeout: Download button not found or not clickable.")
+        except Exception as e:
+            print(f"Error downloading file: {str(e)}")
+
+    def Click_on_dynamic_properties(self):
+        """
+        Click on the 'Dynamic Properties' option.
+        """
+        try:
+            dynamic_properties_option = self.driver.find_element(By.XPATH, self.OPTION_DYNAMIC_PROPERTIES_XPATH)
+            dynamic_properties_option.click()
+        except NoSuchElementException:
+            print("Dynamic Properties option not found.")
+
+    def after_5_seconds_button_is_displayed(self):
+        """
+        Waits for the button that appears after 5 seconds and returns True if it's displayed.
+        """
+        try:
+            wait = WebDriverWait(self.driver, 10)
+            button = wait.until(EC.visibility_of_element_located((By.XPATH, self.BTN_AFTER_5_SECONDS_XPATH)))
+            self.driver.execute_script("arguments[0].scrollIntoView({block: 'center'});", button)
+            return button.is_displayed()
+        except TimeoutException:
+            print("Timeout: Button not found or not visible.")
+            return False
+        except Exception as e:
+            print(f"Error in checking button visibility: {str(e)}")
+            return False

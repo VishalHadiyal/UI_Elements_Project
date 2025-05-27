@@ -41,19 +41,30 @@ def setup(browser, headless):
     if browser == "chrome":
         options = ChromeOptions()
         extension_path = os.path.abspath("C:/Users/DELL/PycharmProjects/UI_Elements_Project/Extensions/AdBlocker.crx")
+        download_dir = os.path.abspath("C:\\Users\\DELL\\PycharmProjects\\UI_Elements_Project\\Download")
+
         # These options should be added regardless of headless mode
         options.add_experimental_option("excludeSwitches", ["enable-automation"])
         options.add_experimental_option('useAutomationExtension', False)
         options.add_argument("--disable-blink-features=AutomationControlled")
         options.add_extension(extension_path)
 
+        # Download preferences
+        options.add_experimental_option("prefs", {
+            "download.default_directory": download_dir,
+            "download.prompt_for_download": False,
+            "download.directory_upgrade": True,
+            "safebrowsing.enabled": True
+        })
+
         if headless:
-            options.add_argument("--headless")
+            options.add_argument("--headless=new")  # Required for headless downloads in new Chrome
             options.add_argument("--disable-gpu")
             options.add_argument("--window-size=1920,1080")
 
         driver = webdriver.Chrome(options=options)
         print("Launching Chrome" + (" in headless mode" if headless else ""))
+
 
 
     elif browser == "firefox":

@@ -9229,3 +9229,732 @@ assert not True
 05/26/2025 02:57:06 PM: WARNING: Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000197AE8D8D10>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/39e5055c6240967e0872325301559d70
 05/26/2025 02:57:10 PM: WARNING: Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000197AE8D87C0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/39e5055c6240967e0872325301559d70
 05/26/2025 02:57:14 PM: WARNING: Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000197AEC94050>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/39e5055c6240967e0872325301559d70
+05/27/2025 09:31:19 AM: INFO: ========== Starting Test: TestTableHandling ==========
+05/27/2025 09:31:19 AM: INFO: WebDriver instance initialized.
+05/27/2025 09:31:19 AM: INFO: Implicit wait set to 10 seconds.
+05/27/2025 09:31:19 AM: INFO: Browser window maximized.
+05/27/2025 09:31:23 AM: INFO: Navigated to application URL: https://demoqa.com/
+05/27/2025 09:31:23 AM: INFO: Window handles retrieved: ['48F4C51D653E031F1E41F0BCC509B460', '303FCC3302393EA469942DF049CB0839']
+05/27/2025 09:31:23 AM: INFO: Switched to second tab (index 1).
+05/27/2025 09:31:23 AM: INFO: Closed second tab.
+05/27/2025 09:31:23 AM: INFO: Switched back to first tab (index 0).
+05/27/2025 09:31:23 AM: INFO: Test data successfully loaded from 'table_data.json'.
+05/27/2025 09:31:23 AM: INFO: Clicked on 'Elements' card on Home Page.
+05/27/2025 09:31:24 AM: INFO: Clicked on 'Web Tables' under the Elements section.
+05/27/2025 09:31:34 AM: INFO: Closing browser after test execution.
+05/27/2025 09:31:36 AM: INFO: Browser closed successfully.
+05/27/2025 09:31:40 AM: WARNING: Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001FFD64E8550>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/94baf5f9d9c3ea71f8c98d31f1275dea
+05/27/2025 09:31:44 AM: WARNING: Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001FFD64E82D0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/94baf5f9d9c3ea71f8c98d31f1275dea
+05/27/2025 09:31:48 AM: WARNING: Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001FFD637AB10>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/94baf5f9d9c3ea71f8c98d31f1275dea
+05/27/2025 09:35:51 AM: INFO: ========== Starting Test: TestTableHandling ==========
+05/27/2025 09:35:51 AM: INFO: WebDriver instance initialized.
+05/27/2025 09:35:51 AM: INFO: Implicit wait set to 10 seconds.
+05/27/2025 09:35:51 AM: INFO: Browser window maximized.
+05/27/2025 09:35:58 AM: INFO: Navigated to application URL: https://demoqa.com/
+05/27/2025 09:35:58 AM: INFO: Window handles retrieved: ['4EAA6B47F8747244B28BEA2791518624', '0BA7B593D9D6F07AB153F0B140E18BF4']
+05/27/2025 09:35:58 AM: INFO: Switched to second tab (index 1).
+05/27/2025 09:35:58 AM: INFO: Closed second tab.
+05/27/2025 09:35:58 AM: INFO: Switched back to first tab (index 0).
+05/27/2025 09:35:58 AM: INFO: Test data successfully loaded from 'table_data.json'.
+05/27/2025 09:35:58 AM: INFO: Clicked on 'Elements' card on Home Page.
+05/27/2025 09:37:27 AM: INFO: ========== Starting Test: TestTableHandling ==========
+05/27/2025 09:37:27 AM: INFO: WebDriver instance initialized.
+05/27/2025 09:37:27 AM: INFO: Implicit wait set to 10 seconds.
+05/27/2025 09:37:27 AM: INFO: Browser window maximized.
+05/27/2025 09:37:33 AM: INFO: Navigated to application URL: https://demoqa.com/
+05/27/2025 09:37:33 AM: INFO: Window handles retrieved: ['D2B9EFF433AFD19A94375CC9C12294E0', '9F9C7EE85806D34B8009D4FB57FB66E1']
+05/27/2025 09:37:33 AM: INFO: Switched to second tab (index 1).
+05/27/2025 09:37:33 AM: INFO: Closed second tab.
+05/27/2025 09:37:33 AM: INFO: Switched back to first tab (index 0).
+05/27/2025 09:37:33 AM: INFO: Test data successfully loaded from 'table_data.json'.
+05/27/2025 09:37:33 AM: INFO: Clicked on 'Elements' card on Home Page.
+05/27/2025 09:38:34 AM: INFO: ========== Starting Test: TestTableHandling ==========
+05/27/2025 09:38:34 AM: INFO: WebDriver instance initialized.
+05/27/2025 09:38:34 AM: INFO: Implicit wait set to 10 seconds.
+05/27/2025 09:38:35 AM: INFO: Browser window maximized.
+05/27/2025 09:38:40 AM: INFO: Navigated to application URL: https://demoqa.com/
+05/27/2025 09:38:40 AM: INFO: Window handles retrieved: ['96A4F6F191166D58D419D05D7F47AB15', '3076FF8CFD4DEB9381854CAB6A52B5D4']
+05/27/2025 09:38:40 AM: INFO: Switched to second tab (index 1).
+05/27/2025 09:38:40 AM: INFO: Closed second tab.
+05/27/2025 09:38:40 AM: INFO: Switched back to first tab (index 0).
+05/27/2025 09:38:40 AM: INFO: Test data successfully loaded from 'table_data.json'.
+05/27/2025 09:38:40 AM: INFO: Clicked on 'Elements' card on Home Page.
+05/27/2025 09:46:01 AM: INFO: ========== Starting Test: TestTableHandling ==========
+05/27/2025 09:46:01 AM: INFO: WebDriver instance initialized.
+05/27/2025 09:46:01 AM: INFO: Implicit wait set to 10 seconds.
+05/27/2025 09:46:02 AM: INFO: Browser window maximized.
+05/27/2025 09:46:06 AM: INFO: Navigated to application URL: https://demoqa.com/
+05/27/2025 09:46:06 AM: INFO: Window handles retrieved: ['555217B92399394FB06467306AF683D9', 'CF9E1F9DFF2B8CE310C292CB14EFD204']
+05/27/2025 09:46:06 AM: INFO: Switched to second tab (index 1).
+05/27/2025 09:46:06 AM: INFO: Closed second tab.
+05/27/2025 09:46:06 AM: INFO: Switched back to first tab (index 0).
+05/27/2025 09:46:06 AM: INFO: Test data successfully loaded from 'table_data.json'.
+05/27/2025 09:46:06 AM: INFO: Clicked on 'Elements' card on Home Page.
+05/27/2025 09:46:06 AM: INFO: Clicked on 'Upload and Download' under the Elements section.
+05/27/2025 09:46:16 AM: INFO: Closing browser after test execution.
+05/27/2025 09:46:18 AM: INFO: Browser closed successfully.
+05/27/2025 09:46:23 AM: WARNING: Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000261B5408690>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/2ce1f9e54aa226fa0f2c9b8ffe7620dc
+05/27/2025 09:46:27 AM: WARNING: Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000261B5408410>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/2ce1f9e54aa226fa0f2c9b8ffe7620dc
+05/27/2025 09:46:31 AM: WARNING: Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000261B52BAC40>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/2ce1f9e54aa226fa0f2c9b8ffe7620dc
+05/27/2025 09:59:42 AM: INFO: ========== Starting Test: TestTableHandling ==========
+05/27/2025 09:59:42 AM: INFO: WebDriver instance initialized.
+05/27/2025 09:59:42 AM: INFO: Implicit wait set to 10 seconds.
+05/27/2025 09:59:42 AM: INFO: Browser window maximized.
+05/27/2025 09:59:46 AM: INFO: Navigated to application URL: https://demoqa.com/
+05/27/2025 09:59:46 AM: INFO: Window handles retrieved: ['8895149E1018953DD96401970C48D75D', 'C191E9CDB0255D390FDE94492E6D32DC']
+05/27/2025 09:59:46 AM: INFO: Switched to second tab (index 1).
+05/27/2025 09:59:46 AM: INFO: Closed second tab.
+05/27/2025 09:59:46 AM: INFO: Switched back to first tab (index 0).
+05/27/2025 09:59:46 AM: INFO: Test data successfully loaded from 'table_data.json'.
+05/27/2025 09:59:46 AM: INFO: Clicked on 'Elements' card on Home Page.
+05/27/2025 09:59:47 AM: INFO: Clicked on 'Upload and Download' under the Elements section.
+05/27/2025 09:59:47 AM: INFO: Clicked on 'Upload and Download'.
+05/27/2025 09:59:47 AM: INFO: File uploaded: C:\Users\DELL\PycharmProjects\UI_Elements_Project\TestData\github-git-cheat-sheet.pdf
+05/27/2025 09:59:47 AM: INFO: Closing browser after test execution.
+05/27/2025 09:59:49 AM: INFO: Browser closed successfully.
+05/27/2025 09:59:53 AM: WARNING: Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001CB9DE9CE10>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/e4b5181b62976c6adaa5e6326e8f9885
+05/27/2025 09:59:57 AM: WARNING: Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001CB9DE9CB90>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/e4b5181b62976c6adaa5e6326e8f9885
+05/27/2025 10:00:01 AM: WARNING: Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001CB9DD2AC40>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/e4b5181b62976c6adaa5e6326e8f9885
+05/27/2025 10:02:00 AM: INFO: ========== Starting Test: TestTableHandling ==========
+05/27/2025 10:02:00 AM: INFO: WebDriver instance initialized.
+05/27/2025 10:02:00 AM: INFO: Implicit wait set to 10 seconds.
+05/27/2025 10:02:00 AM: INFO: Browser window maximized.
+05/27/2025 10:02:04 AM: INFO: Navigated to application URL: https://demoqa.com/
+05/27/2025 10:02:04 AM: INFO: Window handles retrieved: ['10C51521C5021737CBF446B3AD199A86', '103DE3AB4BEE637636DAE544269BBC59']
+05/27/2025 10:02:04 AM: INFO: Switched to second tab (index 1).
+05/27/2025 10:02:04 AM: INFO: Closed second tab.
+05/27/2025 10:02:04 AM: INFO: Switched back to first tab (index 0).
+05/27/2025 10:02:04 AM: INFO: Test data successfully loaded from 'table_data.json'.
+05/27/2025 10:02:04 AM: INFO: Clicked on 'Elements' card on Home Page.
+05/27/2025 10:02:04 AM: INFO: Clicked on 'Upload and Download' under the Elements section.
+05/27/2025 10:02:04 AM: INFO: Clicked on 'Upload and Download'.
+05/27/2025 10:02:04 AM: INFO: File uploaded: C:\Users\DELL\PycharmProjects\UI_Elements_Project\TestData\github-git-cheat-sheet.pdf
+05/27/2025 10:02:05 AM: INFO: Closing browser after test execution.
+05/27/2025 10:02:07 AM: INFO: Browser closed successfully.
+05/27/2025 10:02:11 AM: WARNING: Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000150099E8CD0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/233d65266f993c13e13ca61a953b9834
+05/27/2025 10:02:15 AM: WARNING: Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000150099E8A50>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/233d65266f993c13e13ca61a953b9834
+05/27/2025 10:02:19 AM: WARNING: Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001500985AC40>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/233d65266f993c13e13ca61a953b9834
+05/27/2025 10:08:16 AM: INFO: ========== Starting Test: TestTableHandling ==========
+05/27/2025 10:08:16 AM: INFO: WebDriver instance initialized.
+05/27/2025 10:08:16 AM: INFO: Implicit wait set to 10 seconds.
+05/27/2025 10:08:16 AM: INFO: Browser window maximized.
+05/27/2025 10:08:20 AM: INFO: Navigated to application URL: https://demoqa.com/
+05/27/2025 10:08:20 AM: INFO: Window handles retrieved: ['2E58B8BFC582A15955B117CAFFB3CB3E', '5878ABD7C165024D1A5794B46E490F04']
+05/27/2025 10:08:20 AM: INFO: Switched to second tab (index 1).
+05/27/2025 10:08:20 AM: INFO: Closed second tab.
+05/27/2025 10:08:20 AM: INFO: Switched back to first tab (index 0).
+05/27/2025 10:08:20 AM: INFO: Test data successfully loaded from 'table_data.json'.
+05/27/2025 10:08:20 AM: INFO: Clicked on 'Elements' card on Home Page.
+05/27/2025 10:08:20 AM: INFO: Clicked on 'Upload and Download' under the Elements section.
+05/27/2025 10:08:20 AM: INFO: Clicked on 'Upload and Download'.
+05/27/2025 10:08:20 AM: INFO: File uploaded: C:\Users\DELL\PycharmProjects\UI_Elements_Project\TestData\github-git-cheat-sheet.pdf
+05/27/2025 10:08:20 AM: INFO: Closing browser after test execution.
+05/27/2025 10:08:23 AM: INFO: Browser closed successfully.
+05/27/2025 10:08:27 AM: WARNING: Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000166E025CB90>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/fcf83655b3a49e05b1fd8d2e6c216f16
+05/27/2025 10:08:31 AM: WARNING: Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000166E025C910>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/fcf83655b3a49e05b1fd8d2e6c216f16
+05/27/2025 10:08:35 AM: WARNING: Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000166E011AB10>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/fcf83655b3a49e05b1fd8d2e6c216f16
+05/27/2025 10:10:31 AM: INFO: ========== Starting Test: TestTableHandling ==========
+05/27/2025 10:10:31 AM: INFO: WebDriver instance initialized.
+05/27/2025 10:10:31 AM: INFO: Implicit wait set to 10 seconds.
+05/27/2025 10:10:31 AM: INFO: Browser window maximized.
+05/27/2025 10:10:35 AM: INFO: Navigated to application URL: https://demoqa.com/
+05/27/2025 10:10:35 AM: INFO: Window handles retrieved: ['2CABC333B7A3102869773AAE070C1BA6', '73FCF7F70A8DB089E7736561DBC7B94B']
+05/27/2025 10:10:35 AM: INFO: Switched to second tab (index 1).
+05/27/2025 10:10:35 AM: INFO: Closed second tab.
+05/27/2025 10:10:35 AM: INFO: Switched back to first tab (index 0).
+05/27/2025 10:10:35 AM: INFO: Test data successfully loaded from 'table_data.json'.
+05/27/2025 10:10:35 AM: INFO: Clicked on 'Elements' card on Home Page.
+05/27/2025 10:10:35 AM: INFO: Clicked on 'Upload and Download' under the Elements section.
+05/27/2025 10:10:35 AM: INFO: Clicked on 'Upload and Download'.
+05/27/2025 10:10:36 AM: INFO: File uploaded: C:\Users\DELL\PycharmProjects\UI_Elements_Project\TestData\github-git-cheat-sheet.pdf
+05/27/2025 10:10:36 AM: INFO: File upload verified successfully.
+05/27/2025 10:10:36 AM: INFO: Closing browser after test execution.
+05/27/2025 10:10:38 AM: INFO: Browser closed successfully.
+05/27/2025 10:10:42 AM: WARNING: Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002AC40CB8550>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/2dcdf4c9afd995bacf390e98f43f4c43
+05/27/2025 10:10:46 AM: WARNING: Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002AC40CB82D0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/2dcdf4c9afd995bacf390e98f43f4c43
+05/27/2025 10:10:50 AM: WARNING: Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002AC40B7AC40>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/2dcdf4c9afd995bacf390e98f43f4c43
+05/27/2025 10:27:10 AM: INFO: ========== Starting Test: TestTableHandling ==========
+05/27/2025 10:27:10 AM: INFO: WebDriver instance initialized.
+05/27/2025 10:27:10 AM: INFO: Implicit wait set to 10 seconds.
+05/27/2025 10:27:10 AM: INFO: Browser window maximized.
+05/27/2025 10:27:13 AM: INFO: Navigated to application URL: https://demoqa.com/
+05/27/2025 10:27:13 AM: INFO: Window handles retrieved: ['23B0FB0117B1D2450E54F24E90D5AC02', '18300940DC1B247DF3637B54C9B86B62']
+05/27/2025 10:27:13 AM: INFO: Switched to second tab (index 1).
+05/27/2025 10:27:14 AM: INFO: Closed second tab.
+05/27/2025 10:27:14 AM: INFO: Switched back to first tab (index 0).
+05/27/2025 10:27:14 AM: INFO: Test data successfully loaded from 'table_data.json'.
+05/27/2025 10:27:14 AM: INFO: Clicked on 'Elements' card on Home Page.
+05/27/2025 10:27:14 AM: INFO: Clicked on 'Upload and Download' under the Elements section.
+05/27/2025 10:27:14 AM: INFO: Clicked on 'Upload and Download'.
+05/27/2025 10:27:14 AM: INFO: File uploaded: C:\Users\DELL\PycharmProjects\UI_Elements_Project\TestData\github-git-cheat-sheet.pdf
+05/27/2025 10:27:14 AM: INFO: File upload verified successfully.
+05/27/2025 10:27:14 AM: INFO: Closing browser after test execution.
+05/27/2025 10:27:16 AM: INFO: Browser closed successfully.
+05/27/2025 10:27:20 AM: WARNING: Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001EF4170C550>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/c9a68a4ae1891226a7040433134ec355
+05/27/2025 10:27:25 AM: WARNING: Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001EF4170C2D0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/c9a68a4ae1891226a7040433134ec355
+05/27/2025 10:27:29 AM: WARNING: Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001EF415CAB10>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/c9a68a4ae1891226a7040433134ec355
+05/27/2025 10:50:02 AM: INFO: ========== Starting Test: TestTableHandling ==========
+05/27/2025 10:50:02 AM: INFO: WebDriver instance initialized.
+05/27/2025 10:50:02 AM: INFO: Implicit wait set to 10 seconds.
+05/27/2025 10:50:02 AM: INFO: Browser window maximized.
+05/27/2025 10:50:05 AM: INFO: Navigated to application URL: https://demoqa.com/
+05/27/2025 10:50:05 AM: INFO: Window handles retrieved: ['A4687BFBDD9250DD075E728751EF3208', 'B742CA99D408E4E141C90C46E28D14B5']
+05/27/2025 10:50:05 AM: INFO: Switched to second tab (index 1).
+05/27/2025 10:50:05 AM: INFO: Closed second tab.
+05/27/2025 10:50:05 AM: INFO: Switched back to first tab (index 0).
+05/27/2025 10:50:05 AM: INFO: Test data successfully loaded from 'table_data.json'.
+05/27/2025 10:50:05 AM: INFO: Clicked on 'Elements' card on Home Page.
+05/27/2025 10:50:06 AM: INFO: Clicked on 'Upload and Download' under the Elements section.
+05/27/2025 10:50:06 AM: INFO: Clicked on 'Upload and Download'.
+05/27/2025 10:50:06 AM: INFO: File downloaded: C:\Users\DELL\PycharmProjects\UI_Elements_Project\TestData
+05/27/2025 10:50:08 AM: INFO: Closing browser after test execution.
+05/27/2025 10:50:10 AM: INFO: Browser closed successfully.
+05/27/2025 10:50:14 AM: WARNING: Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000020137B7C550>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/d4c5a4c72ef8d5fffd0b51c29e28a026
+05/27/2025 10:50:18 AM: WARNING: Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000020137AC3250>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/d4c5a4c72ef8d5fffd0b51c29e28a026
+05/27/2025 10:50:22 AM: WARNING: Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000020137A2AC40>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/d4c5a4c72ef8d5fffd0b51c29e28a026
+05/27/2025 10:51:06 AM: INFO: ========== Starting Test: TestTableHandling ==========
+05/27/2025 10:51:06 AM: INFO: WebDriver instance initialized.
+05/27/2025 10:51:06 AM: INFO: Implicit wait set to 10 seconds.
+05/27/2025 10:51:06 AM: INFO: Browser window maximized.
+05/27/2025 10:51:10 AM: INFO: Navigated to application URL: https://demoqa.com/
+05/27/2025 10:51:10 AM: INFO: Window handles retrieved: ['2000248A5A7BA6AFF3BC5555B88CD009', 'A7C0FFA515AE2DB60402A8395920B2E0']
+05/27/2025 10:51:10 AM: INFO: Switched to second tab (index 1).
+05/27/2025 10:51:10 AM: INFO: Closed second tab.
+05/27/2025 10:51:10 AM: INFO: Switched back to first tab (index 0).
+05/27/2025 10:51:10 AM: INFO: Test data successfully loaded from 'table_data.json'.
+05/27/2025 10:51:10 AM: INFO: Clicked on 'Elements' card on Home Page.
+05/27/2025 10:51:10 AM: INFO: Clicked on 'Upload and Download' under the Elements section.
+05/27/2025 10:51:10 AM: INFO: Clicked on 'Upload and Download'.
+05/27/2025 10:51:10 AM: INFO: File downloaded: C:\Users\DELL\PycharmProjects\UI_Elements_Project\TestData
+05/27/2025 10:51:12 AM: INFO: Closing browser after test execution.
+05/27/2025 10:51:15 AM: INFO: Browser closed successfully.
+05/27/2025 10:51:19 AM: WARNING: Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000024C52114190>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/7a962b8c809a56515091a57734207df6
+05/27/2025 10:51:23 AM: WARNING: Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000024C52073110>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/7a962b8c809a56515091a57734207df6
+05/27/2025 10:51:27 AM: WARNING: Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000024C51FCA9E0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/7a962b8c809a56515091a57734207df6
+05/27/2025 10:57:19 AM: INFO: ========== Starting Test: TestTableHandling ==========
+05/27/2025 10:57:19 AM: INFO: WebDriver instance initialized.
+05/27/2025 10:57:19 AM: INFO: Implicit wait set to 10 seconds.
+05/27/2025 10:57:19 AM: INFO: Browser window maximized.
+05/27/2025 10:57:22 AM: INFO: Navigated to application URL: https://demoqa.com/
+05/27/2025 10:57:22 AM: INFO: Window handles retrieved: ['841169462BE8235037B494A9E1E076C2', '67B9A3DE21BE4863B34705D2C669A665']
+05/27/2025 10:57:22 AM: INFO: Switched to second tab (index 1).
+05/27/2025 10:57:23 AM: INFO: Closed second tab.
+05/27/2025 10:57:23 AM: INFO: Switched back to first tab (index 0).
+05/27/2025 10:57:23 AM: INFO: Test data successfully loaded from 'table_data.json'.
+05/27/2025 10:57:23 AM: INFO: Clicked on 'Elements' card on Home Page.
+05/27/2025 10:57:23 AM: INFO: Clicked on 'Upload and Download' under the Elements section.
+05/27/2025 10:57:23 AM: INFO: Step 1: Clicked on 'Upload and Download' section.
+05/27/2025 10:57:23 AM: INFO: Step 2: Initiated file download to path: C:\Users\DELL\PycharmProjects\UI_Elements_Project\TestData
+05/27/2025 10:57:25 AM: ERROR: Exception occurred in test_file_download: name 'os' is not defined
+Traceback (most recent call last):
+  File "C:\Users\DELL\PycharmProjects\UI_Elements_Project\testCases\test_File_Upload_And_Download.py", line 154, in test_file_download
+    if os.path.exists(file_path):
+       ^^
+NameError: name 'os' is not defined. Did you forget to import 'os'?
+05/27/2025 10:57:25 AM: INFO: Screenshot saved at: ./Screenshots/test_file_download_exception.png
+05/27/2025 10:57:25 AM: INFO: Closing browser after test execution.
+05/27/2025 10:57:28 AM: INFO: Browser closed successfully.
+05/27/2025 10:57:32 AM: WARNING: Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001C84994CB90>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/c4d91ded6086f50d1767c0dc50abf884
+05/27/2025 10:57:36 AM: WARNING: Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001C84994C910>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/c4d91ded6086f50d1767c0dc50abf884
+05/27/2025 10:57:40 AM: WARNING: Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001C84980A9E0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/c4d91ded6086f50d1767c0dc50abf884
+05/27/2025 10:58:16 AM: INFO: ========== Starting Test: TestTableHandling ==========
+05/27/2025 10:58:16 AM: INFO: WebDriver instance initialized.
+05/27/2025 10:58:16 AM: INFO: Implicit wait set to 10 seconds.
+05/27/2025 10:58:16 AM: INFO: Browser window maximized.
+05/27/2025 10:58:20 AM: INFO: Navigated to application URL: https://demoqa.com/
+05/27/2025 10:58:20 AM: INFO: Window handles retrieved: ['953E1DF27308AD3AEFD40CC5A7210EA6', '1DB6181A6BF40D3C2EDD6691C665C246']
+05/27/2025 10:58:20 AM: INFO: Switched to second tab (index 1).
+05/27/2025 10:58:20 AM: INFO: Closed second tab.
+05/27/2025 10:58:20 AM: INFO: Switched back to first tab (index 0).
+05/27/2025 10:58:20 AM: INFO: Test data successfully loaded from 'table_data.json'.
+05/27/2025 10:58:20 AM: INFO: Clicked on 'Elements' card on Home Page.
+05/27/2025 10:58:20 AM: INFO: Clicked on 'Upload and Download' under the Elements section.
+05/27/2025 10:58:20 AM: INFO: Step 1: Clicked on 'Upload and Download' section.
+05/27/2025 10:58:21 AM: INFO: Step 2: Initiated file download to path: C:\Users\DELL\PycharmProjects\UI_Elements_Project\TestData
+05/27/2025 10:58:23 AM: INFO: Step 3: File download verified successfully.
+05/27/2025 10:58:23 AM: INFO: Closing browser after test execution.
+05/27/2025 10:58:25 AM: INFO: Browser closed successfully.
+05/27/2025 10:58:29 AM: WARNING: Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000242AE9FC190>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/c8cae8e1bcbaf5a93b383d91b50025e9
+05/27/2025 10:58:33 AM: WARNING: Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000242AE953110>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/c8cae8e1bcbaf5a93b383d91b50025e9
+05/27/2025 10:58:37 AM: WARNING: Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000242AE7FA9E0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/c8cae8e1bcbaf5a93b383d91b50025e9
+05/27/2025 11:19:41 AM: INFO: ========== Starting Test: TestTableHandling ==========
+05/27/2025 11:19:41 AM: INFO: WebDriver instance initialized.
+05/27/2025 11:19:41 AM: INFO: Implicit wait set to 10 seconds.
+05/27/2025 11:19:41 AM: INFO: Browser window maximized.
+05/27/2025 11:19:45 AM: INFO: Navigated to application URL: https://demoqa.com/
+05/27/2025 11:19:45 AM: INFO: Window handles retrieved: ['57040B5A96B61B52414091B2356464BD', '7B88D88B2FE1AAA38E60A39F7ACE4235']
+05/27/2025 11:19:45 AM: INFO: Switched to second tab (index 1).
+05/27/2025 11:19:45 AM: INFO: Closed second tab.
+05/27/2025 11:19:45 AM: INFO: Switched back to first tab (index 0).
+05/27/2025 11:19:45 AM: INFO: Test data successfully loaded from 'table_data.json'.
+05/27/2025 11:19:45 AM: INFO: Clicked on 'Elements' card on Home Page.
+05/27/2025 11:19:45 AM: INFO: Clicked on 'Upload and Download' under the Elements section.
+05/27/2025 11:19:45 AM: INFO: Step 1: Clicked on 'Upload and Download' section.
+05/27/2025 11:19:45 AM: INFO: Step 2: Initiated file download to path: C:\Users\DELL\PycharmProjects\UI_Elements_Project\TestData
+05/27/2025 11:19:47 AM: INFO: Step 3: File download verified successfully.
+05/27/2025 11:19:47 AM: INFO: Closing browser after test execution.
+05/27/2025 11:19:50 AM: INFO: Browser closed successfully.
+05/27/2025 11:19:54 AM: WARNING: Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000018598120190>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/3a3542d3bf882ccda458349be4966b9c
+05/27/2025 11:19:58 AM: WARNING: Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000018598083110>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/3a3542d3bf882ccda458349be4966b9c
+05/27/2025 11:20:02 AM: WARNING: Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000018597FE69E0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/3a3542d3bf882ccda458349be4966b9c
+05/27/2025 11:24:57 AM: INFO: ========== Starting Test: TestTableHandling ==========
+05/27/2025 11:24:57 AM: INFO: WebDriver instance initialized.
+05/27/2025 11:24:57 AM: INFO: Implicit wait set to 10 seconds.
+05/27/2025 11:24:57 AM: INFO: Browser window maximized.
+05/27/2025 11:25:01 AM: INFO: Navigated to application URL: https://demoqa.com/
+05/27/2025 11:25:01 AM: INFO: Window handles retrieved: ['88392BA2228BA862AA5E3D406EC223D9', '2EC9D367A32415457AF8DD8596BB33FE']
+05/27/2025 11:25:01 AM: INFO: Switched to second tab (index 1).
+05/27/2025 11:25:01 AM: INFO: Closed second tab.
+05/27/2025 11:25:01 AM: INFO: Switched back to first tab (index 0).
+05/27/2025 11:25:01 AM: INFO: Test data successfully loaded from 'table_data.json'.
+05/27/2025 11:25:01 AM: INFO: Clicked on 'Elements' card on Home Page.
+05/27/2025 11:25:01 AM: INFO: Clicked on 'Upload and Download' under the Elements section.
+05/27/2025 11:25:01 AM: INFO: Step 1: Clicked on 'Upload and Download' section.
+05/27/2025 11:25:01 AM: ERROR: Exception occurred in test_file_download: Message: javascript error: Cannot read properties of undefined (reading 'directory')
+  (Session info: chrome=136.0.7103.114)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7DDA4CF45+75717]
+	GetHandleVerifier [0x00007FF7DDA4CFA0+75808]
+	(No symbol) [0x00007FF7DD818F9A]
+	(No symbol) [0x00007FF7DD820998]
+	(No symbol) [0x00007FF7DD823D51]
+	(No symbol) [0x00007FF7DD8C05F8]
+	(No symbol) [0x00007FF7DD89737A]
+	(No symbol) [0x00007FF7DD8BF39C]
+	(No symbol) [0x00007FF7DD897153]
+	(No symbol) [0x00007FF7DD860421]
+	(No symbol) [0x00007FF7DD8611B3]
+	GetHandleVerifier [0x00007FF7DDD4D71D+3223453]
+	GetHandleVerifier [0x00007FF7DDD47CC2+3200322]
+	GetHandleVerifier [0x00007FF7DDD65AF3+3322739]
+	GetHandleVerifier [0x00007FF7DDA66A1A+180890]
+	GetHandleVerifier [0x00007FF7DDA6E11F+211359]
+	GetHandleVerifier [0x00007FF7DDA55294+109332]
+	GetHandleVerifier [0x00007FF7DDA55442+109762]
+	GetHandleVerifier [0x00007FF7DDA3BA59+4825]
+	BaseThreadInitThunk [0x00007FFA8C56E8D7+23]
+	RtlUserThreadStart [0x00007FFA8E75C5DC+44]
+Traceback (most recent call last):
+  File "C:\Users\DELL\PycharmProjects\UI_Elements_Project\testCases\test_File_Upload_And_Download.py", line 151, in test_file_download
+    download_dir = self.driver.execute_script("return navigator.downloads.directory;") if hasattr(self.driver,
+                   ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 528, in execute_script
+    return self.execute(command, {"script": script, "args": converted_args})["value"]
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 429, in execute
+    self.error_handler.check_response(response)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 232, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.JavascriptException: Message: javascript error: Cannot read properties of undefined (reading 'directory')
+  (Session info: chrome=136.0.7103.114)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7DDA4CF45+75717]
+	GetHandleVerifier [0x00007FF7DDA4CFA0+75808]
+	(No symbol) [0x00007FF7DD818F9A]
+	(No symbol) [0x00007FF7DD820998]
+	(No symbol) [0x00007FF7DD823D51]
+	(No symbol) [0x00007FF7DD8C05F8]
+	(No symbol) [0x00007FF7DD89737A]
+	(No symbol) [0x00007FF7DD8BF39C]
+	(No symbol) [0x00007FF7DD897153]
+	(No symbol) [0x00007FF7DD860421]
+	(No symbol) [0x00007FF7DD8611B3]
+	GetHandleVerifier [0x00007FF7DDD4D71D+3223453]
+	GetHandleVerifier [0x00007FF7DDD47CC2+3200322]
+	GetHandleVerifier [0x00007FF7DDD65AF3+3322739]
+	GetHandleVerifier [0x00007FF7DDA66A1A+180890]
+	GetHandleVerifier [0x00007FF7DDA6E11F+211359]
+	GetHandleVerifier [0x00007FF7DDA55294+109332]
+	GetHandleVerifier [0x00007FF7DDA55442+109762]
+	GetHandleVerifier [0x00007FF7DDA3BA59+4825]
+	BaseThreadInitThunk [0x00007FFA8C56E8D7+23]
+	RtlUserThreadStart [0x00007FFA8E75C5DC+44]
+
+05/27/2025 11:25:01 AM: INFO: Screenshot saved at: ./Screenshots/test_file_download_exception.png
+05/27/2025 11:25:01 AM: INFO: Closing browser after test execution.
+05/27/2025 11:25:04 AM: INFO: Browser closed successfully.
+05/27/2025 11:25:08 AM: WARNING: Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002E9D266D090>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/e640ef5327e44e77b5974899e67a1c6f
+05/27/2025 11:25:12 AM: WARNING: Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002E9D266CCD0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/e640ef5327e44e77b5974899e67a1c6f
+05/27/2025 11:25:16 AM: WARNING: Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002E9D24DA9E0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/e640ef5327e44e77b5974899e67a1c6f
+05/27/2025 11:25:53 AM: INFO: ========== Starting Test: TestTableHandling ==========
+05/27/2025 11:25:53 AM: INFO: WebDriver instance initialized.
+05/27/2025 11:25:53 AM: INFO: Implicit wait set to 10 seconds.
+05/27/2025 11:25:53 AM: INFO: Browser window maximized.
+05/27/2025 11:25:57 AM: INFO: Navigated to application URL: https://demoqa.com/
+05/27/2025 11:25:57 AM: INFO: Window handles retrieved: ['9D0A7FF657B08F6315620876E6C59202', '787B85D31EAB09D5F30162CE108EB63D']
+05/27/2025 11:25:57 AM: INFO: Switched to second tab (index 1).
+05/27/2025 11:25:57 AM: INFO: Closed second tab.
+05/27/2025 11:25:57 AM: INFO: Switched back to first tab (index 0).
+05/27/2025 11:25:57 AM: INFO: Test data successfully loaded from 'table_data.json'.
+05/27/2025 11:25:57 AM: INFO: Clicked on 'Elements' card on Home Page.
+05/27/2025 11:25:57 AM: INFO: Clicked on 'Upload and Download' under the Elements section.
+05/27/2025 11:25:57 AM: INFO: Step 1: Clicked on 'Upload and Download' section.
+05/27/2025 11:25:57 AM: INFO: Step 2: Initiated file download to path: C:\Users\DELL\PycharmProjects\UI_Elements_Project\TestData
+05/27/2025 11:25:59 AM: INFO: Step 3: File download verified successfully.
+05/27/2025 11:25:59 AM: INFO: Closing browser after test execution.
+05/27/2025 11:26:02 AM: INFO: Browser closed successfully.
+05/27/2025 11:26:06 AM: WARNING: Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002084578C190>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/8f91df36d88975302e23ca31231bc1df
+05/27/2025 11:26:10 AM: WARNING: Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000208456E3110>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/8f91df36d88975302e23ca31231bc1df
+05/27/2025 11:26:14 AM: WARNING: Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002084564A9E0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/8f91df36d88975302e23ca31231bc1df
+05/27/2025 11:40:28 AM: INFO: ========== Starting Test: TestTableHandling ==========
+05/27/2025 11:40:28 AM: INFO: WebDriver instance initialized.
+05/27/2025 11:40:28 AM: INFO: Implicit wait set to 10 seconds.
+05/27/2025 11:40:28 AM: INFO: Browser window maximized.
+05/27/2025 11:40:32 AM: INFO: Navigated to application URL: https://demoqa.com/
+05/27/2025 11:40:32 AM: INFO: Window handles retrieved: ['BC69BE9CE222E2F19B0FEBDFFA435848', '21DD6B605C31BE14B2F19BC2EA2081ED']
+05/27/2025 11:40:32 AM: INFO: Switched to second tab (index 1).
+05/27/2025 11:40:32 AM: INFO: Closed second tab.
+05/27/2025 11:40:32 AM: INFO: Switched back to first tab (index 0).
+05/27/2025 11:40:32 AM: INFO: Test data successfully loaded from 'table_data.json'.
+05/27/2025 11:40:32 AM: INFO: Clicked on 'Elements' card on Home Page.
+05/27/2025 11:40:32 AM: INFO: Clicked on 'Upload and Download' under the Elements section.
+05/27/2025 11:40:32 AM: INFO: Step 1: Clicked on 'Upload and Download' section.
+05/27/2025 11:40:33 AM: INFO: Step 2: Initiated file download to path: C:\Users\DELL\PycharmProjects\UI_Elements_Project\TestData
+05/27/2025 11:40:35 AM: INFO: Step 3: File download verified successfully.
+05/27/2025 11:40:35 AM: INFO: Closing browser after test execution.
+05/27/2025 11:40:37 AM: INFO: Browser closed successfully.
+05/27/2025 11:40:41 AM: WARNING: Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002CD6B3C0190>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/a5e04da43e8ea84951ad75b4210445c6
+05/27/2025 11:40:45 AM: WARNING: Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002CD6B323110>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/a5e04da43e8ea84951ad75b4210445c6
+05/27/2025 11:40:49 AM: WARNING: Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002CD6B24A9E0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/a5e04da43e8ea84951ad75b4210445c6
+05/27/2025 11:45:49 AM: INFO: ========== Starting Test: TestTableHandling ==========
+05/27/2025 11:45:49 AM: INFO: WebDriver instance initialized.
+05/27/2025 11:45:49 AM: INFO: Implicit wait set to 10 seconds.
+05/27/2025 11:45:49 AM: INFO: Browser window maximized.
+05/27/2025 11:45:53 AM: INFO: Navigated to application URL: https://demoqa.com/
+05/27/2025 11:45:53 AM: INFO: Window handles retrieved: ['DB89C5743631E8CB5777685B4985C552', 'D8EE66ED623D1C828E1700C78B1A408B']
+05/27/2025 11:45:53 AM: INFO: Switched to second tab (index 1).
+05/27/2025 11:45:53 AM: INFO: Closed second tab.
+05/27/2025 11:45:53 AM: INFO: Switched back to first tab (index 0).
+05/27/2025 11:45:53 AM: INFO: Test data successfully loaded from 'table_data.json'.
+05/27/2025 11:45:53 AM: INFO: Clicked on 'Elements' card on Home Page.
+05/27/2025 11:45:53 AM: INFO: Clicked on 'Upload and Download' under the Elements section.
+05/27/2025 11:45:53 AM: INFO: Step 1: Clicked on 'Upload and Download' section.
+05/27/2025 11:45:53 AM: ERROR: Exception occurred in test_file_download: [WinError 5] Access is denied: 'C:\\Users\\DELL\\PycharmProjects\\UI_Elements_Project\\TestData'
+Traceback (most recent call last):
+  File "C:\Users\DELL\PycharmProjects\UI_Elements_Project\testCases\test_File_Upload_And_Download.py", line 152, in test_file_download
+    os.remove(file_path)
+    ~~~~~~~~~^^^^^^^^^^^
+PermissionError: [WinError 5] Access is denied: 'C:\\Users\\DELL\\PycharmProjects\\UI_Elements_Project\\TestData'
+05/27/2025 11:45:54 AM: INFO: Screenshot saved at: ./Screenshots/test_file_download_exception.png
+05/27/2025 11:45:54 AM: INFO: Closing browser after test execution.
+05/27/2025 11:45:56 AM: INFO: Browser closed successfully.
+05/27/2025 11:46:00 AM: WARNING: Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000013E7A6ACB90>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/7b4c808aa7b6a059e43bd73ddaf97a41
+05/27/2025 11:46:04 AM: WARNING: Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000013E7A6AC910>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/7b4c808aa7b6a059e43bd73ddaf97a41
+05/27/2025 11:46:08 AM: WARNING: Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000013E7A56A9E0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/7b4c808aa7b6a059e43bd73ddaf97a41
+05/27/2025 11:47:19 AM: INFO: ========== Starting Test: TestTableHandling ==========
+05/27/2025 11:47:19 AM: INFO: WebDriver instance initialized.
+05/27/2025 11:47:19 AM: INFO: Implicit wait set to 10 seconds.
+05/27/2025 11:47:19 AM: INFO: Browser window maximized.
+05/27/2025 11:47:23 AM: INFO: Navigated to application URL: https://demoqa.com/
+05/27/2025 11:47:23 AM: INFO: Window handles retrieved: ['7A5A1826CE0CC6CE290D51CBAD805225', 'DB5F1DC9CC22BCD4AD8EE0AFFCFB2055']
+05/27/2025 11:47:23 AM: INFO: Switched to second tab (index 1).
+05/27/2025 11:47:23 AM: INFO: Closed second tab.
+05/27/2025 11:47:23 AM: INFO: Switched back to first tab (index 0).
+05/27/2025 11:47:23 AM: INFO: Test data successfully loaded from 'table_data.json'.
+05/27/2025 11:47:23 AM: INFO: Clicked on 'Elements' card on Home Page.
+05/27/2025 11:47:24 AM: INFO: Clicked on 'Upload and Download' under the Elements section.
+05/27/2025 11:47:24 AM: INFO: Step 1: Clicked on 'Upload and Download' section.
+05/27/2025 11:47:24 AM: ERROR: Exception occurred in test_file_download: [WinError 5] Access is denied: 'C:\\Users\\DELL\\PycharmProjects\\UI_Elements_Project\\Download'
+Traceback (most recent call last):
+  File "C:\Users\DELL\PycharmProjects\UI_Elements_Project\testCases\test_File_Upload_And_Download.py", line 152, in test_file_download
+    os.remove(file_path)
+    ~~~~~~~~~^^^^^^^^^^^
+PermissionError: [WinError 5] Access is denied: 'C:\\Users\\DELL\\PycharmProjects\\UI_Elements_Project\\Download'
+05/27/2025 11:47:24 AM: INFO: Screenshot saved at: ./Screenshots/test_file_download_exception.png
+05/27/2025 11:47:24 AM: INFO: Closing browser after test execution.
+05/27/2025 11:47:26 AM: INFO: Browser closed successfully.
+05/27/2025 11:47:31 AM: WARNING: Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001B636180B90>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/ed7bb48d3e44819739e62580edde5b0b
+05/27/2025 11:47:35 AM: WARNING: Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001B636180910>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/ed7bb48d3e44819739e62580edde5b0b
+05/27/2025 11:47:39 AM: WARNING: Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001B635FBA9E0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/ed7bb48d3e44819739e62580edde5b0b
+05/27/2025 11:52:53 AM: INFO: ========== Starting Test: TestTableHandling ==========
+05/27/2025 11:52:53 AM: INFO: WebDriver instance initialized.
+05/27/2025 11:52:53 AM: INFO: Implicit wait set to 10 seconds.
+05/27/2025 11:52:53 AM: INFO: Browser window maximized.
+05/27/2025 11:52:56 AM: INFO: Navigated to application URL: https://demoqa.com/
+05/27/2025 11:52:56 AM: INFO: Window handles retrieved: ['5247EE9D0ACBD5D5E8EA71BAED37DAF1', '3461EAA4A719A779D42775D594D96E42']
+05/27/2025 11:52:56 AM: INFO: Switched to second tab (index 1).
+05/27/2025 11:52:56 AM: INFO: Closed second tab.
+05/27/2025 11:52:56 AM: INFO: Switched back to first tab (index 0).
+05/27/2025 11:52:56 AM: INFO: Test data successfully loaded from 'table_data.json'.
+05/27/2025 11:52:57 AM: INFO: Clicked on 'Elements' card on Home Page.
+05/27/2025 11:52:57 AM: INFO: Clicked on 'Upload and Download' under the Elements section.
+05/27/2025 11:52:57 AM: INFO: Step 1: Clicked on 'Upload and Download' section.
+05/27/2025 11:52:57 AM: ERROR: Exception occurred in test_file_download: Invalid file path: 'C:\Users\DELL\PycharmProjects\UI_Elements_Project\Download' is a directory. Please provide a full file path including the filename.
+Traceback (most recent call last):
+  File "C:\Users\DELL\PycharmProjects\UI_Elements_Project\testCases\test_File_Upload_And_Download.py", line 152, in test_file_download
+    raise ValueError(
+        f"Invalid file path: '{file_path}' is a directory. Please provide a full file path including the filename.")
+ValueError: Invalid file path: 'C:\Users\DELL\PycharmProjects\UI_Elements_Project\Download' is a directory. Please provide a full file path including the filename.
+05/27/2025 11:52:57 AM: INFO: Screenshot saved at: ./Screenshots/test_file_download_exception.png
+05/27/2025 11:52:57 AM: INFO: Closing browser after test execution.
+05/27/2025 11:53:00 AM: INFO: Browser closed successfully.
+05/27/2025 11:53:04 AM: WARNING: Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001E0DCF80B90>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/81aecfc595c4c416751e80ef9817d973
+05/27/2025 11:53:08 AM: WARNING: Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001E0DCF80910>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/81aecfc595c4c416751e80ef9817d973
+05/27/2025 11:53:12 AM: WARNING: Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001E0DCDCA9E0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/81aecfc595c4c416751e80ef9817d973
+05/27/2025 11:54:29 AM: INFO: ========== Starting Test: TestTableHandling ==========
+05/27/2025 11:54:29 AM: INFO: WebDriver instance initialized.
+05/27/2025 11:54:29 AM: INFO: Implicit wait set to 10 seconds.
+05/27/2025 11:54:29 AM: INFO: Browser window maximized.
+05/27/2025 11:54:33 AM: INFO: Navigated to application URL: https://demoqa.com/
+05/27/2025 11:54:33 AM: INFO: Window handles retrieved: ['9C2D48198C5A660C773E6D28DDA16D5F', '43D80D373C55DFC280753F56919895CE']
+05/27/2025 11:54:33 AM: INFO: Switched to second tab (index 1).
+05/27/2025 11:54:33 AM: INFO: Closed second tab.
+05/27/2025 11:54:33 AM: INFO: Switched back to first tab (index 0).
+05/27/2025 11:54:33 AM: INFO: Test data successfully loaded from 'table_data.json'.
+05/27/2025 11:54:33 AM: INFO: Clicked on 'Elements' card on Home Page.
+05/27/2025 11:54:33 AM: INFO: Clicked on 'Upload and Download' under the Elements section.
+05/27/2025 11:54:33 AM: INFO: Step 1: Clicked on 'Upload and Download' section.
+05/27/2025 11:54:33 AM: INFO: Step 2: Initiated file download to path: C:\Users\DELL\PycharmProjects\UI_Elements_Project\Download
+05/27/2025 11:54:35 AM: INFO: Step 3: File download verified successfully.
+05/27/2025 11:54:35 AM: INFO: Closing browser after test execution.
+05/27/2025 11:54:40 AM: INFO: Browser closed successfully.
+05/27/2025 11:54:44 AM: WARNING: Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000021C3BC6C190>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/c023981d92c79466e27aa1d91f8fa906
+05/27/2025 11:54:48 AM: WARNING: Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000021C3BBC3110>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/c023981d92c79466e27aa1d91f8fa906
+05/27/2025 11:54:52 AM: WARNING: Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000021C3BABA9E0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/c023981d92c79466e27aa1d91f8fa906
+05/27/2025 12:02:01 PM: INFO: ========== Starting Test: TestTableHandling ==========
+05/27/2025 12:02:01 PM: INFO: WebDriver instance initialized.
+05/27/2025 12:02:01 PM: INFO: Implicit wait set to 10 seconds.
+05/27/2025 12:02:01 PM: INFO: Browser window maximized.
+05/27/2025 12:02:05 PM: INFO: Navigated to application URL: https://demoqa.com/
+05/27/2025 12:02:05 PM: INFO: Window handles retrieved: ['781C8B0FD023CAD8DF8CD892B1D29752', '5C9F2C6753923B78C099D136800DB84C']
+05/27/2025 12:02:05 PM: INFO: Switched to second tab (index 1).
+05/27/2025 12:02:05 PM: INFO: Closed second tab.
+05/27/2025 12:02:05 PM: INFO: Switched back to first tab (index 0).
+05/27/2025 12:02:05 PM: INFO: Test data successfully loaded from 'table_data.json'.
+05/27/2025 12:02:05 PM: INFO: Clicked on 'Elements' card on Home Page.
+05/27/2025 12:02:05 PM: INFO: Clicked on 'Upload and Download' under the Elements section.
+05/27/2025 12:02:05 PM: INFO: Step 1: Clicked on 'Upload and Download' section.
+05/27/2025 12:02:05 PM: INFO: Step 2: Triggered file download/update at: C:\Users\DELL\PycharmProjects\UI_Elements_Project\Download
+05/27/2025 12:02:05 PM: INFO: Step 3: File successfully downloaded or updated.
+05/27/2025 12:02:05 PM: INFO: Closing browser after test execution.
+05/27/2025 12:02:08 PM: INFO: Browser closed successfully.
+05/27/2025 12:02:12 PM: WARNING: Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000187A35F4410>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/a9b21dfdbf681205b016a4dd765d8cd4
+05/27/2025 12:02:16 PM: WARNING: Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000187A3533250>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/a9b21dfdbf681205b016a4dd765d8cd4
+05/27/2025 12:02:20 PM: WARNING: Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000187A339AC40>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/a9b21dfdbf681205b016a4dd765d8cd4
+05/27/2025 12:02:52 PM: INFO: ========== Starting Test: TestTableHandling ==========
+05/27/2025 12:02:52 PM: INFO: WebDriver instance initialized.
+05/27/2025 12:02:52 PM: INFO: Implicit wait set to 10 seconds.
+05/27/2025 12:02:52 PM: INFO: Browser window maximized.
+05/27/2025 12:02:56 PM: INFO: Navigated to application URL: https://demoqa.com/
+05/27/2025 12:02:56 PM: INFO: Window handles retrieved: ['FFA3E2245372816D59F267BB83425175', 'D2799ACC85E016C5CDE86C0FAAC909DD']
+05/27/2025 12:02:56 PM: INFO: Switched to second tab (index 1).
+05/27/2025 12:02:56 PM: INFO: Closed second tab.
+05/27/2025 12:02:56 PM: INFO: Switched back to first tab (index 0).
+05/27/2025 12:02:56 PM: INFO: Test data successfully loaded from 'table_data.json'.
+05/27/2025 12:02:56 PM: INFO: Clicked on 'Elements' card on Home Page.
+05/27/2025 12:02:56 PM: INFO: Clicked on 'Upload and Download' under the Elements section.
+05/27/2025 12:02:56 PM: INFO: Step 1: Clicked on 'Upload and Download' section.
+05/27/2025 12:02:56 PM: INFO: Step 2: Triggered file download/update at: C:\Users\DELL\PycharmProjects\UI_Elements_Project\Download
+05/27/2025 12:02:56 PM: INFO: Step 3: File successfully downloaded or updated.
+05/27/2025 12:02:56 PM: INFO: Closing browser after test execution.
+05/27/2025 12:02:58 PM: INFO: Browser closed successfully.
+05/27/2025 12:03:02 PM: WARNING: Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000018740400190>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/788c1264e1d9198f585a0b1a04b07ab3
+05/27/2025 12:03:06 PM: WARNING: Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000018740363110>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/788c1264e1d9198f585a0b1a04b07ab3
+05/27/2025 12:03:11 PM: WARNING: Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000187402CA9E0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/788c1264e1d9198f585a0b1a04b07ab3
+05/27/2025 12:03:59 PM: INFO: ========== Starting Test: TestTableHandling ==========
+05/27/2025 12:03:59 PM: INFO: WebDriver instance initialized.
+05/27/2025 12:03:59 PM: INFO: Implicit wait set to 10 seconds.
+05/27/2025 12:03:59 PM: INFO: Browser window maximized.
+05/27/2025 12:04:02 PM: INFO: Navigated to application URL: https://demoqa.com/
+05/27/2025 12:04:02 PM: INFO: Window handles retrieved: ['9898877718F82B140E9CC82D7392B8B7', 'B791D0F380EC26BB700DC6EF01ADA73D']
+05/27/2025 12:04:02 PM: INFO: Switched to second tab (index 1).
+05/27/2025 12:04:03 PM: INFO: Closed second tab.
+05/27/2025 12:04:03 PM: INFO: Switched back to first tab (index 0).
+05/27/2025 12:04:03 PM: INFO: Test data successfully loaded from 'table_data.json'.
+05/27/2025 12:04:03 PM: INFO: Clicked on 'Elements' card on Home Page.
+05/27/2025 12:04:03 PM: INFO: Clicked on 'Upload and Download' under the Elements section.
+05/27/2025 12:04:03 PM: INFO: Step 1: Clicked on 'Upload and Download' section.
+05/27/2025 12:04:03 PM: INFO: Step 2: Triggered file download/update at: C:\Users\DELL\PycharmProjects\UI_Elements_Project\Download
+05/27/2025 12:04:03 PM: INFO: Step 3: File successfully downloaded or updated.
+05/27/2025 12:04:03 PM: INFO: Closing browser after test execution.
+05/27/2025 12:04:06 PM: INFO: Browser closed successfully.
+05/27/2025 12:04:10 PM: WARNING: Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001B995848410>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/ae2a7ed0875cc259d0f67c757c04c9b4
+05/27/2025 12:04:14 PM: WARNING: Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001B995793250>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/ae2a7ed0875cc259d0f67c757c04c9b4
+05/27/2025 12:04:18 PM: WARNING: Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001B99564AD70>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/ae2a7ed0875cc259d0f67c757c04c9b4
+05/27/2025 12:07:02 PM: INFO: ========== Starting Test: TestTableHandling ==========
+05/27/2025 12:07:02 PM: INFO: WebDriver instance initialized.
+05/27/2025 12:07:02 PM: INFO: Implicit wait set to 10 seconds.
+05/27/2025 12:07:02 PM: INFO: Browser window maximized.
+05/27/2025 12:07:06 PM: INFO: Navigated to application URL: https://demoqa.com/
+05/27/2025 12:07:06 PM: INFO: Window handles retrieved: ['0AF02A8D4BC9C933CF2828B407A6FCFF', 'BB05D0B43B538E60896D37790F66CCC5']
+05/27/2025 12:07:06 PM: INFO: Switched to second tab (index 1).
+05/27/2025 12:07:06 PM: INFO: Closed second tab.
+05/27/2025 12:07:06 PM: INFO: Switched back to first tab (index 0).
+05/27/2025 12:07:06 PM: INFO: Test data successfully loaded from 'table_data.json'.
+05/27/2025 12:07:07 PM: INFO: Clicked on 'Elements' card on Home Page.
+05/27/2025 12:07:07 PM: INFO: Clicked on 'Upload and Download' under the Elements section.
+05/27/2025 12:07:07 PM: INFO: Step 1: Clicked on 'Upload and Download' section.
+05/27/2025 12:07:07 PM: INFO: Step 2: Initiated file download to path: C:\Users\DELL\PycharmProjects\UI_Elements_Project\Download
+05/27/2025 12:07:09 PM: INFO: Step 3: File download verified successfully.
+05/27/2025 12:07:09 PM: INFO: Closing browser after test execution.
+05/27/2025 12:07:12 PM: INFO: Browser closed successfully.
+05/27/2025 12:07:16 PM: WARNING: Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001E9E5984410>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/820afe0601f820a6b68e9bc94b49fc74
+05/27/2025 12:07:20 PM: WARNING: Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001E9E58C3250>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/820afe0601f820a6b68e9bc94b49fc74
+05/27/2025 12:07:24 PM: WARNING: Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001E9E581AC40>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/820afe0601f820a6b68e9bc94b49fc74
+05/27/2025 12:07:51 PM: INFO: ========== Starting Test: TestTableHandling ==========
+05/27/2025 12:07:51 PM: INFO: WebDriver instance initialized.
+05/27/2025 12:07:51 PM: INFO: Implicit wait set to 10 seconds.
+05/27/2025 12:07:51 PM: INFO: Browser window maximized.
+05/27/2025 12:07:55 PM: INFO: Navigated to application URL: https://demoqa.com/
+05/27/2025 12:07:55 PM: INFO: Window handles retrieved: ['2161B050F71D61C531C5F2537C74B262', '51615A84DA392D445576A91106E5CA03']
+05/27/2025 12:07:55 PM: INFO: Switched to second tab (index 1).
+05/27/2025 12:07:55 PM: INFO: Closed second tab.
+05/27/2025 12:07:55 PM: INFO: Switched back to first tab (index 0).
+05/27/2025 12:07:55 PM: INFO: Test data successfully loaded from 'table_data.json'.
+05/27/2025 12:07:56 PM: INFO: Clicked on 'Elements' card on Home Page.
+05/27/2025 12:07:56 PM: INFO: Clicked on 'Upload and Download' under the Elements section.
+05/27/2025 12:07:56 PM: INFO: Step 1: Clicked on 'Upload and Download' section.
+05/27/2025 12:07:56 PM: INFO: Step 2: Initiated file download to path: C:\Users\DELL\PycharmProjects\UI_Elements_Project\Download
+05/27/2025 12:07:58 PM: INFO: Step 3: File download verified successfully.
+05/27/2025 12:07:58 PM: INFO: Closing browser after test execution.
+05/27/2025 12:08:00 PM: INFO: Browser closed successfully.
+05/27/2025 12:08:04 PM: WARNING: Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000018F99DE0190>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/e9e7f05fccd29357f3ef85670190d9d5
+05/27/2025 12:08:09 PM: WARNING: Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000018F99D43110>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/e9e7f05fccd29357f3ef85670190d9d5
+05/27/2025 12:08:13 PM: WARNING: Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000018F99C6A9E0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/e9e7f05fccd29357f3ef85670190d9d5
+05/27/2025 12:10:05 PM: INFO: ========== Starting Test: TestTableHandling ==========
+05/27/2025 12:10:05 PM: INFO: WebDriver instance initialized.
+05/27/2025 12:10:05 PM: INFO: Implicit wait set to 10 seconds.
+05/27/2025 12:10:05 PM: INFO: Browser window maximized.
+05/27/2025 12:10:10 PM: INFO: Navigated to application URL: https://demoqa.com/
+05/27/2025 12:10:10 PM: INFO: Window handles retrieved: ['A4751444FA7E83831D8DFB74251783EF', '4EC372A3F9905B0DEE476E3F9332DD57']
+05/27/2025 12:10:10 PM: INFO: Switched to second tab (index 1).
+05/27/2025 12:10:10 PM: INFO: Closed second tab.
+05/27/2025 12:10:10 PM: INFO: Switched back to first tab (index 0).
+05/27/2025 12:10:10 PM: INFO: Test data successfully loaded from 'table_data.json'.
+05/27/2025 12:10:10 PM: INFO: Clicked on 'Elements' card on Home Page.
+05/27/2025 12:10:10 PM: INFO: Clicked on 'Upload and Download' under the Elements section.
+05/27/2025 12:10:10 PM: INFO: Clicked on 'Upload and Download'.
+05/27/2025 12:10:10 PM: INFO: File uploaded: C:\Users\DELL\PycharmProjects\UI_Elements_Project\TestData\github-git-cheat-sheet.pdf
+05/27/2025 12:10:10 PM: INFO: File upload verified successfully.
+05/27/2025 12:10:10 PM: INFO: Closing browser after test execution.
+05/27/2025 12:10:13 PM: INFO: Browser closed successfully.
+05/27/2025 12:10:17 PM: WARNING: Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001DCCEE807D0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/843c5ca51927c13d77853f2817472603
+05/27/2025 12:10:21 PM: WARNING: Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001DCCEE80550>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/843c5ca51927c13d77853f2817472603
+05/27/2025 12:10:25 PM: WARNING: Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001DCCED3AC40>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/843c5ca51927c13d77853f2817472603
+05/27/2025 12:10:38 PM: INFO: ========== Starting Test: TestTableHandling ==========
+05/27/2025 12:10:38 PM: INFO: WebDriver instance initialized.
+05/27/2025 12:10:38 PM: INFO: Implicit wait set to 10 seconds.
+05/27/2025 12:10:38 PM: INFO: Browser window maximized.
+05/27/2025 12:10:42 PM: INFO: Navigated to application URL: https://demoqa.com/
+05/27/2025 12:10:42 PM: INFO: Window handles retrieved: ['931E695194C97145A25511011828C40C', 'F901959C559395B4D4706DDF9CAB6EB8']
+05/27/2025 12:10:42 PM: INFO: Switched to second tab (index 1).
+05/27/2025 12:10:42 PM: INFO: Closed second tab.
+05/27/2025 12:10:42 PM: INFO: Switched back to first tab (index 0).
+05/27/2025 12:10:42 PM: INFO: Test data successfully loaded from 'table_data.json'.
+05/27/2025 12:10:43 PM: INFO: Clicked on 'Elements' card on Home Page.
+05/27/2025 12:10:43 PM: INFO: Clicked on 'Upload and Download' under the Elements section.
+05/27/2025 12:10:43 PM: INFO: Step 1: Clicked on 'Upload and Download' section.
+05/27/2025 12:10:43 PM: INFO: Step 2: Initiated file download to path: C:\Users\DELL\PycharmProjects\UI_Elements_Project\Download
+05/27/2025 12:10:45 PM: INFO: Step 3: File download verified successfully.
+05/27/2025 12:10:45 PM: INFO: Closing browser after test execution.
+05/27/2025 12:10:47 PM: INFO: Browser closed successfully.
+05/27/2025 12:10:51 PM: WARNING: Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001DCCEE69370>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/53877daad99f9d34d5b6f81bdf7c6ef6
+05/27/2025 12:10:55 PM: WARNING: Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001DCCEE6A470>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/53877daad99f9d34d5b6f81bdf7c6ef6
+05/27/2025 12:10:59 PM: WARNING: Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001DCCEE6A8B0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/53877daad99f9d34d5b6f81bdf7c6ef6
+05/27/2025 02:19:09 PM: INFO: ========== Starting Test: TestTableHandling ==========
+05/27/2025 02:19:09 PM: INFO: WebDriver instance initialized.
+05/27/2025 02:19:09 PM: INFO: Implicit wait set to 10 seconds.
+05/27/2025 02:19:09 PM: INFO: Browser window maximized.
+05/27/2025 02:19:13 PM: INFO: Navigated to application URL: https://demoqa.com/
+05/27/2025 02:19:13 PM: INFO: Window handles retrieved: ['91AB50B236F0D13AE84F1E7F66416C28', 'CCDA0F3588CAD1C91B3FB5A0B5E81AC1']
+05/27/2025 02:19:13 PM: INFO: Switched to second tab (index 1).
+05/27/2025 02:19:13 PM: INFO: Closed second tab.
+05/27/2025 02:19:13 PM: INFO: Switched back to first tab (index 0).
+05/27/2025 02:19:13 PM: INFO: Test data successfully loaded from 'table_data.json'.
+05/27/2025 02:19:13 PM: INFO: Clicked on 'Elements' card on Home Page.
+05/27/2025 02:19:13 PM: INFO: Clicked on 'Upload and Download' under the Elements section.
+05/27/2025 02:19:13 PM: INFO: Clicked on 'Dynamic Properties'.
+05/27/2025 02:19:18 PM: INFO: Checked visibility of the button after 5 seconds.
+05/27/2025 02:19:18 PM: INFO: Button appeared successfully after 5 seconds.
+05/27/2025 02:19:18 PM: INFO: Closing browser after test execution.
+05/27/2025 02:19:21 PM: INFO: Browser closed successfully.
+05/27/2025 02:19:25 PM: WARNING: Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002A95821CB90>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/4ca394589c3d9678ec2a307f755ba9d1
+05/27/2025 02:19:29 PM: WARNING: Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002A95821C910>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/4ca394589c3d9678ec2a307f755ba9d1
+05/27/2025 02:19:33 PM: WARNING: Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002A9580BAFD0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/4ca394589c3d9678ec2a307f755ba9d1
+05/27/2025 02:22:54 PM: INFO: ========== Starting Test: TestTableHandling ==========
+05/27/2025 02:22:54 PM: INFO: WebDriver instance initialized.
+05/27/2025 02:22:54 PM: INFO: Implicit wait set to 10 seconds.
+05/27/2025 02:22:54 PM: INFO: Browser window maximized.
+05/27/2025 02:22:58 PM: INFO: Navigated to application URL: https://demoqa.com/
+05/27/2025 02:22:58 PM: INFO: Window handles retrieved: ['D7EA1B27C01B11946F9A3D645846EE90', '78A94C39A45F948F8757FD9EE85B75BE']
+05/27/2025 02:22:58 PM: INFO: Switched to second tab (index 1).
+05/27/2025 02:22:58 PM: INFO: Closed second tab.
+05/27/2025 02:22:58 PM: INFO: Switched back to first tab (index 0).
+05/27/2025 02:22:58 PM: INFO: Test data successfully loaded from 'table_data.json'.
+05/27/2025 02:22:58 PM: INFO: Clicked on 'Elements' card on Home Page.
+05/27/2025 02:22:58 PM: INFO: Clicked on 'Upload and Download' under the Elements section.
+05/27/2025 02:22:58 PM: INFO: Step 1: Navigating to 'Dynamic Properties' section.
+05/27/2025 02:22:59 PM: INFO: Clicked on 'Dynamic Properties' successfully.
+05/27/2025 02:22:59 PM: INFO: Step 2: Waiting for the button to appear (after 5 seconds).
+05/27/2025 02:23:04 PM: INFO: Button visibility status after 5 seconds: True
+05/27/2025 02:23:04 PM: INFO: Step 3: Asserting button visibility.
+05/27/2025 02:23:04 PM: INFO: Assertion passed: Button appeared successfully after 5 seconds.
+05/27/2025 02:23:04 PM: INFO: Closing browser after test execution.
+05/27/2025 02:23:06 PM: INFO: Browser closed successfully.
+05/27/2025 02:23:10 PM: WARNING: Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000019316768910>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/0967f7386fd93bb0d97f93d9f17d4edc
+05/27/2025 02:23:14 PM: WARNING: Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000019316768690>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/0967f7386fd93bb0d97f93d9f17d4edc
+05/27/2025 02:23:18 PM: WARNING: Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001931657AEA0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/0967f7386fd93bb0d97f93d9f17d4edc
+05/27/2025 02:51:36 PM: INFO: ========== Starting Test: TestTableHandling ==========
+05/27/2025 02:51:36 PM: INFO: WebDriver instance initialized.
+05/27/2025 02:51:36 PM: INFO: Implicit wait set to 10 seconds.
+05/27/2025 02:51:36 PM: INFO: Browser window maximized.
+05/27/2025 02:51:38 PM: INFO: Navigated to application URL: https://demoqa.com/
+05/27/2025 02:51:38 PM: INFO: Window handles retrieved: ['CCD66AACBBD3B4459918E0354B569BE8', 'D58DE6FC3A20D999E2904E63A453449C']
+05/27/2025 02:51:38 PM: INFO: Switched to second tab (index 1).
+05/27/2025 02:51:38 PM: INFO: Closed second tab.
+05/27/2025 02:51:38 PM: INFO: Switched back to first tab (index 0).
+05/27/2025 02:51:38 PM: INFO: Test data successfully loaded from 'table_data.json'.
+05/27/2025 02:51:39 PM: INFO: Clicked on 'Elements' card on Home Page.
+05/27/2025 02:51:39 PM: INFO: Clicked on 'Upload and Download' under the Elements section.
+05/27/2025 02:51:39 PM: INFO: Clicked on 'Upload and Download'.
+05/27/2025 02:51:39 PM: INFO: File uploaded: C:\Users\DELL\PycharmProjects\UI_Elements_Project\TestData\github-git-cheat-sheet.pdf
+05/27/2025 02:51:39 PM: INFO: File upload verified successfully.
+05/27/2025 02:51:39 PM: INFO: Closing browser after test execution.
+05/27/2025 02:51:41 PM: INFO: Browser closed successfully.
+05/27/2025 02:51:45 PM: WARNING: Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001FFBB528910>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/9b0499f7e16bc91ee197afc952b28785
+05/27/2025 02:51:49 PM: WARNING: Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001FFBB528690>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/9b0499f7e16bc91ee197afc952b28785
+05/27/2025 02:51:54 PM: WARNING: Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001FFBB3DAEA0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/9b0499f7e16bc91ee197afc952b28785
+05/27/2025 02:52:07 PM: INFO: ========== Starting Test: TestTableHandling ==========
+05/27/2025 02:52:07 PM: INFO: WebDriver instance initialized.
+05/27/2025 02:52:07 PM: INFO: Implicit wait set to 10 seconds.
+05/27/2025 02:52:07 PM: INFO: Browser window maximized.
+05/27/2025 02:52:10 PM: INFO: Navigated to application URL: https://demoqa.com/
+05/27/2025 02:52:10 PM: INFO: Window handles retrieved: ['4A3F49AD19B7189FD4EC75AB7A435BC4', 'F9C2C160198DB375D46AB90B1646055B']
+05/27/2025 02:52:10 PM: INFO: Switched to second tab (index 1).
+05/27/2025 02:52:10 PM: INFO: Closed second tab.
+05/27/2025 02:52:10 PM: INFO: Switched back to first tab (index 0).
+05/27/2025 02:52:10 PM: INFO: Test data successfully loaded from 'table_data.json'.
+05/27/2025 02:52:10 PM: INFO: Clicked on 'Elements' card on Home Page.
+05/27/2025 02:52:10 PM: INFO: Clicked on 'Upload and Download' under the Elements section.
+05/27/2025 02:52:11 PM: INFO: Step 1: Clicked on 'Upload and Download' section.
+05/27/2025 02:52:11 PM: INFO: Step 2: Initiated file download to path: C:\Users\DELL\PycharmProjects\UI_Elements_Project\Download
+05/27/2025 02:52:13 PM: INFO: Step 3: File download verified successfully.
+05/27/2025 02:52:13 PM: INFO: Closing browser after test execution.
+05/27/2025 02:52:15 PM: INFO: Browser closed successfully.
+05/27/2025 02:52:19 PM: WARNING: Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001FFBB515370>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/e718c6e566d6a86b07cf18cc3ac30b63
+05/27/2025 02:52:23 PM: WARNING: Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001FFBB516470>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/e718c6e566d6a86b07cf18cc3ac30b63
+05/27/2025 02:52:27 PM: WARNING: Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001FFBB5168B0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/e718c6e566d6a86b07cf18cc3ac30b63
+05/27/2025 02:52:41 PM: INFO: ========== Starting Test: TestTableHandling ==========
+05/27/2025 02:52:41 PM: INFO: WebDriver instance initialized.
+05/27/2025 02:52:41 PM: INFO: Implicit wait set to 10 seconds.
+05/27/2025 02:52:41 PM: INFO: Browser window maximized.
+05/27/2025 02:52:43 PM: INFO: Navigated to application URL: https://demoqa.com/
+05/27/2025 02:52:43 PM: INFO: Window handles retrieved: ['C24E12EEDB3ACDEECDD47ACFC682B599', 'AB946CEFC8631DBADAB7C0F92EFABDED']
+05/27/2025 02:52:43 PM: INFO: Switched to second tab (index 1).
+05/27/2025 02:52:43 PM: INFO: Closed second tab.
+05/27/2025 02:52:43 PM: INFO: Switched back to first tab (index 0).
+05/27/2025 02:52:43 PM: INFO: Test data successfully loaded from 'table_data.json'.
+05/27/2025 02:52:44 PM: INFO: Clicked on 'Elements' card on Home Page.
+05/27/2025 02:52:44 PM: INFO: Clicked on 'Upload and Download' under the Elements section.
+05/27/2025 02:52:44 PM: INFO: Step 1: Navigating to 'Dynamic Properties' section.
+05/27/2025 02:52:44 PM: INFO: Clicked on 'Dynamic Properties' successfully.
+05/27/2025 02:52:44 PM: INFO: Step 2: Waiting for the button to appear (after 5 seconds).
+05/27/2025 02:52:49 PM: INFO: Button visibility status after 5 seconds: True
+05/27/2025 02:52:49 PM: INFO: Step 3: Asserting button visibility.
+05/27/2025 02:52:49 PM: INFO: Assertion passed: Button appeared successfully after 5 seconds.
+05/27/2025 02:52:49 PM: INFO: Closing browser after test execution.
+05/27/2025 02:52:51 PM: INFO: Browser closed successfully.
+05/27/2025 02:52:55 PM: WARNING: Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001FFBB516BE0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/78ca84223ed4dc02faff96d0a5c7ea82
+05/27/2025 02:52:59 PM: WARNING: Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001FFBB517790>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/78ca84223ed4dc02faff96d0a5c7ea82
+05/27/2025 02:53:04 PM: WARNING: Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001FFBB517AC0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/78ca84223ed4dc02faff96d0a5c7ea82

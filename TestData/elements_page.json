@@ -28,5 +28,10 @@
     "NotFound" : "Link has responded with staus 404 and status text Not Found",
     "ValidURL" : "https://demoqa.com/",
     "BrokenLink" : "https://the-internet.herokuapp.com/status_codes/500"
+  },
+  "UploadAndDownload" : {
+    "uploadFilePath" : "C:\\Users\\DELL\\PycharmProjects\\UI_Elements_Project\\TestData\\github-git-cheat-sheet.pdf",
+    "UploadedMessage" : "C:\\fakepath\\github-git-cheat-sheet.pdf",
+    "downloadFilePath" : "C:\\Users\\DELL\\PycharmProjects\\UI_Elements_Project\\Download"
   }
 }
