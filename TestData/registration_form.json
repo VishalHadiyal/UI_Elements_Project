@@ -1,0 +1,18 @@
+{
+  "UserOne": {
+    "FirstName": "John",
+    "LastName": "Doe",
+    "UserEmail": "john.doe@example.com",
+    "MobileNumber": "1234567890",
+    "DateOfBirth": "17-May-1998",
+    "Subjects": {
+      "subject1": "English",
+      "subject2": "Maths",
+      "subject3": "Physics"
+    },
+    "UploadFile": "C:\\Users\\DELL\\PycharmProjects\\UI_Elements_Project\\TestData\\github-git-cheat-sheet.pdf",
+    "State": "NCR",
+    "City": "Delhi",
+    "CurrentAddress": "123 Main Street, Springfield, USA"
+  }
+}

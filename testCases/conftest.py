@@ -40,8 +40,8 @@ def setup(browser, headless):
 
     if browser == "chrome":
         options = ChromeOptions()
-        extension_path = os.path.abspath("C:/Users/DELL/PycharmProjects/UI_Elements_Project/Extensions/AdBlocker.crx")
-        download_dir = os.path.abspath("C:\\Users\\DELL\\PycharmProjects\\UI_Elements_Project\\Download")
+        extension_path = os.path.abspath("C:/Users/DELL/PycharmProjects/UI_Elements_Project/Extensions/uBlock_Origin.crx")
+        download_dir = os.path.abspath("C:/Users/DELL/PycharmProjects/UI_Elements_Project/Download")
 
         # These options should be added regardless of headless mode
         options.add_experimental_option("excludeSwitches", ["enable-automation"])
