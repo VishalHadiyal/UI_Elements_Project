@@ -79,6 +79,7 @@ class TestRegistrationPage:
         self.driver.quit()
         self.logger.info("Browser closed successfully.")
 
+    @pytest.mark.smoke
     def test_registration_page(self):
         """
         Test case for filling out and submitting the registration form.
