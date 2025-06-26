@@ -1,0 +1,13 @@
+{
+  "TextOfAccordian": {
+    "TextOfAccordianFirst": "Lorem Ipsum is simply dummy text of the printing",
+    "TextOfAccordianSecond": "Contrary to popular belief, Lorem Ipsum is not sim",
+    "TextOfAccordianThird": "It is a long established fact that a reader will b"
+  },
+  "MultiColor": [
+    "Red",
+    "Green",
+    "Blue",
+    "Yellow"
+  ]
+}
